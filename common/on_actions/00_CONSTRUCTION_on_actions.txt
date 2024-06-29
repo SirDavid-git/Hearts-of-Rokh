@@ -1,0 +1,93 @@
+on_actions = {
+
+  on_startup = {
+    effect = {
+      every_country = {
+        # initial
+        set_variable = { country_const_speed = modifier@production_speed_buildings_factor }
+
+        set_variable = { infrastructure_speed_var = country_const_speed }
+        set_variable = { air_base_speed_var = country_const_speed }
+        set_variable = { anti_air_building_speed_var = country_const_speed }
+        set_variable = { synthetic_refinery_speed_var = country_const_speed }
+        set_variable = { synthetic_rubber_refinery_speed_var = country_const_speed }
+        set_variable = { fuel_silo_speed_var = country_const_speed }
+        set_variable = { radar_station_speed_var = country_const_speed }
+        set_variable = { rocket_site_speed_var = country_const_speed }
+        set_variable = { nuclear_reactor_speed_var = country_const_speed }
+        set_variable = { arms_factory_speed_var = country_const_speed }
+        set_variable = { industrial_complex_speed_var = country_const_speed }
+        set_variable = { dockyard_speed_var = country_const_speed }
+        set_variable = { supply_node_speed_var = country_const_speed }
+        set_variable = { rail_way_speed_var = country_const_speed }
+        set_variable = { naval_base_speed_var = country_const_speed }
+        set_variable = { bunker_speed_var = country_const_speed }
+        set_variable = { coastal_bunker_speed_var = country_const_speed }
+        # more
+        add_to_variable = { infrastructure_speed_var = modifier@production_speed_infrastructure_factor } #
+        add_to_variable = { air_base_speed_var = modifier@production_speed_air_base_factor } # 
+        add_to_variable = { anti_air_building_speed_var = modifier@production_speed_anti_air_building_factor } #
+        add_to_variable = { synthetic_refinery_speed_var = modifier@production_speed_synthetic_refinery_factor } #
+        add_to_variable = { synthetic_rubber_refinery_speed_var = modifier@production_speed_synthetic_rubber_refinery_factor } #
+        add_to_variable = { fuel_silo_speed_var = modifier@production_speed_fuel_silo_factor }
+        add_to_variable = { radar_station_speed_var = modifier@production_speed_radar_station_factor }
+        add_to_variable = { rocket_site_speed_var = modifier@production_speed_rocket_site_factor }
+        add_to_variable = { nuclear_reactor_speed_var = modifier@production_speed_nuclear_reactor_factor }
+        add_to_variable = { arms_factory_speed_var = modifier@production_speed_arms_factory_factor } #
+        add_to_variable = { industrial_complex_speed_var = modifier@production_speed_industrial_complex_factor } #
+        add_to_variable = { dockyard_speed_var = modifier@production_speed_dockyard_factor }
+        add_to_variable = { supply_node_speed_var = modifier@production_speed_supply_node_factor }
+        add_to_variable = { rail_way_speed_var = modifier@production_speed_rail_way_factor }
+        add_to_variable = { naval_base_speed_var = modifier@production_speed_naval_base_factor }
+        add_to_variable = { bunker_speed_var = modifier@production_speed_bunker_factor }
+        add_to_variable = { coastal_bunker_speed_var = modifier@production_speed_coastal_bunker_factor }
+      }
+    }
+  }
+
+  on_daily = {
+    effect = {
+      every_country = {
+        # initial
+        set_variable = { country_const_speed = modifier@production_speed_buildings_factor }
+
+        set_variable = { infrastructure_speed_var = country_const_speed }
+        set_variable = { air_base_speed_var = country_const_speed }
+        set_variable = { anti_air_building_speed_var = country_const_speed }
+        set_variable = { synthetic_refinery_speed_var = country_const_speed }
+        set_variable = { synthetic_rubber_refinery_speed_var = country_const_speed }
+        set_variable = { fuel_silo_speed_var = country_const_speed }
+        set_variable = { radar_station_speed_var = country_const_speed }
+        set_variable = { rocket_site_speed_var = country_const_speed }
+        set_variable = { nuclear_reactor_speed_var = country_const_speed }
+        set_variable = { arms_factory_speed_var = country_const_speed }
+        set_variable = { industrial_complex_speed_var = country_const_speed }
+        set_variable = { dockyard_speed_var = country_const_speed }
+        set_variable = { supply_node_speed_var = country_const_speed }
+        set_variable = { rail_way_speed_var = country_const_speed }
+        set_variable = { naval_base_speed_var = country_const_speed }
+        set_variable = { bunker_speed_var = country_const_speed }
+        set_variable = { coastal_bunker_speed_var = country_const_speed }
+        # more
+        add_to_variable = { infrastructure_speed_var = modifier@production_speed_infrastructure_factor }
+        add_to_variable = { air_base_speed_var = modifier@production_speed_air_base_factor }
+        add_to_variable = { anti_air_building_speed_var = modifier@production_speed_anti_air_building_factor }
+        add_to_variable = { synthetic_refinery_speed_var = modifier@production_speed_synthetic_refinery_factor }
+        add_to_variable = { synthetic_rubber_refinery_speed_var = modifier@production_speed_synthetic_rubber_refinery_factor }
+        add_to_variable = { fuel_silo_speed_var = modifier@production_speed_fuel_silo_factor }
+        add_to_variable = { radar_station_speed_var = modifier@production_speed_radar_station_factor }
+        add_to_variable = { rocket_site_speed_var = modifier@production_speed_rocket_site_factor }
+        add_to_variable = { nuclear_reactor_speed_var = modifier@production_speed_nuclear_reactor_factor }
+        add_to_variable = { arms_factory_speed_var = modifier@production_speed_arms_factory_factor }
+        add_to_variable = { industrial_complex_speed_var = modifier@production_speed_industrial_complex_factor }
+        add_to_variable = { dockyard_speed_var = modifier@production_speed_dockyard_factor }
+        add_to_variable = { supply_node_speed_var = modifier@production_speed_supply_node_factor }
+        add_to_variable = { rail_way_speed_var = modifier@production_speed_rail_way_factor }
+        add_to_variable = { naval_base_speed_var = modifier@production_speed_naval_base_factor }
+        add_to_variable = { bunker_speed_var = modifier@production_speed_bunker_factor }
+        add_to_variable = { coastal_bunker_speed_var = modifier@production_speed_coastal_bunker_factor }
+      }
+    }
+  }
+
+}
