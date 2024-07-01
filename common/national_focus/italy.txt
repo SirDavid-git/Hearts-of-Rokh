@@ -237,12 +237,11 @@ focus_tree = {
 				}			
 				SPR = {
 					add_manpower = 100000
-					add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 5000 producer = ITA }
+					add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 5400 producer = ITA }
 					add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 2000 producer = ITA }
 					add_equipment_to_stockpile = { type = support_equipment_1 amount = 300 producer = ITA }
 					add_equipment_to_stockpile = { type = radio_equipment_1 amount = 300 producer = ITA }
 					add_equipment_to_stockpile = { type = motorized_equipment amount = 200 producer = ITA }
-					add_equipment_to_stockpile = { type = horse_equipment amount = 500 producer = ITA }
 					add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 500 producer = ITA }
 					add_equipment_to_stockpile = { type = fighter_equipment_1934 amount = 150 producer = ITA }
 					add_equipment_to_stockpile = { type = tac_bomber_equipment_1934 amount = 50 producer = ITA }
@@ -348,12 +347,11 @@ focus_tree = {
 				}			
 				SPR = {
 					add_manpower = 150000
-					add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 10000 producer = ITA }
+					add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 10800 producer = ITA }
 					add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 4000 producer = ITA }
 					add_equipment_to_stockpile = { type = support_equipment_1 amount = 600 producer = ITA }
 					add_equipment_to_stockpile = { type = radio_equipment_1 amount = 600 producer = ITA }
 					add_equipment_to_stockpile = { type = motorized_equipment amount = 400 producer = ITA }
-					add_equipment_to_stockpile = { type = horse_equipment amount = 1000 producer = ITA }
 					add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 1000 producer = ITA }
 					add_equipment_to_stockpile = { type = fighter_equipment_1934 amount = 250 producer = ITA }
 					add_equipment_to_stockpile = { type = tac_bomber_equipment_1934 amount = 100 producer = ITA }

@@ -240,7 +240,7 @@ instant_effect = {
 			type = infantry_equipment_0
 			creator = "BUL"
 		}
-		requested_factories = 3
+		requested_factories = 4
 		progress = 0.3
 		efficiency = 100
 	}
@@ -248,15 +248,6 @@ instant_effect = {
 		equipment = {
 			type = support_equipment_1
 			creator = "BUL"
-		}
-		requested_factories = 1
-		progress = 0.3
-		efficiency = 100
-	}
-	add_equipment_production = {
-		equipment = {
-			type = horse_equipment_0
-			creator = "BUL" 
 		}
 		requested_factories = 1
 		progress = 0.3
@@ -274,7 +265,7 @@ instant_effect = {
 	################ Stockpiled equipment
 	add_equipment_to_stockpile = {
 		type = infantry_equipment_0
-			amount = 2000
+			amount = 2200
 			producer = BUL
 		}
 	
@@ -296,11 +287,6 @@ instant_effect = {
 	add_equipment_to_stockpile = {
 		type = artillery_equipment_1
 			amount = 100
-			producer = BUL
-		}
-	add_equipment_to_stockpile = {
-		type = horse_equipment_0
-			amount = 200
 			producer = BUL
 		}
 	add_equipment_to_stockpile = {

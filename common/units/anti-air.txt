@@ -29,7 +29,7 @@ sub_units = {
 
 		need = {
 			anti_air_equipment = 8
-			horse_equipment = 16
+			infantry_equipment = 12
 		}
 		
 

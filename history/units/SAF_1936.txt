@@ -196,7 +196,7 @@ instant_effect = { #player
 			type = infantry_equipment_1
 			creator = "SAF"
 		}
-		requested_factories = 4
+		requested_factories = 6
 		progress = 0.73
 		efficiency = 20
 	}
@@ -213,15 +213,6 @@ instant_effect = { #player
 	add_equipment_production = {
 		equipment = {
 			type = radio_equipment_1
-			creator = "SAF" 
-		}
-		requested_factories = 2
-		progress = 0.3
-		efficiency = 20
-	}
-	add_equipment_production = {
-		equipment = {
-			type = horse_equipment_0
 			creator = "SAF" 
 		}
 		requested_factories = 2

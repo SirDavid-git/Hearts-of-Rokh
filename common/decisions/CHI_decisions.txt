@@ -72,13 +72,8 @@ CHI_army_reform = {
 		complete_effect = {
 			CHI = {
 				add_equipment_to_stockpile = {
-					type = horse_equipment_0
-						amount = 1000
-						producer = CHI
-				}
-				add_equipment_to_stockpile = {
 					type = infantry_equipment_0
-						amount = 5000
+						amount = 5800
 						producer = CHI
 				}			
 			}	
@@ -166,13 +161,8 @@ CHI_army_reform = {
 		complete_effect = {
 			CHI = {
 				add_equipment_to_stockpile = {
-					type = horse_equipment_0
-						amount = 2000
-						producer = CHI
-				}
-				add_equipment_to_stockpile = {
 					type = infantry_equipment_0
-						amount = 5000
+						amount = 6500
 						producer = CHI
 				}			
 			}	
@@ -829,8 +819,7 @@ CHI_integrate_warlords = {
 
 		remove_effect = {
 			add_stability = -0.05
-			add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 2500 producer = CHI }
-			add_equipment_to_stockpile = { type = horse_equipment_0 amount = 500 producer = CHI }			
+			add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 3000 producer = CHI }	
 		}
 		complete_effect = {	
 			add_days_mission_timeout = {

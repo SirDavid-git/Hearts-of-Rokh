@@ -215,13 +215,10 @@ HUN_purchase_stuff = {
 
 		remove_effect = {
 			add_equipment_to_stockpile = { 
-				type = support_equipment amount = 300 producer = GER 
+				type = support_equipment amount = 340 producer = GER 
 			}
 			add_equipment_to_stockpile = {
-				type = horse_equipment amount = 300 producer = GER 
-			}
-			add_equipment_to_stockpile = {
-				type = radio_equipment amount = 300 producer = GER
+				type = radio_equipment amount = 320 producer = GER
 			}
 		}
 

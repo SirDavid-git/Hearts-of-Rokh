@@ -23,9 +23,10 @@ sub_units = {
 		
 		combat_width = 2
 
+		transport =	infantry_equipment
+
 		need = {
-			infantry_equipment = 100
-			horse_equipment = 15
+			infantry_equipment = 105
 			radio_equipment = 2
 		}
 		entrenchment = 0.4
@@ -69,10 +70,12 @@ sub_units = {
 			category_army
 	
 		}
+		
+		transport =	infantry_equipment
+
 		combat_width = 2
 		need = {
-			infantry_equipment = 90
-			horse_equipment = 10
+			infantry_equipment = 92
 			radio_equipment = 2
 		}
 		entrenchment = 0.4
@@ -114,9 +117,10 @@ sub_units = {
 		
 		combat_width = 2
 		
+		transport =	infantry_equipment
+		
 		need = {
-			infantry_equipment = 80
-			horse_equipment = 10
+			infantry_equipment = 82
 			radio_equipment = 2
 		}	
 		entrenchment = 0.4
@@ -177,6 +181,8 @@ sub_units = {
 		}
 		
 		combat_width = 2
+		
+		transport =	infantry_equipment
 		
 		need = {
 			infantry_equipment = 155
@@ -268,9 +274,10 @@ sub_units = {
 		
 		hardness = -0.75
 		
+		transport =	infantry_equipment
+		
 		need = {
-			infantry_equipment = 65
-			horse_equipment = 10
+			infantry_equipment = 70
 			radio_equipment = 2
 		}
 		
@@ -947,8 +954,7 @@ sub_units = {
 		combat_width = 2
 
 		need = {
-			infantry_equipment = 100
-			horse_equipment = 15
+			infantry_equipment = 105
 			radio_equipment = 2
 		}
 		hardness = -0.6
@@ -1703,8 +1709,7 @@ sub_units = {
 		combat_width = 2
 
 		need = {
-			infantry_equipment = 100
-			horse_equipment = 15
+			infantry_equipment = 105
 			radio_equipment = 2
 		}
 

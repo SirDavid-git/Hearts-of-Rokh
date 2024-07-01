@@ -742,7 +742,7 @@ instant_effect = { #player
 			type = infantry_equipment_1
 			creator = "FRA"
 		}
-		requested_factories = 3
+		requested_factories = 5
 		progress = 0.1
 		efficiency = 25
 	}
@@ -772,16 +772,6 @@ instant_effect = { #player
 		}
 		requested_factories = 1
 		progress = 0.15
-		efficiency = 25
-	}
-	
-	add_equipment_production = {
-		equipment = {
-			type = horse_equipment_0
-			creator = "FRA" 
-		}
-		requested_factories = 2
-		progress = 0.3
 		efficiency = 25
 	}
 	
@@ -885,7 +875,7 @@ instant_effect = { #player
 ####################### Equipment stockpile
 	add_equipment_to_stockpile = {
 		type = infantry_equipment_0
-			amount = 45000
+			amount = 48875
 			producer = FRA
 		}
 	add_equipment_to_stockpile = {
@@ -973,11 +963,6 @@ instant_effect = { #player
           producer = FRA
           variant_name = "AMR 35"
        }
-	add_equipment_to_stockpile = {
-		type = horse_equipment_0
-			amount = 3875
-			producer = FRA
-		}
 	add_equipment_to_stockpile = {
 		type = fighter_equipment_1934
 			amount = 500

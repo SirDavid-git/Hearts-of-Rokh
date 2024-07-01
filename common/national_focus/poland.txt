@@ -688,7 +688,7 @@ focus_tree = {
 			SPN = {
 				add_equipment_to_stockpile = {
 					type = infantry_equipment_0
-					amount = 4000
+					amount = 4500
 					producer = POL
 				}
 				add_equipment_to_stockpile = { 
@@ -699,10 +699,6 @@ focus_tree = {
 				add_equipment_to_stockpile = { type = support_equipment_1
 				    amount = 250 
 					producer = POL
-				}
-				add_equipment_to_stockpile = { type = horse_equipment
-				    amount = 500 
-					producer = POL 
 				}	
 			}
 			SPR = {
@@ -2040,8 +2036,8 @@ focus_tree = {
 			}
 			custom_effect_tooltip = POL_army2_tt
 			add_equipment_to_stockpile = {
-				type = horse_equipment
-				amount = 5000
+				type = infantry_equipment
+				amount = 4000
 				producer = POL
 			}	
 		}

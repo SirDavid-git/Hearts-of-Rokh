@@ -2065,8 +2065,7 @@ ENG_budget_decisions = {
 				}
 				
 				JAP = {
-					add_to_variable = { JAP_needed_inf_equipment = 1600 }
-					add_to_variable = { JAP_needed_horse_equipment = 500 }
+					add_to_variable = { JAP_needed_inf_equipment = 2000 }
 					add_to_variable = { JAP_needed_artillery_equipment = 90 }
 					add_to_variable = { JAP_needed_heavy_artillery_equipment = 12 }
 					add_to_variable = { JAP_needed_field_gun_equipment = 12 }

@@ -778,7 +778,7 @@ instant_effect = { #player
 			type = infantry_equipment_1
 			creator = "GER"
 		}
-		requested_factories = 8
+		requested_factories = 10
 		progress = 0.3
 		efficiency = 75
 	}
@@ -809,16 +809,6 @@ instant_effect = { #player
 		requested_factories = 1
 		progress = 0.3
 		efficiency = 20
-	}
-	
-	add_equipment_production = {
-		equipment = {
-			type = horse_equipment_0
-			creator = "GER" 
-		}
-		requested_factories = 2
-		progress = 0.3
-		efficiency = 75
 	}
 	
 	add_equipment_production = {
@@ -959,7 +949,7 @@ instant_effect = { #player
 	################ Stockpiled equipment
 	add_equipment_to_stockpile = {
 		type = infantry_equipment_1
-			amount = 10000
+			amount = 11200
 			producer = GER
 		}
 	add_equipment_to_stockpile = {
@@ -1031,11 +1021,6 @@ instant_effect = { #player
           producer = GER
           variant_name = "Panzer I Ausf.A"
        }
-	add_equipment_to_stockpile = {
-		type = horse_equipment_0
-			amount = 1500
-			producer = GER
-		}
 	add_equipment_to_stockpile = {
 		type = radio_equipment_1
 			amount = 2000

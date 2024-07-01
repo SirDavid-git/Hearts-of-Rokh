@@ -2876,8 +2876,7 @@ technologies = {
 			}
 					
 			need = {
-				infantry_equipment = 40
-				horse_equipment = 10
+				infantry_equipment = 45
 			}	
 		}
 
@@ -3809,8 +3808,7 @@ technologies = {
 
 		infantry = {
 			need = {
-			   	infantry_equipment = -15
-				horse_equipment = -5
+			   	infantry_equipment = -20
 			}
 			hard_attack = -0.05
 			soft_attack = -0.05
@@ -3956,8 +3954,7 @@ technologies = {
 			defense = -0.15
 			breakthrough = -0.15
 			need = {
-				infantry_equipment = -20
-				horse_equipment = -10
+				infantry_equipment = -25
 			}
 		}
 		garrison = {
@@ -3968,8 +3965,7 @@ technologies = {
 			defense = -0.15
 			breakthrough = -0.15
 			need = {
-				infantry_equipment = -16
-				horse_equipment = -2
+				infantry_equipment = -17
 			}
 		}
 		truck_garrison = {
@@ -4004,8 +4000,7 @@ technologies = {
 			defense = -0.15
 			breakthrough = -0.15
 			need = {
-				infantry_equipment = -20
-				horse_equipment = -2
+				infantry_equipment = -21
 			}
 		}
 		infantry = {
@@ -4016,8 +4011,7 @@ technologies = {
 			defense = -0.15
 			breakthrough = -0.15
 			need = {
-				infantry_equipment = -20
-				horse_equipment = -3
+				infantry_equipment = -21
 			}
 		}
 		ss_infantry = {
@@ -4028,8 +4022,7 @@ technologies = {
 			defense = -0.15
 			breakthrough = -0.15
 			need = {
-				infantry_equipment = -20
-				horse_equipment = -3
+				infantry_equipment = -21
 			}
 		}
 		truck_infantry = {
@@ -4136,7 +4129,7 @@ technologies = {
 			breakthrough = -0.05
 			need = {
 				artillery_equipment = -1
-				horse_equipment = -2
+				infantry_equipment = -1
 			}
 		}
 		mountain_artillery_brigade = {
@@ -4169,7 +4162,7 @@ technologies = {
 			breakthrough = -0.05
 			need = {
 				field_gun_equipment = -1
-				horse_equipment = -2
+				infantry_equipment = -1
 			}
 		}	
 		field_gun_brigade_mot = {
@@ -4192,7 +4185,7 @@ technologies = {
 			breakthrough = -0.05
 			need = {
 				pack_artillery_equipment = -1
-				horse_equipment = -2
+				infantry_equipment = -1
 			}
 		}	
 
@@ -4216,7 +4209,7 @@ technologies = {
 			breakthrough = -0.05
 			need = {
 				pack_artillery_equipment = -1
-				horse_equipment = -2
+				infantry_equipment = -1
 			}
 		}	
 		artillery_heavy = {
@@ -4227,7 +4220,7 @@ technologies = {
 			breakthrough = -0.05
 			need = {
 				heavy_artillery_equipment = -1
-				horse_equipment = -4
+				infantry_equipment = -2
 			}
 		}	
 		artillery_heavy_mot = {
@@ -4249,7 +4242,7 @@ technologies = {
 			breakthrough = -0.05
 			need = {
 				rocket_artillery_equipment = -1
-				horse_equipment = -2
+				infantry_equipment = -1
 			}
 		}	
 		motorized_rocket_brigade = {
@@ -4271,7 +4264,7 @@ technologies = {
 			breakthrough = -0.05
 			need = {
 				anti_tank_equipment = -1
-				horse_equipment = -2
+				infantry_equipment = -1
 			}
 		}	
 		anti_tank_brigade_mot = {
@@ -4293,7 +4286,7 @@ technologies = {
 			breakthrough = -0.05
 			need = {
 				anti_air_equipment = -1
-				horse_equipment = -2
+				infantry_equipment = -1
 			}
 		}	
 		anti_air_mot = {

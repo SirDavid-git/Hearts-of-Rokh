@@ -23,7 +23,7 @@ sub_units = {
 	
 		need = {
 			artillery_equipment = 12
-			horse_equipment = 24 
+			infantry_equipment = 16 
 		}
 		
 		manpower = 500
@@ -174,7 +174,7 @@ sub_units = {
 	
 		need = {
 			field_gun_equipment = 12
-			horse_equipment = 24 
+			infantry_equipment = 16 
 		}
 		
 		manpower = 500
@@ -328,7 +328,7 @@ sub_units = {
 
 		need = {
 			pack_artillery_equipment = 12
-			horse_equipment = 24
+			infantry_equipment = 16
 		}
 		
 		manpower = 400
@@ -475,7 +475,7 @@ sub_units = {
 
 		need = {
 			heavy_artillery_equipment = 12		
-			horse_equipment = 40
+			infantry_equipment = 30
 		}
 	
 		manpower = 550
@@ -641,7 +641,7 @@ sub_units = {
 
 		need = {
 			rocket_artillery_equipment = 12
-			horse_equipment = 24
+			infantry_equipment = 16
 		}
 		
 		manpower = 500

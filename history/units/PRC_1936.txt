@@ -119,20 +119,11 @@ instant_effect = { #player
 			type = infantry_equipment_0
 			creator = "PRC"
 		}
-		requested_factories = 4
+		requested_factories = 5
 		progress = 0.33
 		efficiency = 15
 	}
 	
-	add_equipment_production = {
-		equipment = {
-			type = horse_equipment_0
-			creator = "PRC"
-		}
-		requested_factories = 1
-		progress = 0.33
-		efficiency = 15
-	}
 	add_equipment_production = {
 		equipment = {
 			type = support_equipment_1
@@ -162,15 +153,10 @@ instant_effect = { #player
 	}
 	add_equipment_to_stockpile = {
 		type = infantry_equipment_0
-			amount = 1800
+			amount = 2400
 			producer = SOV
 		}
 	
-	add_equipment_to_stockpile = {
-		type = horse_equipment_0
-			amount = 600
-			producer = PRC
-		}
 	add_equipment_to_stockpile = {
 		type = special_equipment_1
 			amount = 400

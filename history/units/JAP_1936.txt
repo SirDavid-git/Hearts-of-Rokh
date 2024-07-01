@@ -674,7 +674,7 @@ instant_effect = { #player
 			type = infantry_equipment_1
 			creator = "JAP"
 		}
-		requested_factories = 6
+		requested_factories = 8
 		progress = 0.1
 		efficiency = 20
 	}
@@ -693,15 +693,6 @@ instant_effect = { #player
 		equipment = {
 			type = radio_equipment_1
 			creator = "JAP"
-		}
-		requested_factories = 2
-		progress = 0.3
-		efficiency = 20
-	}
-	add_equipment_production = {
-		equipment = {
-			type = horse_equipment_0
-			creator = "JAP" 
 		}
 		requested_factories = 2
 		progress = 0.3
@@ -849,7 +840,7 @@ instant_effect = { #player
 	############# equipment stockpile ################
 	add_equipment_to_stockpile = {
 		type = infantry_equipment_1
-			amount = 20000
+			amount = 24800
 			producer = JAP
 	}
 	add_equipment_to_stockpile = {
@@ -929,11 +920,6 @@ instant_effect = { #player
 			producer = JAP
 		}
 
-	add_equipment_to_stockpile = {
-		type = horse_equipment_0
-			amount = 6000
-			producer = JAP
-		}
 	add_equipment_to_stockpile = {
 		type = radio_equipment_1
 			amount = 1500

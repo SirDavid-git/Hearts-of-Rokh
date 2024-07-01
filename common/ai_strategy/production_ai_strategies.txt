@@ -1063,7 +1063,6 @@ USA_unit_production = {
 	ai_strategy = { type = equipment_variant_production_factor id = heavy_tank_chassis value = -999 }
 	ai_strategy = { type = equipment_variant_production_factor id = motorized_equipment value = 30 }
 	ai_strategy = { type = equipment_variant_production_factor id = mechanized_equipment value = 0 }
-	ai_strategy = { type = equipment_variant_production_factor id = horse_equipment value = 1 }
 	ai_strategy = { type = equipment_variant_production_factor id = artillery_equipment	value = 17		}
 	ai_strategy = { type = equipment_variant_production_factor id = anti_tank_equipment	value = 30		}
 	ai_strategy = { type = equipment_variant_production_factor id = anti_air_equipment	value = 30	}
@@ -1081,20 +1080,6 @@ time_to_pack_up = {
 	abort_when_not_enabled = yes 
 
 	ai_strategy = { type = equipment_variant_production_factor id = pack_artillery_equipment value = -200 }
-}
-
-horsing_around = {
-	allowed = {
-		always = yes 
-	}
-	enable = {
-		has_equipment = { horse_equipment > 15000 }
-	}
-
-
-	abort_when_not_enabled = yes 
-
-	ai_strategy = { type = equipment_variant_production_factor id = horse_equipment value = -200 }
 }
 
 special_equipment_for_special_people = {

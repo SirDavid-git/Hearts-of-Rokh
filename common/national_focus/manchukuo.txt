@@ -2712,13 +2712,10 @@ focus_tree = {
 			}
 			custom_effect_tooltip = MANspace
 			add_equipment_to_stockpile = { 
-				type = infantry_equipment amount = 2500 producer = MAN
+				type = infantry_equipment amount = 4500 producer = MAN
 			}
 			add_equipment_to_stockpile = {
 				type = support_equipment amount = 700 producer = MAN
-			}
-			add_equipment_to_stockpile = {
-				type = horse_equipment amount = 2500 producer = MAN
 			}
 			add_equipment_to_stockpile = {
 				type = radio_equipment amount = 500 producer = MAN
@@ -2751,13 +2748,10 @@ focus_tree = {
 			}
 			custom_effect_tooltip = MANspace
 			add_equipment_to_stockpile = { 
-				type = infantry_equipment amount = 2500 producer = MAN
+				type = infantry_equipment amount = 4500 producer = MAN
 			}
 			add_equipment_to_stockpile = {
 				type = support_equipment amount = 700 producer = MAN
-			}
-			add_equipment_to_stockpile = {
-				type = horse_equipment amount = 2500 producer = MAN
 			}
 			add_equipment_to_stockpile = {
 				type = radio_equipment amount = 500 producer = MAN
@@ -7066,12 +7060,8 @@ focus = {
 			}
 			add_equipment_to_stockpile = {
 				type = infantry_equipment
-				amount = 1500
+				amount = 3000
 				producer = ENG
-			}
-			add_equipment_to_stockpile = {
-				type = horse_equipment
-				amount = 2000
 			}
 			
 		}
@@ -7102,12 +7092,8 @@ focus = {
 			}
 			add_equipment_to_stockpile = {
 				type = infantry_equipment_0
-				amount = 1500
+				amount = 3000
 				producer = ENG
-			}
-			add_equipment_to_stockpile = {
-				type = horse_equipment
-				amount = 2000
 			}
 		}
 	}

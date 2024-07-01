@@ -1252,9 +1252,8 @@
 		ai_will_do = {
 		   factor = 50 }
 		completion_reward = { 
-	add_equipment_to_stockpile = { type = infantry_equipment amount = 2000 producer = GER }
+	add_equipment_to_stockpile = { type = infantry_equipment amount = 2650 producer = GER }
 	 add_equipment_to_stockpile = { type = support_equipment amount = 250 producer = GER }
-	 add_equipment_to_stockpile = { type = horse_equipment amount = 800 producer = GER }
 	 add_tech_bonus = {
 		name = support_companies
 		Bonus = 1
@@ -1656,9 +1655,8 @@
 		ai_will_do = {
 		   factor = 100 }
 		completion_reward = { 
-	add_equipment_to_stockpile = { type = infantry_equipment amount = 6000 producer = GER }
+	add_equipment_to_stockpile = { type = infantry_equipment amount = 7500 producer = GER }
 	 add_equipment_to_stockpile = { type = support_equipment amount = 700 producer = GER }
-	 add_equipment_to_stockpile = { type = horse_equipment amount = 2000 producer = GER }
 	  add_equipment_to_stockpile = { type = radio_equipment amount = 700 producer = GER }
 	} 
    }	  

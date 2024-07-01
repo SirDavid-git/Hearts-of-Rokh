@@ -906,31 +906,22 @@ country_event = {
 		name = germany.31.a 
 		trigger = {
 			has_equipment = {
-				infantry_equipment < 1999
+				infantry_equipment < 2399
 			}
 			has_equipment = {
 				support_equipment < 499
-			}
-			has_equipment = {
-				horse_equipment_0 < 499
 			}
 		}
 		GER = {
 			send_equipment = {
 				target = FROM 
 				type = infantry_equipment
-				amount = 2000
+				amount = 2400
 				old_prioritised = yes
 			}
 			send_equipment = {
 				target = FROM 
 				type = support_equipment
-				amount = 500
-				old_prioritised = yes
-			}
-			send_equipment = {
-				target = FROM 
-				type = horse_equipment_0
 				amount = 500
 				old_prioritised = yes
 			}
@@ -945,9 +936,8 @@ country_event = {
 		} 
 
 		FROM = {
-			add_equipment_to_stockpile = { type = infantry_equipment amount = 2000 }
+			add_equipment_to_stockpile = { type = infantry_equipment amount = 2400 }
 			add_equipment_to_stockpile = { type = support_equipment amount = 500 }
-			add_equipment_to_stockpile = { type = horse_equipment_0 amount = 500 }
 		}
 	}
 
@@ -5142,7 +5132,7 @@ country_event = {
 	
 		   add_equipment_to_stockpile = {
 				type = infantry_equipment_1
-				amount = 10000
+				amount = 13200
 				producer = CZE
 			}
 			
@@ -5178,11 +5168,6 @@ country_event = {
                   producer = CZE
             }
 			add_equipment_to_stockpile = {
-				type = horse_equipment_0
-				amount = 4000
-				producer = CZE
-			}
-			add_equipment_to_stockpile = {
 				type = radio_equipment_1
 				amount = 1000
 				producer = CZE
@@ -5207,7 +5192,7 @@ country_event = {
 				}
 				add_equipment_to_stockpile = {
 					type = infantry_equipment_1
-					amount = 50000
+					amount = 66000
 					producer = CZE
 				}
 				
@@ -5242,11 +5227,6 @@ country_event = {
                     amount = 500
                     producer = CZE
                 }
-				add_equipment_to_stockpile = {
-					type = horse_equipment_0
-					amount = 20000
-					producer = CZE
-				}
 				add_equipment_to_stockpile = {
 					type = radio_equipment_1
 					amount = 5000
@@ -5286,7 +5266,7 @@ country_event = {
 		custom_effect_tooltip = captured_Equipment_tt
 		add_equipment_to_stockpile = {
 		type = infantry_equipment_1
-			amount = 10000
+			amount = 16400
 			producer = FRA
 		}
 	
@@ -5326,11 +5306,6 @@ country_event = {
 			amount = 800
 			producer = FRA
 		}		
-		add_equipment_to_stockpile = {
-			type = horse_equipment_0
-				amount = 8000
-				producer = FRA
-			}
 		add_equipment_to_stockpile = {
 			type = radio_equipment_1
 				amount = 1000

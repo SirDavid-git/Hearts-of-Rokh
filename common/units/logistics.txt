@@ -38,12 +38,11 @@ sub_units = {
 		
 		essential = {
 			support_equipment
-			horse_equipment
 		}
 
 		need = {
 			support_equipment = 15
-			horse_equipment = 20
+			infantry_equipment = 15
 		}
 		same_support_type = logistics 
 	}

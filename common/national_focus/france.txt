@@ -3724,17 +3724,12 @@ focus_tree = {
 		completion_reward = {
 			add_equipment_to_stockpile = {
 				type = infantry_equipment_1
-				amount = 7500
+				amount = 8300
 				producer = ENG
 			}	
 			add_equipment_to_stockpile = {
 				type = artillery_equipment_1
 				amount = 500
-				producer = ENG
-			}
-			add_equipment_to_stockpile = {
-				type = horse_equipment_0
-				amount = 1000
 				producer = ENG
 			}
 			add_equipment_to_stockpile = {

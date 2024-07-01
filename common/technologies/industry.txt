@@ -677,8 +677,7 @@ technologies = {
 		}
 		recon = {
 			need = {
-			   	infantry_equipment = -2
-				horse_equipment = -1
+			  infantry_equipment = -3
 				support_equipment = -1
 			}
 		}
@@ -714,7 +713,7 @@ technologies = {
 		}
 		logistics_company = {
 			need = {
-			   	horse_equipment = -1
+			   infantry_equipment = -1
 				support_equipment = -1
 			}
 		}
@@ -869,7 +868,7 @@ technologies = {
 		}
 		cavalry = {
 			need = {
-			   	horse_equipment = -2
+			   	infantry_equipment = -1
 				infantry_equipment = -5
 			}
 		}
@@ -911,14 +910,12 @@ technologies = {
 		}
 		infantry = {
 			need = {
-			   	infantry_equipment = -5
-				horse_equipment = -1
+			   	infantry_equipment = -6
 			}
 		}
 		ss_infantry = {
 			need = {
-			   	infantry_equipment = -5
-				horse_equipment = -1
+			   	infantry_equipment = -6
 			}
 		}
 		militia = {
@@ -928,20 +925,17 @@ technologies = {
 		}
 		volkssturm_infantry = {
 			need = {
-			   	infantry_equipment = -4
-				horse_equipment = -1
+			   	infantry_equipment = -5
 			}
 		}
 		infantry_spain = {
 			need = {
-			   	infantry_equipment = -4
-				horse_equipment = -1
+			   	infantry_equipment = -5
 			}
 		}
 		garrison = {
 			need = {
-			   	infantry_equipment = -3
-				horse_equipment = -1
+			   	infantry_equipment = -4
 			}
 		}
 		truck_infantry = {
@@ -1344,7 +1338,7 @@ technologies = {
 		}
 		logistics_company = {
 			need = {
-			   	horse_equipment = -1
+			   	infantry_equipment = -1
 				support_equipment = -1
 			}
 		}
@@ -1482,7 +1476,7 @@ technologies = {
 		}
 		cavalry = {
 			need = {
-			   	horse_equipment = -1
+			   	infantry_equipment = -1
 				infantry_equipment = -5
 			}
 		}
@@ -1524,14 +1518,12 @@ technologies = {
 		}
 		infantry = {
 			need = {
-			   	infantry_equipment = -5
-				horse_equipment = -1
+			   	infantry_equipment = -6
 			}
 		}
 		ss_infantry = {
 			need = {
-			   	infantry_equipment = -5
-				horse_equipment = -1
+			   	infantry_equipment = -6
 			}
 		}
 		militia = {
@@ -1624,7 +1616,7 @@ technologies = {
 		}
 		artillery_brigade = {
 			need = {
-				horse_equipment = -3
+				infantry_equipment = -2
 			}
 		}
 		artillery_brigade_mot = {
@@ -1644,7 +1636,7 @@ technologies = {
 		}
 		pack_artillery_brigade = {
 			need = {
-				horse_equipment = -3
+				infantry_equipment = -2
 			}
 		}
 		pack_artillery_brigade_mot = {
@@ -1654,7 +1646,7 @@ technologies = {
 		}
 		artillery_heavy = {
 			need = {
-				horse_equipment = -6
+				infantry_equipment = -2
 			}
 		}
 		artillery_heavy_mot = {
@@ -1664,7 +1656,7 @@ technologies = {
 		}
 		rocket_artillery_brigade = {
 			need = {
-				horse_equipment = -3
+				infantry_equipment = -2
 			}
 		}
 		motorized_rocket_brigade = {
@@ -1674,7 +1666,7 @@ technologies = {
 		}
 		field_gun_brigade = {
 			need = {
-			   	horse_equipment = -3
+			   	infantry_equipment = -2
 			}
 		}
 		field_gun_brigade_mot = {
@@ -1684,7 +1676,7 @@ technologies = {
 		}
 		anti_tank_brigade = {
 			need = {
-				horse_equipment = -3
+				infantry_equipment = -2
 			}
 		}
 		anti_tank_brigade_mot = {
@@ -1694,7 +1686,7 @@ technologies = {
 		}
 		anti_air = {
 			need = {
-				horse_equipment = -3
+				infantry_equipment = -2
 			}
 		}
 		anti_air_mot = {
@@ -1834,9 +1826,8 @@ technologies = {
 		}
 		recon = {
 			need = {
-			   	infantry_equipment = -1
+			   	infantry_equipment = -2
 				support_equipment = -1
-				horse_equipment = -1
 			}
 		}
 		recon_ac = {
@@ -1868,7 +1859,7 @@ technologies = {
 		}
 		logistics_company = {
 			need = {
-			   	horse_equipment = -1
+			   	infantry_equipment = -1
 				support_equipment = -1
 			}
 		}
@@ -2022,8 +2013,7 @@ technologies = {
 		}
 		cavalry = {
 			need = {
-			   	horse_equipment = -2
-				infantry_equipment = -5
+				infantry_equipment = -6
 			}
 		}
 		armored_car = {
@@ -2079,20 +2069,17 @@ technologies = {
 		}
 		volkssturm_infantry = {
 			need = {
-			   	infantry_equipment = -4
-				horse_equipment = -1
+			   	infantry_equipment = -5
 			}
 		}
 		infantry_spain = {
 			need = {
-			   	infantry_equipment = -4
-				horse_equipment = -1
+			   	infantry_equipment = -5
 			}
 		}
 		garrison = {
 			need = {
-			   	infantry_equipment = -3
-				horse_equipment = -1
+			   	infantry_equipment = -4
 			}
 		}
 		truck_infantry = {
@@ -2412,8 +2399,7 @@ technologies = {
 		}
 		recon = {
 			need = {
-			   	infantry_equipment = 2
-				horse_equipment = 1
+			   	infantry_equipment = 3
 				support_equipment = 1
 			}
 		}
@@ -2449,7 +2435,7 @@ technologies = {
 		}
 		logistics_company = {
 			need = {
-			   	horse_equipment = 1
+			   	infantry_equipment = 1
 				support_equipment = 1
 			}
 		}
@@ -2604,8 +2590,7 @@ technologies = {
 		}
 		cavalry = {
 			need = {
-			   	horse_equipment = 2
-				infantry_equipment = 5
+				infantry_equipment = 6
 			}
 		}
 		armored_car = {
@@ -2646,14 +2631,12 @@ technologies = {
 		}
 		infantry = {
 			need = {
-			   	infantry_equipment = 5
-				horse_equipment = 1
+			   	infantry_equipment = 6
 			}
 		}
 		ss_infantry = {
 			need = {
-			   	infantry_equipment = 5
-				horse_equipment = 1
+			   	infantry_equipment = 6
 			}
 		}
 		militia = {
@@ -2663,20 +2646,17 @@ technologies = {
 		}
 		volkssturm_infantry = {
 			need = {
-			   	infantry_equipment = 4
-				horse_equipment = 1
+			   	infantry_equipment = 5
 			}
 		}
 		infantry_spain = {
 			need = {
-			   	infantry_equipment = 4
-				horse_equipment = 1
+			   	infantry_equipment = 5
 			}
 		}
 		garrison = {
 			need = {
-			   	infantry_equipment = 3
-				horse_equipment = 1
+			   	infantry_equipment = 4
 			}
 		}
 		truck_infantry = {
@@ -3069,7 +3049,7 @@ technologies = {
 		}
 		logistics_company = {
 			need = {
-			   	horse_equipment = 1
+			   	infantry_equipment = 1
 				support_equipment = 1
 			}
 		}
@@ -3207,8 +3187,7 @@ technologies = {
 		}
 		cavalry = {
 			need = {
-			   	horse_equipment = 1
-				infantry_equipment = 5
+				infantry_equipment = 6
 			}
 		}
 		armored_car = {
@@ -3249,14 +3228,12 @@ technologies = {
 		}
 		infantry = {
 			need = {
-			   	infantry_equipment = 5
-				horse_equipment = 1
+			   	infantry_equipment = 6
 			}
 		}
 		ss_infantry = {
 			need = {
-			   	infantry_equipment = 5
-				horse_equipment = 1
+			   	infantry_equipment = 6
 			}
 		}
 		militia = {
@@ -3349,7 +3326,7 @@ technologies = {
 		}
 		artillery_brigade = {
 			need = {
-				horse_equipment = 3
+				infantry_equipment = 2
 			}
 		}
 		artillery_brigade_mot = {
@@ -3359,7 +3336,7 @@ technologies = {
 		}
 		pack_artillery_brigade = {
 			need = {
-				horse_equipment = 3
+				infantry_equipment = 2
 			}
 		}
 		pack_artillery_brigade_mot = {
@@ -3369,7 +3346,7 @@ technologies = {
 		}
 		artillery_heavy = {
 			need = {
-				horse_equipment = 6
+				infantry_equipment = 3
 			}
 		}
 		artillery_heavy_mot = {
@@ -3389,7 +3366,7 @@ technologies = {
 		}
 		rocket_artillery_brigade = {
 			need = {
-				horse_equipment = 3
+				infantry_equipment = 2
 			}
 		}
 		motorized_rocket_brigade = {
@@ -3399,7 +3376,7 @@ technologies = {
 		}
 		field_gun_brigade = {
 			need = {
-			   	horse_equipment = 3
+			   	infantry_equipment = 2
 			}
 		}
 		field_gun_brigade_mot = {
@@ -3409,7 +3386,7 @@ technologies = {
 		}
 		anti_tank_brigade = {
 			need = {
-				horse_equipment = 3
+				infantry_equipment = 2
 			}
 		}
 		anti_tank_brigade_mot = {
@@ -3419,7 +3396,7 @@ technologies = {
 		}
 		anti_air = {
 			need = {
-				horse_equipment = 3
+				infantry_equipment = 2
 			}
 		}
 		anti_air_mot = {
@@ -3575,9 +3552,8 @@ technologies = {
 		}
 		recon = {
 			need = {
-			   	infantry_equipment = 1
+			   	infantry_equipment = 2
 				support_equipment = 1
-				horse_equipment = 1
 			}
 		}
 		recon_ac = {
@@ -3609,7 +3585,7 @@ technologies = {
 		}
 		logistics_company = {
 			need = {
-			   	horse_equipment = 1
+			   	infantry_equipment = 1
 				support_equipment = 1
 			}
 		}
@@ -3747,8 +3723,7 @@ technologies = {
 		}
 		cavalry = {
 			need = {
-			   	horse_equipment = 2
-				infantry_equipment = 5
+				infantry_equipment = 6
 			}
 		}
 		armored_car = {
@@ -3804,20 +3779,17 @@ technologies = {
 		}
 		volkssturm_infantry = {
 			need = {
-			   	infantry_equipment = 4
-				horse_equipment = 1
+			   	infantry_equipment = 5
 			}
 		}
 		infantry_spain = {
 			need = {
-			   	infantry_equipment = 4
-				horse_equipment = 1
+			   	infantry_equipment = 5
 			}
 		}
 		garrison = {
 			need = {
-			   	infantry_equipment = 3
-				horse_equipment = 1
+			   	infantry_equipment = 4
 			}
 		}
 		truck_infantry = {

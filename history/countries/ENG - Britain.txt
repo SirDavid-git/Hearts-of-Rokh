@@ -14,12 +14,7 @@ if = {
 }
 add_equipment_to_stockpile = {
 	type = infantry_equipment
-	amount = 10000
-	producer = ENG
-}
-add_equipment_to_stockpile = {
-	type = horse_equipment
-	amount = 5000
+	amount = 14000
 	producer = ENG
 }
 set_research_slots = 5

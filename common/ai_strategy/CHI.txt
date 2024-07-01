@@ -383,23 +383,6 @@ CHI_wants_mils = {
 		value = -100
 	}
 }
-CHI_wtf_is_wrong_with_horses = {
-	allowed = {
-		tag = CHI
-	}
-	enable = {
-		date > 1936.1.1
-	}
-	abort = {
-		has_war_with = JAP
-	}
-	ai_strategy = {
-		type = equipment_variant_production_factor
-		id = horse_equipment
-		value = 0
-	}
-	
-}
 CHI_unit_production = {
 	allowed = {
 		tag = CHI

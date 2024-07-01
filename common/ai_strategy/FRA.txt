@@ -220,8 +220,7 @@ FRA_unit_production = {
 	ai_strategy = { type = equipment_production_factor id = carrier		 		value = -100 	}
 	ai_strategy = { type = equipment_production_factor id = convoy 				value = 25 		}
 
-	ai_strategy = { type = equipment_variant_production_factor id = horse_equipment value = 10 }
-	ai_strategy = { type = equipment_variant_production_factor id = infantry_equipment value = 90 		}
+	ai_strategy = { type = equipment_variant_production_factor id = infantry_equipment value = 100 		}
 	ai_strategy = { type = equipment_variant_production_factor id = light_tank_equipment value = -200	}
 	ai_strategy = { type = equipment_variant_production_factor id = medium_tank_equipment value = 1	}
 	ai_strategy = { type = equipment_variant_production_factor id = heavy_tank_equipment value = 1	}

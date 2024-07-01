@@ -245,7 +245,7 @@ technologies = {
 		pack_artillery = {
 			need = {
 				motorized_equipment = 20
-				horse_equipment = -20
+				infantry_equipment = -15
 			}
 			fuel_capacity = 50
 			defense = 0.2
@@ -618,7 +618,7 @@ technologies = {
 		field_gun_support = {
 			need = {
 				motorized_equipment = 20
-				horse_equipment = -20
+				infantry_equipment = -15
 			}
 			fuel_capacity = 50
 			soft_attack = 0.2
@@ -1398,7 +1398,7 @@ technologies = {
 		artillery_heavy_support = {
 			need = {
 				motorized_equipment = 32
-				horse_equipment = -32
+				infantry_equipment = -20
 			}
 			fuel_capacity = 50
 			defense = 0.2
@@ -1733,7 +1733,7 @@ technologies = {
 		rocket_artillery = {
 			need = {
 				motorized_equipment = 25
-				horse_equipment = -25
+				infantry_equipment = -15
 			}
 			fuel_capacity = 50
 			defense = 0.1
@@ -1913,7 +1913,7 @@ technologies = {
 		anti_tank = {
 			need = {
 				motorized_equipment = 20
-				horse_equipment = -20
+				infantry_equipment = -12
 			}
 			fuel_capacity = 50
 			defense = 0.2
@@ -2203,7 +2203,7 @@ technologies = {
 		anti_air_company = {
 			need = {
 				motorized_equipment = 16
-				horse_equipment = -16
+				infantry_equipment = -10
 			}
 			fuel_capacity = 50
 			defense = 0.2

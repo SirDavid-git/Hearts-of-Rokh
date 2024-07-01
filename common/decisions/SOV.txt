@@ -1844,7 +1844,6 @@ SOV_military_district_garrisons = {
 		custom_cost_trigger = {
 			ROOT = {
 				has_equipment = { infantry_equipment > 2169 }
-				has_equipment = { horse_equipment > 724 }
 				has_equipment = { artillery_equipment > 89 }
 				has_equipment = { anti_tank_equipment > 42 }
 				has_equipment = { field_gun_equipment > 19 }
@@ -1873,15 +1872,9 @@ SOV_military_district_garrisons = {
 					send_equipment = {
 						target = PAR 
 						type = infantry_equipment
-						amount = 2170
+						amount = 2870
 						old_prioritised = yes
-					}
-					send_equipment = {
-						target = PAR 
-						type = horse_equipment
-						amount = 725
-						old_prioritised = yes
-					}					
+					}				
 					send_equipment = {
 						target = PAR
 						type = artillery_equipment
@@ -1999,7 +1992,6 @@ SOV_military_district_garrisons = {
 		custom_cost_trigger = {
 			ROOT = {
 				has_equipment = { infantry_equipment > 2169 }
-				has_equipment = { horse_equipment > 724 }
 				has_equipment = { artillery_equipment > 89 }
 				has_equipment = { anti_tank_equipment > 42 }
 				has_equipment = { field_gun_equipment > 19 }
@@ -2028,15 +2020,9 @@ SOV_military_district_garrisons = {
 					send_equipment = {
 						target = PAR 
 						type = infantry_equipment
-						amount = 2170
+						amount = 2870
 						old_prioritised = yes
-					}
-					send_equipment = {
-						target = PAR 
-						type = horse_equipment
-						amount = 725
-						old_prioritised = yes
-					}					
+					}				
 					send_equipment = {
 						target = PAR
 						type = artillery_equipment
@@ -2153,7 +2139,6 @@ SOV_military_district_garrisons = {
 		custom_cost_trigger = {
 			ROOT = {
 				has_equipment = { infantry_equipment > 2059 }
-				has_equipment = { horse_equipment > 684 }
 				has_equipment = { artillery_equipment > 85 }
 				has_equipment = { anti_tank_equipment > 40 }
 				has_equipment = { field_gun_equipment > 19 }
@@ -2182,15 +2167,9 @@ SOV_military_district_garrisons = {
 					send_equipment = {
 						target = PAR 
 						type = infantry_equipment
-						amount = 2060
+						amount = 2700
 						old_prioritised = yes
-					}
-					send_equipment = {
-						target = PAR 
-						type = horse_equipment
-						amount = 685
-						old_prioritised = yes
-					}					
+					}				
 					send_equipment = {
 						target = PAR
 						type = artillery_equipment
@@ -2308,7 +2287,6 @@ SOV_military_district_garrisons = {
 		custom_cost_trigger = {
 			ROOT = {
 				has_equipment = { infantry_equipment > 2059 }
-				has_equipment = { horse_equipment > 684 }
 				has_equipment = { artillery_equipment > 85 }
 				has_equipment = { anti_tank_equipment > 40 }
 				has_equipment = { field_gun_equipment > 19 }
@@ -2337,15 +2315,9 @@ SOV_military_district_garrisons = {
 					send_equipment = {
 						target = PAR 
 						type = infantry_equipment
-						amount = 2060
+						amount = 2700
 						old_prioritised = yes
-					}
-					send_equipment = {
-						target = PAR 
-						type = horse_equipment
-						amount = 685
-						old_prioritised = yes
-					}					
+					}			
 					send_equipment = {
 						target = PAR
 						type = artillery_equipment
@@ -2464,7 +2436,6 @@ SOV_military_district_garrisons = {
 		custom_cost_trigger = {
 			ROOT = {
 				has_equipment = { infantry_equipment > 2059 }
-				has_equipment = { horse_equipment > 684 }
 				has_equipment = { artillery_equipment > 85 }
 				has_equipment = { anti_tank_equipment > 40 }
 				has_equipment = { field_gun_equipment > 19 }
@@ -2493,15 +2464,9 @@ SOV_military_district_garrisons = {
 					send_equipment = {
 						target = PAR 
 						type = infantry_equipment
-						amount = 2060
+						amount = 2700
 						old_prioritised = yes
-					}
-					send_equipment = {
-						target = PAR 
-						type = horse_equipment
-						amount = 685
-						old_prioritised = yes
-					}					
+					}				
 					send_equipment = {
 						target = PAR
 						type = artillery_equipment

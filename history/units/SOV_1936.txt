@@ -2146,7 +2146,7 @@ instant_effect = { #player
 			type = infantry_equipment_1
 			creator = "SOV"
 		}
-		requested_factories = 10
+		requested_factories = 13
 		progress = 0.1
 		efficiency = 35
 	}
@@ -2174,15 +2174,6 @@ instant_effect = { #player
 		equipment = {
 			type = radio_equipment_1
 			creator = "SOV"
-		}
-		requested_factories = 3
-		progress = 0.3
-		efficiency = 35
-	}
-	add_equipment_production = {
-		equipment = {
-			type = horse_equipment_0
-			creator = "SOV" 
 		}
 		requested_factories = 3
 		progress = 0.3
@@ -2306,7 +2297,7 @@ instant_effect = { #player
 	################## Equipment stockpile Made you peek ;)  ### 
 	add_equipment_to_stockpile = {
 		type = infantry_equipment_0
-			amount = 40000
+			amount = 48000
 			producer = SOV
 		}
 	add_equipment_to_stockpile = {
@@ -2392,11 +2383,6 @@ instant_effect = { #player
           variant_name = "OT-26"
        }
 	
-	add_equipment_to_stockpile = {
-		type = horse_equipment_0
-			amount = 8000
-			producer = SOV
-		}
 	add_equipment_to_stockpile = {
 		type = heavy_anti_air_equipment_1
 				amount = 600

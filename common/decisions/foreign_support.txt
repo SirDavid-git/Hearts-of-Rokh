@@ -40,8 +40,7 @@ foreign_support = {
 					
 				}
 				JAP = {
-					add_to_variable = { JAP_needed_inf_equipment = 800 }
-					add_to_variable = { JAP_needed_horse_equipment = 250 }
+					add_to_variable = { JAP_needed_inf_equipment = 1000 }
 					add_to_variable = { JAP_needed_artillery_equipment = 45 }
 					add_to_variable = { JAP_needed_heavy_artillery_equipment = 6 }
 					add_to_variable = { JAP_needed_field_gun_equipment = 6 }
@@ -135,8 +134,7 @@ foreign_support = {
 			
 			
 			JAP = {
-				add_to_variable = { JAP_needed_inf_equipment = 800 }
-				add_to_variable = { JAP_needed_horse_equipment = 250 }
+				add_to_variable = { JAP_needed_inf_equipment = 1000 }
 				add_to_variable = { JAP_needed_artillery_equipment = 45 }
 				add_to_variable = { JAP_needed_heavy_artillery_equipment = 6 }
 				add_to_variable = { JAP_needed_field_gun_equipment = 6 }
@@ -324,8 +322,7 @@ foreign_support = {
 		
 			}
 			JAP = {
-				add_to_variable = { JAP_needed_inf_equipment = 800 }
-				add_to_variable = { JAP_needed_horse_equipment = 250 }
+				add_to_variable = { JAP_needed_inf_equipment = 1000 }
 				add_to_variable = { JAP_needed_artillery_equipment = 45 }
 				add_to_variable = { JAP_needed_heavy_artillery_equipment = 6 }
 				add_to_variable = { JAP_needed_field_gun_equipment = 6 }
@@ -491,8 +488,7 @@ foreign_support = {
 			
 				
 				JAP = {
-					add_to_variable = { JAP_needed_inf_equipment = 1600 }
-					add_to_variable = { JAP_needed_horse_equipment = 500 }
+					add_to_variable = { JAP_needed_inf_equipment = 2000 }
 					add_to_variable = { JAP_needed_artillery_equipment = 90 }
 					add_to_variable = { JAP_needed_heavy_artillery_equipment = 12 }
 					add_to_variable = { JAP_needed_field_gun_equipment = 12 }
@@ -802,8 +798,7 @@ foreign_support = {
 			
 				
 				JAP = {
-					add_to_variable = { JAP_needed_inf_equipment = 1600 }
-					add_to_variable = { JAP_needed_horse_equipment = 500 }
+					add_to_variable = { JAP_needed_inf_equipment = 2000 }
 					add_to_variable = { JAP_needed_artillery_equipment = 90 }
 					add_to_variable = { JAP_needed_heavy_artillery_equipment = 12 }
 					add_to_variable = { JAP_needed_field_gun_equipment = 12 }
@@ -1088,8 +1083,7 @@ foreign_support = {
 				
 				
 				JAP = {
-					add_to_variable = { JAP_needed_inf_equipment = 1600 }
-					add_to_variable = { JAP_needed_horse_equipment = 500 }
+					add_to_variable = { JAP_needed_inf_equipment = 2000 }
 					add_to_variable = { JAP_needed_artillery_equipment = 90 }
 					add_to_variable = { JAP_needed_heavy_artillery_equipment = 12 }
 					add_to_variable = { JAP_needed_field_gun_equipment = 12 }
@@ -1468,8 +1462,7 @@ foreign_support = {
 				
 				
 				JAP = {
-					add_to_variable = { JAP_needed_inf_equipment = 1600 }
-					add_to_variable = { JAP_needed_horse_equipment = 500 }
+					add_to_variable = { JAP_needed_inf_equipment = 2000 }
 					add_to_variable = { JAP_needed_artillery_equipment = 90 }
 					add_to_variable = { JAP_needed_heavy_artillery_equipment = 12 }
 					add_to_variable = { JAP_needed_field_gun_equipment = 12 }
@@ -1767,8 +1760,7 @@ foreign_support = {
 				
 				
 				JAP = {
-					add_to_variable = { JAP_needed_inf_equipment = 1600 }
-					add_to_variable = { JAP_needed_horse_equipment = 500 }
+					add_to_variable = { JAP_needed_inf_equipment = 2000 }
 					add_to_variable = { JAP_needed_artillery_equipment = 90 }
 					add_to_variable = { JAP_needed_heavy_artillery_equipment = 12 }
 					add_to_variable = { JAP_needed_field_gun_equipment = 12 }
@@ -2203,8 +2195,7 @@ foreign_support = {
 				set_country_flag = SOV_support_china_with_factories
 			}
 			JAP = {
-				add_to_variable = { JAP_needed_inf_equipment = 1600 }
-				add_to_variable = { JAP_needed_horse_equipment = 500 }
+				add_to_variable = { JAP_needed_inf_equipment = 2000 }
 				add_to_variable = { JAP_needed_artillery_equipment = 90 }
 				add_to_variable = { JAP_needed_heavy_artillery_equipment = 12 }
 				add_to_variable = { JAP_needed_field_gun_equipment = 12 }
@@ -2379,8 +2370,7 @@ foreign_support = {
 					
 				}
 				JAP = {
-					add_to_variable = { JAP_needed_inf_equipment = 1600 }
-					add_to_variable = { JAP_needed_horse_equipment = 500 }
+					add_to_variable = { JAP_needed_inf_equipment = 2000 }
 					add_to_variable = { JAP_needed_artillery_equipment = 90 }
 					add_to_variable = { JAP_needed_heavy_artillery_equipment = 12 }
 					add_to_variable = { JAP_needed_field_gun_equipment = 12 }
@@ -2691,8 +2681,7 @@ foreign_support = {
 					
 				}
 				JAP = {
-					add_to_variable = { JAP_needed_inf_equipment = 1600 }
-					add_to_variable = { JAP_needed_horse_equipment = 500 }
+					add_to_variable = { JAP_needed_inf_equipment = 2000 }
 					add_to_variable = { JAP_needed_artillery_equipment = 90 }
 					add_to_variable = { JAP_needed_heavy_artillery_equipment = 12 }
 					add_to_variable = { JAP_needed_field_gun_equipment = 12 }
@@ -2975,8 +2964,7 @@ foreign_support = {
 					
 				}
 				JAP = {
-					add_to_variable = { JAP_needed_inf_equipment = 1600 }
-					add_to_variable = { JAP_needed_horse_equipment = 500 }
+					add_to_variable = { JAP_needed_inf_equipment = 2000 }
 					add_to_variable = { JAP_needed_artillery_equipment = 90 }
 					add_to_variable = { JAP_needed_heavy_artillery_equipment = 12 }
 					add_to_variable = { JAP_needed_field_gun_equipment = 12 }
@@ -3267,8 +3255,7 @@ foreign_support = {
 					
 				}
 				JAP = {
-					add_to_variable = { JAP_needed_inf_equipment = 1600 }
-					add_to_variable = { JAP_needed_horse_equipment = 500 }
+					add_to_variable = { JAP_needed_inf_equipment = 2000 }
 					add_to_variable = { JAP_needed_artillery_equipment = 90 }
 					add_to_variable = { JAP_needed_heavy_artillery_equipment = 12 }
 					add_to_variable = { JAP_needed_field_gun_equipment = 12 }
@@ -3565,8 +3552,7 @@ foreign_support = {
 					
 				}
 				JAP = {
-					add_to_variable = { JAP_needed_inf_equipment = 1600 }
-					add_to_variable = { JAP_needed_horse_equipment = 500 }
+					add_to_variable = { JAP_needed_inf_equipment = 2000 }
 					add_to_variable = { JAP_needed_artillery_equipment = 90 }
 					add_to_variable = { JAP_needed_heavy_artillery_equipment = 12 }
 					add_to_variable = { JAP_needed_field_gun_equipment = 12 }

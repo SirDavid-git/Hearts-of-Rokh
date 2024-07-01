@@ -191,7 +191,7 @@ instant_effect = {
 	################ Stockpile ##################
 	add_equipment_to_stockpile = {
 		type = infantry_equipment_1
-			amount = 23000
+			amount = 26000
 			producer = CZE
 		}
 	add_equipment_to_stockpile = {
@@ -207,11 +207,6 @@ instant_effect = {
 	add_equipment_to_stockpile = {
 		type = radio_equipment_1
 			amount = 660
-			producer = CZE
-		}
-	add_equipment_to_stockpile = {
-		type = horse_equipment_0
-			amount = 3600
 			producer = CZE
 		}
 	add_equipment_to_stockpile = {

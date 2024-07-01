@@ -657,8 +657,7 @@ country_event = {
 				transfer_state = 835
 				transfer_state = 550
 				transfer_state = 559
-				add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 3000 producer = ITA }
-				add_equipment_to_stockpile = { type = horse_equipment_0 amount = 1000 producer = ITA }
+				add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 4000 producer = ITA }
 			}
 			ITA = {			
 				remove_state_core = 271		

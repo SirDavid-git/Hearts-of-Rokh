@@ -1486,7 +1486,7 @@ ideas = {
 
 			equipment_bonus = {
 				infantry_equipment = {
-					build_cost_ic = -0.125
+					build_cost_ic = -0.2
 					instant = yes
 				}				
 				support_equipment = {
@@ -1494,10 +1494,6 @@ ideas = {
 					instant = yes
 				}
 				motorized_equipment = {
-					build_cost_ic = -0.125
-					instant = yes
-				}
-				horse_equipment = {
 					build_cost_ic = -0.125
 					instant = yes
 				}							
@@ -1524,7 +1520,7 @@ ideas = {
 
 			equipment_bonus = {
 				infantry_equipment = {
-					build_cost_ic = 0.1
+					build_cost_ic = 0.18
 					instant = yes
 				}				
 				support_equipment = {
@@ -1532,10 +1528,6 @@ ideas = {
 					instant = yes
 				}
 				motorized_equipment = {
-					build_cost_ic = 0.1
-					instant = yes
-				}
-				horse_equipment = {
 					build_cost_ic = 0.1
 					instant = yes
 				}							

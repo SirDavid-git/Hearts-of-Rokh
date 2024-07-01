@@ -1287,8 +1287,8 @@ ideas = {
 					reliability = -0.1 
 					instant = yes					
 				}
-				horse_equipment = {
-					build_cost_ic = 0.5
+				infantry_equipment = {
+					build_cost_ic = 0.35
 					instant = yes					
 				}				
 			}

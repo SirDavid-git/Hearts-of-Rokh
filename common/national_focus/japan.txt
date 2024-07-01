@@ -3970,8 +3970,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 200
-			add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 10000 producer = JAP }
-			add_equipment_to_stockpile = { type = horse_equipment amount = 1000 producer = JAP }
+			add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 10800 producer = JAP }
 		}
 	}
 	focus = {

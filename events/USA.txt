@@ -855,7 +855,7 @@ country_event = {
 			send_equipment = {
 				target = ENG
 				type = infantry_equipment_1
-				amount = 2000
+				amount = 4500
 			}	
 			send_equipment = {
 				target = ENG
@@ -878,11 +878,6 @@ country_event = {
 				amount = 1000
 			}
 			
-			send_equipment = {
-				target = ENG
-				type = horse_equipment_0
-				amount = 3000
-			}
 			send_equipment = {
 				target = ENG
 				type = fighter_equipment_1938

@@ -316,7 +316,7 @@ instant_effect = { #player
 			type = infantry_equipment_1
 			creator = "CAN"
 		}
-		requested_factories = 4
+		requested_factories = 5
 		progress = 0.73
 		efficiency = 20
 	}
@@ -333,15 +333,6 @@ instant_effect = { #player
 	add_equipment_production = {
 		equipment = {
 			type = radio_equipment_1
-			creator = "CAN" 
-		}
-		requested_factories = 2
-		progress = 0.3
-		efficiency = 20
-	}
-	add_equipment_production = {
-		equipment = {
-			type = horse_equipment_0
 			creator = "CAN" 
 		}
 		requested_factories = 2
@@ -372,7 +363,7 @@ instant_effect = { #player
 	############################# equipment stockpile
 	add_equipment_to_stockpile = {
 		type = infantry_equipment_1
-			amount = 400
+			amount = 1300
 			producer = CAN
 		}
 
@@ -382,9 +373,4 @@ instant_effect = { #player
 			producer = CAN
 		}
 	
-	add_equipment_to_stockpile = {
-		type = horse_equipment_0
-			amount = 1300
-			producer = CAN
-		}
 }

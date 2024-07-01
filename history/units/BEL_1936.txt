@@ -224,18 +224,9 @@ instant_effect = {
 	#	progress = 0.85
 	#	efficiency = 100
 	#}
-	#add_equipment_production = {
-	#	equipment = {
-	#		type = horse_equipment_0
-	#		creator = "BEL"
-	#	}
-	#	requested_factories = 1
-	#	progress = 0.85
-	#	efficiency = 100
-	#}
 	add_equipment_to_stockpile = {
 		type = infantry_equipment_1
-			amount = 29000
+			amount = 36500
 			producer = CZE
 		}
 	add_equipment_to_stockpile = {
@@ -246,11 +237,6 @@ instant_effect = {
 	add_equipment_to_stockpile = {
 		type = radio_equipment_1
 			amount = 2100
-			producer = CZE
-		}
-	add_equipment_to_stockpile = {
-		type = horse_equipment_0
-			amount = 9200
 			producer = CZE
 		}
 	add_equipment_to_stockpile = {

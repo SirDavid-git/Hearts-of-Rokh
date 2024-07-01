@@ -455,14 +455,11 @@ country = {
 				support_equipment = {
 					build_cost_ic = -0.10 instant = yes
 				}
-				horse_equipment = {
-					build_cost_ic = -0.10 instant = yes
-				}
 				special_equipment = {
 					build_cost_ic = -0.05 instant = yes
 				}
 				infantry_equipment = {
-					build_cost_ic = -0.05 instant = yes
+					build_cost_ic = -0.125 instant = yes
 				}
 
 			}

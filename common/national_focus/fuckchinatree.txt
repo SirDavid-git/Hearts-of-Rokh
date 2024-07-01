@@ -2654,7 +2654,7 @@ focus_tree = {
 										CHI = {
 											add_equipment_to_stockpile = {
 												type = infantry_equipment_1
-												amount = 3000
+												amount = 3800
 												producer = SOV
 											}
 											add_equipment_to_stockpile = {
@@ -2665,11 +2665,6 @@ focus_tree = {
 											add_equipment_to_stockpile = {
 												type = support_equipment_1
 												amount = 300
-												producer = SOV
-											}
-											add_equipment_to_stockpile = {
-												type = horse_equipment_0
-												amount = 1000
 												producer = SOV
 											}
 											

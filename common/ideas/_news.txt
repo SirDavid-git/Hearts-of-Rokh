@@ -66,12 +66,6 @@ ideas = {   #These ideas are for the Newsevents from HOI3, they're ported HOI3 m
 				
 			}
 			
-			equipment_bonus = {
-				horse_equipment = {
-					build_cost_ic = 0.25 instant = yes
-				}
-			}
-			
 		}
 		
 		worldwide_goods_shortage_2 = {
@@ -93,13 +87,6 @@ ideas = {   #These ideas are for the Newsevents from HOI3, they're ported HOI3 m
 				production_speed_arms_factory_factor = -0.15
 				
 			}
-			
-			equipment_bonus = {
-				horse_equipment = {
-					build_cost_ic = 0.35 instant = yes
-				}
-			}
-			
 		}
 	}
 }

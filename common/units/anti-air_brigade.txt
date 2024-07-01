@@ -28,7 +28,7 @@ sub_units = {
 
 		need = {
 			anti_air_equipment = 10
-			horse_equipment = 20
+			infantry_equipment = 15
 		}
 
 		can_be_parachuted = no

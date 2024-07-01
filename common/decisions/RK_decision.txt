@@ -11,9 +11,6 @@ RK_requesting_help_from_the_fatherland = {
 				has_equipment = {
 					support_equipment > 499
 				}
-				has_equipment = {
-					horse_equipment_0 > 499
-				}
 			}
 		}
 

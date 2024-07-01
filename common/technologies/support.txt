@@ -1184,10 +1184,6 @@ technologies = {
 	
 	## Field Equipment
 	field_equipment = {
-
-		enable_equipments = {
-			horse_equipment_0
-		}
 	
 		category_all_infantry = {
 			default_morale = 0.05

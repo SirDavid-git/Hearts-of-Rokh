@@ -35,8 +35,7 @@ set_variable = { JAP_army_morale_factor_var = 0 }
 set_variable = { JAP_org_loss_when_moving_var = 0 }
 set_variable = { JAP_amphibious_invasion_defence_var = 0 }
 
-set_variable = { JAP_needed_inf_equipment = 39999 }
-set_variable = { JAP_needed_horse_equipment = 12299 }
+set_variable = { JAP_needed_inf_equipment = 49999 }
 set_variable = { JAP_needed_artillery_equipment = 2149 }
 set_variable = { JAP_needed_heavy_artillery_equipment = 379 }
 set_variable = { JAP_needed_field_gun_equipment = 379 }

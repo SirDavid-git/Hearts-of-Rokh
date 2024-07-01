@@ -138,13 +138,8 @@ instant_effect = {
 	#	efficiency = 100
 	#}
 	add_equipment_to_stockpile = {
-		type = horse_equipment_0
-			amount = 7000
-			producer = SOV
-		}
-	add_equipment_to_stockpile = {
 		type = infantry_equipment_1
-			amount = 44000
+			amount = 49600
 			producer = SOV
 		}
 	add_equipment_to_stockpile = {
