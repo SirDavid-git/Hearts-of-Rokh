@@ -590,6 +590,11 @@ on_actions = {
 				}
 			}
 
+			ENG = {
+				give_resource_rights = { receiver = RAJ state = 336 }
+				give_resource_rights = { receiver = RAJ state = 333 }
+			}
+
 			every_country = {
 				set_variable = {
 					var = min_fuel
@@ -613,8 +618,9 @@ on_actions = {
 							is_ai = yes 
 						}
 					} 
-					add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 13000 producer = GER }
-					add_equipment_to_stockpile = { type = support_equipment_1 amount = 8000 producer = GER }				
+					add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 10000 producer = GER }
+					add_equipment_to_stockpile = { type = support_equipment_1 amount = 8000 producer = GER }
+					add_equipment_to_stockpile = { type = horse_equipment_0 amount = 4000 producer = GER } 					
 					add_equipment_to_stockpile = { type = special_equipment_1 amount = 8000 producer = GER } 					
 
 					54 = { add_extra_state_shared_building_slots = 25 add_building_construction = { type = arms_factory level = 25 } }
@@ -633,8 +639,9 @@ on_actions = {
 					limit = { 
 						FIN = { is_ai = yes }
 					}
-					add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 15800 producer = FIN }
+					add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 15000 producer = FIN }
 					add_equipment_to_stockpile = { type = support_equipment_1 amount = 1000 producer = FIN }
+					add_equipment_to_stockpile = { type = horse_equipment_0 amount = 1000 producer = FIN }
 					add_equipment_to_stockpile = { type = pack_artillery_equipment_1 amount = 2000 producer = FIN }
 				}
 			}					
@@ -659,8 +666,9 @@ on_actions = {
 							is_ai = yes
 						}
 					}
-					add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 24500 producer = RAJ }
+					add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 25000 producer = RAJ }
 					add_equipment_to_stockpile = { type = support_equipment_1 amount = 4000 producer = RAJ }
+					add_equipment_to_stockpile = { type = horse_equipment_0 amount = 5000 producer = RAJ } 
 				}
 			}
 			HUN = {
@@ -692,9 +700,10 @@ on_actions = {
 					}
 					229 = { add_building_construction = { type = infrastructure level = 6 instant_build = yes } }
 
-					add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 8000 producer = SOV }
+					add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 5000 producer = SOV }
 					add_equipment_to_stockpile = { type = support_equipment_1 amount = 4000 producer = SOV }
 					add_equipment_to_stockpile = { type = pack_artillery_equipment_1 amount = 1500 producer = SOV }
+					add_equipment_to_stockpile = { type = horse_equipment_0 amount = 4000 producer = SOV } 
 					add_equipment_to_stockpile = { type = armored_cars_equipment_1 amount = 1000 producer = SOV } 
 					add_equipment_to_stockpile = { type = motorized_equipment_1 amount = 2000 producer = SOV } 
 					add_equipment_to_stockpile = { type = anti_air_equipment_1 amount = 1000 producer = SOV } 
@@ -4404,7 +4413,8 @@ on_actions = {
 		#			#remove_state_core = 271
 		#			transfer_state = 550
 		#			transfer_state = 559
-		#			add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 3800 producer = ITA }
+		#			add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 3000 producer = ITA }
+		#			add_equipment_to_stockpile = { type = horse_equipment_0 amount = 1000 producer = ITA }
 		#		}
 		#	}
 		#	if = {
@@ -4429,7 +4439,8 @@ on_actions = {
 		#			#remove_state_core = 271
 		#			transfer_state = 550
 		#			transfer_state = 559
-		#			add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 3800 producer = ITA }
+		#			add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 3000 producer = ITA }
+		#			add_equipment_to_stockpile = { type = horse_equipment_0 amount = 1000 producer = ITA }
 		#		}
 		#	}
 		#	if = {
@@ -4456,7 +4467,8 @@ on_actions = {
 		#			#remove_state_core = 271
 		#			transfer_state = 550
 		#			transfer_state = 559
-		#			add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 3800 producer = ITA }
+		#			add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 3000 producer = ITA }
+		#			add_equipment_to_stockpile = { type = horse_equipment_0 amount = 1000 producer = ITA }
 		#		}
 		#	}
 		#	if = {
@@ -4483,7 +4495,8 @@ on_actions = {
 		#			#remove_state_core = 271
 		#			transfer_state = 550
 		#			transfer_state = 559
-		#			add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 3800 producer = ITA }
+		#			add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 3000 producer = ITA }
+		#			add_equipment_to_stockpile = { type = horse_equipment_0 amount = 1000 producer = ITA }
 		#		}
 		#	}
 

@@ -2286,8 +2286,16 @@ focus_tree = {
 			custom_effect_tooltip = USA_japan_is_enraged_tt
 		
 			JAP = {
-				unlock_decision_tooltip  = JAP_strike_on_the_southern_resource_area
+
 				add_ideas = USA_embargo
+				if = {
+					limit = {
+						NOT = {
+							has_completed_focus = JAP_umi_yukaba
+						}
+					}
+					complete_national_focus = JAP_umi_yukaba
+				}
 			}
 			
 			
@@ -3585,7 +3593,8 @@ focus_tree = {
 			
 			
 			JAP = {
-					add_to_variable = { JAP_needed_inf_equipment = 2000 }
+					add_to_variable = { JAP_needed_inf_equipment = 1600 }
+					add_to_variable = { JAP_needed_horse_equipment = 500 }
 					add_to_variable = { JAP_needed_artillery_equipment = 90 }
 					add_to_variable = { JAP_needed_heavy_artillery_equipment = 12 }
 					add_to_variable = { JAP_needed_field_gun_equipment = 12 }
@@ -3634,7 +3643,8 @@ focus_tree = {
 			add_political_power = 50
 			
 			JAP = {
-					add_to_variable = { JAP_needed_inf_equipment = 2000 }
+					add_to_variable = { JAP_needed_inf_equipment = 1600 }
+					add_to_variable = { JAP_needed_horse_equipment = 500 }
 					add_to_variable = { JAP_needed_artillery_equipment = 90 }
 					add_to_variable = { JAP_needed_heavy_artillery_equipment = 12 }
 					add_to_variable = { JAP_needed_field_gun_equipment = 12 }
@@ -3745,7 +3755,8 @@ focus_tree = {
 
 			
 			JAP = {
-					add_to_variable = { JAP_needed_inf_equipment = 2000 }
+					add_to_variable = { JAP_needed_inf_equipment = 1600 }
+					add_to_variable = { JAP_needed_horse_equipment = 500 }
 					add_to_variable = { JAP_needed_artillery_equipment = 90 }
 					add_to_variable = { JAP_needed_heavy_artillery_equipment = 12 }
 					add_to_variable = { JAP_needed_field_gun_equipment = 12 }
@@ -3860,7 +3871,8 @@ focus_tree = {
 
 			
 			JAP = {
-					add_to_variable = { JAP_needed_inf_equipment = 2000 }
+					add_to_variable = { JAP_needed_inf_equipment = 1600 }
+					add_to_variable = { JAP_needed_horse_equipment = 500 }
 					add_to_variable = { JAP_needed_artillery_equipment = 90 }
 					add_to_variable = { JAP_needed_heavy_artillery_equipment = 12 }
 					add_to_variable = { JAP_needed_field_gun_equipment = 12 }
@@ -3986,7 +3998,8 @@ focus_tree = {
 			army_experience = 50
 
 			JAP = {
-					add_to_variable = { JAP_needed_inf_equipment = 2000 }
+					add_to_variable = { JAP_needed_inf_equipment = 1600 }
+					add_to_variable = { JAP_needed_horse_equipment = 500 }
 					add_to_variable = { JAP_needed_artillery_equipment = 90 }
 					add_to_variable = { JAP_needed_heavy_artillery_equipment = 12 }
 					add_to_variable = { JAP_needed_field_gun_equipment = 12 }
@@ -4098,7 +4111,8 @@ focus_tree = {
 
 		
 			JAP = {
-					add_to_variable = { JAP_needed_inf_equipment = 2000 }
+					add_to_variable = { JAP_needed_inf_equipment = 1600 }
+					add_to_variable = { JAP_needed_horse_equipment = 500 }
 					add_to_variable = { JAP_needed_artillery_equipment = 90 }
 					add_to_variable = { JAP_needed_heavy_artillery_equipment = 12 }
 					add_to_variable = { JAP_needed_field_gun_equipment = 12 }
@@ -4292,7 +4306,8 @@ focus_tree = {
 			
 			
 			JAP = {
-					add_to_variable = { JAP_needed_inf_equipment = 3000 }
+					add_to_variable = { JAP_needed_inf_equipment = 2400 }
+					add_to_variable = { JAP_needed_horse_equipment = 750 }
 					add_to_variable = { JAP_needed_artillery_equipment = 135 }
 					add_to_variable = { JAP_needed_heavy_artillery_equipment = 18 }
 					add_to_variable = { JAP_needed_field_gun_equipment = 18 }
@@ -4467,7 +4482,8 @@ focus_tree = {
 				}
 			}
 			JAP = {
-					add_to_variable = { JAP_needed_inf_equipment = 3000 }
+					add_to_variable = { JAP_needed_inf_equipment = 2400 }
+					add_to_variable = { JAP_needed_horse_equipment = 750 }
 					add_to_variable = { JAP_needed_artillery_equipment = 135 }
 					add_to_variable = { JAP_needed_heavy_artillery_equipment = 18 }
 					add_to_variable = { JAP_needed_field_gun_equipment = 18 }

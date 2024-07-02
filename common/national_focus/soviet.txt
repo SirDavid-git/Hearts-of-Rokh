@@ -2296,11 +2296,9 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
 		relative_position_id = SOV_molotov_ribbentrop_pact 
 		available = {
-			date > 1939.01.01
-			NOT = { JAP = { has_completed_focus = JAP_nomonhan_incident } }
+           has_country_flag = lake_khasan
 		}
 		bypass = {
-			JAP = { has_completed_focus = JAP_nomonhan_incident }
 		}	
 	
 		continue_if_invalid = yes
@@ -2314,7 +2312,6 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			country_event = { id = soviet.1 days = 1 }
 			custom_effect_tooltip = SOV_garrison_system_focus_tt
 			563 = {
 				if = {
@@ -2405,32 +2402,6 @@ focus_tree = {
 					}
 				}
 			}
-
-			229 = {
-				hidden_effect = {
-					add_to_variable = { var = SOV_garrison_strength value = 1 }
-				}
-			}
-			582 = {
-				hidden_effect = {
-					add_to_variable = { var = SOV_garrison_strength value = 1 }
-				}
-			}
-			405 = {
-				hidden_effect = {
-					add_to_variable = { var = SOV_garrison_strength value = 1 }
-				}
-			}
-			571 = {
-				hidden_effect = {
-					add_to_variable = { var = SOV_garrison_strength value = 1 }
-				}
-			}
-			408 = {
-				hidden_effect = {
-					add_to_variable = { var = SOV_garrison_strength value = 1 }
-				}
-			}
 		}
 	}
 
@@ -2441,7 +2412,7 @@ focus_tree = {
 		mutually_exclusive = { focus = SOV_execute_zhukov_and_annex_mongolia }		
 		relative_position_id = SOV_eastern_security 
 		available = {
-			
+			JAP = { has_completed_focus = JAP_nomonhan_incident }			
 		}
 		prerequisite = {
 			focus = SOV_eastern_security
@@ -2869,7 +2840,7 @@ focus_tree = {
 		prerequisite = { focus = SOV_eastern_security }
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 		available = {
-		
+           has_country_flag = lake_khasan		
 		}
 
 		continue_if_invalid = yes
@@ -3868,10 +3839,11 @@ focus_tree = {
 		completion_reward = {
 			army_experience = 60
 			SPN = {
-				add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 8800 producer = SOV }
+				add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 8000 producer = SOV }
 				add_equipment_to_stockpile = { type = support_equipment_1 amount = 800 producer = SOV }
 				add_equipment_to_stockpile = { type = radio_equipment_1 amount = 800 producer = SOV }
 				add_equipment_to_stockpile = { type = motorized_equipment amount = 800 producer = SOV }
+				add_equipment_to_stockpile = { type = horse_equipment amount = 1000 producer = SOV }
 				add_equipment_to_stockpile = { type = fighter_equipment_1934 amount = 100 producer = SOV }
 				add_equipment_to_stockpile = { type = tac_bomber_equipment_1936 amount = 150 producer = SOV }
 				add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 600 producer = SOV }
@@ -3915,10 +3887,11 @@ focus_tree = {
 			army_experience = 60
 			SPN = {
 				add_manpower = 100000
-				add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 9200 producer = SOV }
+				add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 8000 producer = SOV }
 				add_equipment_to_stockpile = { type = support_equipment_1 amount = 800 producer = SOV }
 				add_equipment_to_stockpile = { type = radio_equipment_1 amount = 800 producer = SOV }
 				add_equipment_to_stockpile = { type = motorized_equipment amount = 800 producer = SOV }
+				add_equipment_to_stockpile = { type = horse_equipment amount = 1500 producer = SOV }
 				add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 600 producer = SOV }
 				add_equipment_to_stockpile = { type = fighter_equipment_1934 amount = 200 producer = SOV }
 				add_equipment_to_stockpile = { type = tac_bomber_equipment_1936 amount = 200 producer = SOV }
@@ -5799,7 +5772,8 @@ focus_tree = {
 					}
 				}
 				JAP = {
-					add_to_variable = { JAP_needed_inf_equipment = 3000 }
+					add_to_variable = { JAP_needed_inf_equipment = 2400 }
+					add_to_variable = { JAP_needed_horse_equipment = 750 }
 					add_to_variable = { JAP_needed_artillery_equipment = 135 }
 					add_to_variable = { JAP_needed_heavy_artillery_equipment = 18 }
 					add_to_variable = { JAP_needed_field_gun_equipment = 18 }
