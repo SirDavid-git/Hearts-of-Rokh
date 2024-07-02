@@ -5785,13 +5785,8 @@ PAR_instant_effect_decisions = {
 		complete_effect = {
 			JAP = {
 				add_equipment_to_stockpile = {
-					type = horse_equipment_0
-						amount = 2000
-						producer = JAP
-				}
-				add_equipment_to_stockpile = {
 					type = infantry_equipment_0
-						amount = 1000
+						amount = 3000
 						producer = JAP
 				}
 				add_equipment_to_stockpile = {
@@ -5842,13 +5837,8 @@ PAR_instant_effect_decisions = {
 		complete_effect = {
 			JAP = {
 				add_equipment_to_stockpile = {
-					type = horse_equipment_0
-						amount = 3000
-						producer = JAP
-				}
-				add_equipment_to_stockpile = {
 					type = infantry_equipment_1
-						amount = 7500
+						amount = 9900
 						producer = JAP
 				}
 				add_equipment_to_stockpile = {

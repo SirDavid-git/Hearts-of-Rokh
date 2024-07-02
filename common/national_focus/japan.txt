@@ -6611,8 +6611,7 @@ focus_tree = {
 				JAP_compliance_gain = 0.01
 			}
 
-			add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 10000 producer = JAP }
-			add_equipment_to_stockpile = { type = horse_equipment amount = 1000 producer = JAP }
+			add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 11000 producer = JAP }
 		}
 		
 	}
