@@ -23,7 +23,7 @@ sub_units = {
 		}
 		maximum_speed = 0.25
 		
-		combat_width = 2
+		combat_width = 1
 		training_time = 80
 
 		need = {

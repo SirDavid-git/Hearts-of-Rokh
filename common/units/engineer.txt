@@ -48,16 +48,36 @@ sub_units = {
 
 		can_be_parachuted = yes
 
-		fort = {
-			attack = 0.05
+		desert = {
+			defence = 0.1
+		}	
+		plains = {
+			defence = 0.1
+		}		
+		forest = {
+			defence = 0.1
 		}
-		river = {
-			movement = 0.25
-			attack = 0.05
+		hills = {
+			defence = 0.15
+		}
+		mountain = 	{
+			defence = 0.2
+		}
+		jungle = {
+			defence = 0.1
+		}
+		marsh = {
+			defence = 0.1
 		}
 		urban = {
-			attack = 0.03
-			defence = 0.05
+			defence = 0.1
+		}
+		river = { 
+			attack = 0.05
+			movement = 0.25
+		}
+		fort = {
+			attack = 0.05
 		}
 		same_support_type = engineer
 	}
@@ -114,15 +134,41 @@ sub_units = {
 		can_be_parachuted = yes
 
 		fort = {
-			attack = 0.05
+			attack = 0.1
 		}
-		river = {
-			movement = 0.25
+		desert = {
+			defence = 0.05
+		}	
+		plains = {
+			defence = 0.05
+		}		
+		forest = {
+			defence = 0.1
+		}
+		hills = {
+			defence = 0.075
+		}
+		mountain = 	{
+			defence = 0.075
+		}
+		jungle = {
 			attack = 0.05
+			defence = 0.05
+		}
+		marsh = {
+			attack = 0.05
+			defence = 0.05
 		}
 		urban = {
-			attack = 0.03
+			attack = 0.1
 			defence = 0.05
+		}
+		river = { 
+			attack = 0.1
+			movement = 0.25
+		}
+		amphibious = { 
+			attack = 0.05
 		}
 		same_support_type = engineer
 	}
@@ -174,38 +220,44 @@ sub_units = {
 
 		can_be_parachuted = no
 
-		plains = {	
+		plains = {
+			defence = 0.15
 			movement = -0.3
 		}
 		desert = {
+			defence = 0.15
 			movement = -0.3
 		}
 		forest = {
+			defence = 0.2
 			movement = -0.2
 		}
 		hills = {
+			defence = 0.25
 			movement = -0.3
 		}
 		mountain = {
+			defence = 0.3
 			movement = -0.3
 		}
 		jungle = {
+			defence = 0.15
 			movement = -0.15
 		}
 		marsh = {
+			defence = 0.2
 			movement = -0.15
 		}
 		fort = {
-			attack = 0.05
-			defence = 0.05
+			attack = 0.03
 		}
 		river = {
 			movement = -0.05
-			attack = 0.05
+			attack = 0.03
 		}
 		urban = {
 			attack = 0.05
-			defence = 0.1
+			defence = 0.15
 			movement = -0.3
 		}
 		same_support_type = engineer
