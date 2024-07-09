@@ -16,6 +16,7 @@ add_ideas = {
 	free_trade
 	no_spies_idea
 	developing_country
+	peace_training
 }
 
 set_technology = {

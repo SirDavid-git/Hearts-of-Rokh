@@ -53,6 +53,7 @@ set_convoys = 80
 add_ideas = {
 	limited_conscription
 	no_spies_idea
+	peace_training
 }
 
 set_politics = {

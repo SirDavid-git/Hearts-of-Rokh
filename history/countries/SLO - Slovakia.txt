@@ -189,6 +189,7 @@ add_ideas = {
 	no_spies_idea
 	CAN_volunteers
 	ROM_ger_trade_treaty
+	peace_training
 }
 
 set_politics = {

@@ -50,6 +50,7 @@ add_ideas = {
 	limited_conscription
 	no_spies_idea
 	developing_country
+	peace_training
 }
 
 set_stability = 0.85

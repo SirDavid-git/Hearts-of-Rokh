@@ -4,6 +4,7 @@ oob = "LUX_1936"
 add_ideas = {
 	neutrality_idea	
 	no_spies_idea
+	peace_training
 }
 # Starting tech
 set_technology = {

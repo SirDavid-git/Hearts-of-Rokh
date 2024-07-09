@@ -156,6 +156,7 @@ if = {
 add_ideas = {
 	no_spies_idea
 	CAN_volunteers
+	peace_training
 }
 set_research_slots = 4
 

@@ -14,6 +14,7 @@ add_ideas = {
 	free_trade
 	no_spies_idea
 	POR_german_trading
+	peace_training
 }
 set_technology = {
 	basic_train = 1

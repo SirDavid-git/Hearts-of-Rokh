@@ -196,6 +196,7 @@ add_ideas = ROM_romanian_officers
 add_ideas = ROM_iron_guard
 add_ideas = ROM_king_carol_ii_hedonist
 add_ideas = CAN_volunteers
+add_ideas = peace_training
 
 set_convoys = 60
 set_rule = { can_send_volunteers = yes }

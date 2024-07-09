@@ -175,6 +175,7 @@ add_ideas = {
 	german_advisors
 	CHI_incompentent
 	CHI_state_of_army
+	peace_training
 }
 
 if = {
