@@ -175,7 +175,7 @@ equipment_modules = {
 		abbreviation = "l1m"
 		category = tank_light_turret_type
 		sfx = sfx_ui_sd_module_turret
-		forbid_equipment_type = { rocket anti_tank artillery }
+		forbid_equipment_type = { rocket anti_tank artillery anti_air }
 		
 
 		add_stats = {
@@ -192,7 +192,7 @@ equipment_modules = {
 		abbreviation = "l2m"
 		category = tank_light_turret_type
 		sfx = sfx_ui_sd_module_turret
-		forbid_equipment_type = { rocket anti_tank artillery }
+		forbid_equipment_type = { rocket anti_tank artillery anti_air }
 
 		add_stats = {
 			build_cost_ic = 1.5
@@ -208,7 +208,7 @@ equipment_modules = {
 		abbreviation = "l3m"
 		category = tank_light_turret_type
 		sfx = sfx_ui_sd_module_turret
-		forbid_equipment_type = { rocket anti_tank artillery }
+		forbid_equipment_type = { rocket anti_tank artillery anti_air }
 
 		
 		add_stats = {
@@ -226,11 +226,12 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		forbid_equipment_type_exact_match = armor
 		forbid_equipment_type = rocket
+		forbid_equipment_type = anti_tank
 
 		allowed_module_categories = {
 			main_armament_slot = {
-                tank_medium_main_armament
 				tank_artillery_main_armament
+				tank_anti_air_armament
 			}
 		}
 
@@ -255,7 +256,7 @@ equipment_modules = {
 		}
 
 	}
-	tank_light_opentop_turret_late = {
+	tank_light_armored_open_turret = {
 		abbreviation = "lfs"
 		category = tank_light_opentop_turret_late_type
 		sfx = sfx_ui_sd_module_turret
@@ -264,10 +265,10 @@ equipment_modules = {
 
 		allowed_module_categories = {
 			main_armament_slot = {
-                tank_medium_main_armament
-			    
+        tank_medium_main_armament
+				tank_light_tank_destroyer_armament
 				tank_artillery_main_armament
-				
+				tank_anti_air_armament
 			}
 		}
 
@@ -302,8 +303,9 @@ equipment_modules = {
 
 		allowed_module_categories = {
 			main_armament_slot = {
-                tank_medium_main_armament
-				tank_artillery_main_armament
+        tank_medium_main_armament
+				tank_light_tank_destroyer_armament
+				tank_medium_cs_armament
 			}
 		}
 
@@ -324,36 +326,74 @@ equipment_modules = {
 		}
 
 	}
-	tank_light_casemate_turret_late = {
-		abbreviation = "lcs"
-		category = tank_light_casemate_turret_late_type
-		sfx = sfx_ui_sd_module_turret
-		forbid_equipment_type_exact_match = armor
-		forbid_equipment_type = anti_air
 
+	tank_medium_one_man_tank_turret_early = {
+		abbreviation = "m1m"
+		category = tank_medium_turret_type_early
+		sfx = sfx_ui_sd_module_turret
+		forbid_equipment_type = { rocket anti_tank artillery }
 		allowed_module_categories = {
 			main_armament_slot = {
-                tank_medium_main_armament
-				tank_artillery_main_armament
+				tank_small_main_armament
+			}
+		}
+		
+		add_stats = {
+			build_cost_ic = 2
+			breakthrough = 16
+		}
+		multiply_stats = {
+		
+		}
+		xp_cost = 0
+
+	}
+
+	tank_medium_two_man_tank_turret_early = {
+		abbreviation = "m2m"
+		category = tank_medium_turret_type_early
+		sfx = sfx_ui_sd_module_turret
+		forbid_equipment_type = { rocket anti_tank artillery }
+		allowed_module_categories = {
+			main_armament_slot = {
+				tank_small_main_armament
 			}
 		}
 
-		xp_cost = 0
 		add_stats = {
 			build_cost_ic = 2.5
-			reliability = 0.1
-			defense = 1.5
-			armor_value = 4
+			breakthrough = 20
 		}
-
+		xp_cost = 0
 		multiply_stats = {
-			ap_attack = 0.15
-			breakthrough = -0.5
 		
-			
 		}
 
 	}
+
+	tank_medium_three_man_tank_turret_early = {
+		abbreviation = "m3m"
+		category = tank_medium_turret_type_early
+		sfx = sfx_ui_sd_module_turret
+		forbid_equipment_type = { rocket anti_tank artillery }
+		allowed_module_categories = {
+			main_armament_slot = {
+				tank_small_main_armament
+			}
+		}
+
+
+		add_stats = {
+			build_cost_ic = 4.5
+			breakthrough = 24
+		}
+		xp_cost = 0
+			multiply_stats = {
+		
+		}
+
+	}
+
 
 	tank_medium_one_man_tank_turret = {
 		abbreviation = "m1m"
@@ -405,28 +445,6 @@ equipment_modules = {
 		}
 
 	}
-	tank_medium_improved_three_man_tank_turret = {
-		abbreviation = "m3m"
-		category = tank_medium_improved_three_man_tank_turret_type
-		sfx = sfx_ui_sd_module_turret
-		forbid_equipment_type = { rocket anti_tank artillery }
-		allowed_module_categories = {
-			main_armament_slot = {
-				tank_medium_main_armament
-			}
-		}
-		
-		add_stats = {
-			build_cost_ic = 4.5
-			breakthrough = 24
-			reliability = 0.05
-		}
-		xp_cost = 0
-		multiply_stats = {
-	
-		}	
-
-	}
 	tank_medium_advanced_three_man_tank_turret = {
 		abbreviation = "m3m"
 		category = tank_medium_advanced_turret_type
@@ -453,11 +471,12 @@ equipment_modules = {
 		category = tank_medium_casemate_turret_early_type
 		sfx = sfx_ui_sd_module_turret
 		forbid_equipment_type_exact_match = armor
-		forbid_equipment_type = anti_air
+		forbid_equipment_type = { anti_air artillery }
 		allowed_module_categories = {
 			main_armament_slot = {
 				tank_medium_main_armament
-				tank_artillery_main_armament
+				tank_medium_tank_destroyer_armament
+				tank_medium_cs_armament
 			}
 		}
 
@@ -480,13 +499,14 @@ equipment_modules = {
 		category = tank_medium_casemate_turret_type
 		sfx = sfx_ui_sd_module_turret
 		forbid_equipment_type_exact_match = armor
-		forbid_equipment_type = anti_air
+		forbid_equipment_type = { anti_air artillery }
 
 		allowed_module_categories = {
 			main_armament_slot = {
 				tank_medium_main_armament
+				tank_medium_tank_destroyer_armament
 				tank_heavy_main_armament
-				tank_artillery_main_armament
+				tank_medium_cs_armament
 			}
 		}
 
@@ -504,47 +524,19 @@ equipment_modules = {
 		}
 
 	}
-	tank_medium_special_casemate_turret = {
-		abbreviation = "mfs"
-		category = tank_medium_special_casemate_turret_type
-		sfx = sfx_ui_sd_module_turret
-		forbid_equipment_type_exact_match = armor
-		forbid_equipment_type = anti_air
-
-		allowed_module_categories = {
-			main_armament_slot = {
-				tank_medium_main_armament
-				tank_heavy_main_armament
-				tank_artillery_main_armament
-			}
-		}
-
-		xp_cost = 0
-		add_stats = {
-			build_cost_ic = 3
-			reliability = 0.15
-			armor_value = 6
-
-		}
-
-		multiply_stats = {
-			ap_attack = 0.25
-			breakthrough = -0.5
-		}
-
-	}
 	tank_medium_casemate_turret_late = {
 		abbreviation = "mfs"
 		category = tank_medium_casemate_turret_late_type
 		sfx = sfx_ui_sd_module_turret
 		forbid_equipment_type_exact_match = armor
-		forbid_equipment_type = anti_air
+		forbid_equipment_type = { anti_air artillery }
 
 		allowed_module_categories = {
 			main_armament_slot = {
 				tank_medium_main_armament
+				tank_medium_tank_destroyer_armament
 				tank_heavy_main_armament
-				tank_artillery_main_armament
+				tank_medium_cs_armament
 				tank_very_heavy_main_armament
 			}
 		}
@@ -562,41 +554,6 @@ equipment_modules = {
 			ap_attack = 0.25
 		}
     }
-	tank_medium_opentop_turret_early = {
-		abbreviation = "mfs"
-		category = tank_medium_opentop_turret_early_type
-		sfx = sfx_ui_sd_module_turret
-		forbid_equipment_type = rocket
-		forbid_equipment_type_exact_match = armor
-		allowed_module_categories = {
-			main_armament_slot = {
-				tank_medium_main_armament
-				tank_artillery_main_armament
-
-
-			}
-		}
-
-		xp_cost = 0
-		add_stats = {
-			build_cost_ic = 3
-			reliability = 0.1
-			hardness= -0.25
-			soft_attack = 11
-			hard_attack = 6
-
-		}
-
-		multiply_stats = {
-			breakthrough = -0.5
-			#defense = -0.5
-			#soft_attack = 0.25
-			#hard_attack = 0.25
-			air_attack = 0.15
-			armor_value = -1
-		}
-
-	}
 	tank_medium_opentop_turret = {
 		abbreviation = "mfs"
 		category = tank_medium_opentop_turret_type
@@ -605,11 +562,10 @@ equipment_modules = {
         forbid_equipment_type_exact_match = armor
 		allowed_module_categories = {
 			main_armament_slot = {
-			    tank_heavy_main_armament
-				tank_medium_main_armament
+			  tank_anti_air_armament
+				tank_heavy_anti_air_armament
 				tank_artillery_main_armament
 				tank_heavy_artillery_main_armament
-
 			}
 		}
 
@@ -637,12 +593,12 @@ equipment_modules = {
 		abbreviation = "mfs"
 		category = tank_medium_special_opentop_turret_type
 		sfx = sfx_ui_sd_module_turret
-		forbid_equipment_type = rocket
+		forbid_equipment_type = { rocket anti_tank }
         forbid_equipment_type_exact_match = armor
 		allowed_module_categories = {
 			main_armament_slot = {
-			    tank_heavy_main_armament
-				tank_medium_main_armament
+			  tank_anti_air_armament
+				tank_heavy_anti_air_armament
 				tank_artillery_main_armament
 				tank_heavy_artillery_main_armament
 
@@ -656,43 +612,6 @@ equipment_modules = {
 			hardness= -0.25
 			soft_attack = 12
 			hard_attack = 7
-
-		}
-
-		multiply_stats = {
-			breakthrough = -0.5
-			#defense = -0.5
-			#soft_attack = 0.25
-			#hard_attack = 0.25
-			air_attack = 0.15
-			armor_value = -1
-		}
-
-	}
-	tank_medium_opentop_turret_late = {
-		abbreviation = "mfs"
-		category = tank_medium_opentop_turret_late_type
-		sfx = sfx_ui_sd_module_turret
-		forbid_equipment_type = rocket
-		forbid_equipment_type_exact_match = armor
-		allowed_module_categories = {
-			main_armament_slot = {
-			    tank_heavy_main_armament
-				tank_very_heavy_main_armament
-				tank_medium_main_armament
-				tank_artillery_main_armament
-				tank_heavy_artillery_main_armament
-
-			}
-		}
-
-		xp_cost = 0
-		add_stats = {
-			build_cost_ic = 3
-			reliability = 0.1
-			hardness= -0.25
-			soft_attack = 13
-			hard_attack = 8
 
 		}
 
@@ -813,14 +732,14 @@ equipment_modules = {
 		category = tank_heavy_casemate_turret_type
 		sfx = sfx_ui_sd_module_turret
 		forbid_equipment_type_exact_match = armor
-		forbid_equipment_type = anti_air
+		forbid_equipment_type = { anti_air artillery }
 
 		allowed_module_categories = {
 			main_armament_slot = {
-				tank_medium_main_armament
-			    tank_heavy_main_armament
-				tank_heavy_artillery_main_armament
-				tank_artillery_main_armament
+				tank_medium_tank_destroyer_armament
+			  tank_heavy_main_armament
+				tank_heavy_tank_destroyer_armament
+				tank_heavy_cs_armament
 			}
 		}
 
@@ -847,15 +766,14 @@ equipment_modules = {
 		category = tank_heavy_casemate_turret_late_type
 		sfx = sfx_ui_sd_module_turret
 		forbid_equipment_type_exact_match = armor
-		forbid_equipment_type = anti_air
+		forbid_equipment_type = { anti_air artillery }
 
 		allowed_module_categories = {
 			main_armament_slot = {
-				tank_medium_main_armament
-			    tank_heavy_main_armament
+				tank_heavy_tank_destroyer_armament
+			  tank_heavy_main_armament
 				tank_very_heavy_main_armament
-				tank_heavy_artillery_main_armament
-				tank_artillery_main_armament
+				tank_heavy_cs_armament
 			}
 		}
 
@@ -883,12 +801,12 @@ equipment_modules = {
 		category = tank_heavy_opentop_turret_type
 		sfx = sfx_ui_sd_module_turret
 		forbid_equipment_type_exact_match = armor
-		forbid_equipment_type = rocket
+		forbid_equipment_type = { rocket anti_tank }
 
 		allowed_module_categories = {
 			main_armament_slot = {
-				tank_medium_main_armament
-			    tank_heavy_main_armament
+				tank_anti_air_armament
+				tank_heavy_anti_air_armament
 				tank_artillery_main_armament
 				tank_heavy_artillery_main_armament
 			}
@@ -920,15 +838,15 @@ equipment_modules = {
 		category = tank_heavy_opentop_turret_late_type
 		sfx = sfx_ui_sd_module_turret
 		forbid_equipment_type_exact_match = armor
-		forbid_equipment_type = rocket
+		forbid_equipment_type = { rocket anti_tank }
 
 		allowed_module_categories = {
 			main_armament_slot = {
-				tank_medium_main_armament
-			    tank_heavy_main_armament
+				tank_anti_air_armament
+				tank_heavy_anti_air_armament
 				tank_artillery_main_armament
 				tank_heavy_artillery_main_armament
-				tank_very_heavy_main_armament
+				tank_very_heavy_artillery_main_armament
 			}
 		}
 
@@ -953,6 +871,46 @@ equipment_modules = {
 
 	}
 
+	tank_heavy_armored_open_turret = {
+		abbreviation = "hfs"
+		category = tank_heavy_opentop_turret_type
+		sfx = sfx_ui_sd_module_turret
+		forbid_equipment_type_exact_match = armor
+		forbid_equipment_type = { rocket anti_tank }
+
+		allowed_module_categories = {
+			main_armament_slot = {
+				tank_anti_air_armament
+				tank_heavy_anti_air_armament
+				tank_artillery_main_armament
+				tank_heavy_artillery_main_armament
+				tank_heavy_tank_destroyer_armament
+				tank_heavy_main_armament
+				tank_medium_tank_destroyer_armament
+			}
+		}
+
+		xp_cost = 0
+		add_stats = {
+			build_cost_ic = 4.5
+			reliability = 0.1
+			hardness= -0.25
+			soft_attack = 19
+			hard_attack = 11
+			
+
+		}
+
+		multiply_stats = {
+			breakthrough = -0.5
+			#defense = -0.5
+			
+			air_attack = 0.25
+			armor_value = -1
+
+		}
+
+	}
 
 
 	###Weapons Categories: tank_small_main_armament, tank_flamethrower, tank_medium_main_armament_early, tank_medium_main_armament_mid, tank_medium_main_armament_late, tank_artillery_main_armament, tank_rocket_armament, tank_heavy_main_armament, tank_siege_main_armament, tank_very_heavy_main_armament
@@ -973,6 +931,10 @@ equipment_modules = {
 			module_category = tank_small_main_armament
 			convert_cost_ic = 1
 		}
+		can_convert_from = {
+			module_category = tank_small_tank_destroyer_armament
+			convert_cost_ic = 1
+		}
 		build_cost_resources = {
 			steel = -1
 		}
@@ -984,6 +946,7 @@ equipment_modules = {
 		category = tank_flamethrower
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = flame
+		forbid_equipment_type = { artillery anti_tank anti_air }
 
 		add_stats = {
 			soft_attack = 7
