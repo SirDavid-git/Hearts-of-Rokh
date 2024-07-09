@@ -107,6 +107,7 @@ add_ideas = {
 	SOV_gulag_economy_1
 	SOV_recovering_from_the_civil_war
 	SOV_home_of_revolution_no_naval_invasions
+	peace_training
 }	
 if = {
 	limit = {

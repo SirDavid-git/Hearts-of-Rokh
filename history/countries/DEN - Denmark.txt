@@ -13,6 +13,7 @@ add_ideas = {
 	neutrality_idea	
 	no_spies_idea
 	NOR_cant_justify
+	peace_training
 }
 set_technology = {
 	no_ai_eq = 1	

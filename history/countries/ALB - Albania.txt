@@ -43,6 +43,7 @@ set_convoys = 16
 
 add_ideas = {
 	no_spies_idea
+	peace_training
 }
 
 #Victor Emmanuel III of Italy after 39

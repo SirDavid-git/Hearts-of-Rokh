@@ -2,6 +2,9 @@
 set_research_slots = 2
 oob = "ETH_1936"
 starting_train_buffer = 2
+add_ideas = {
+	peace_training
+}
 # Starting tech
 set_technology = {
 	################# infantry ###############	

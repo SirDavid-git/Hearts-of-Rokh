@@ -15,6 +15,7 @@ add_ideas = {
 	developing_country
 	no_spies_idea
 	NOR_cant_justify
+	peace_training
 				
 }
 

@@ -28,6 +28,7 @@ set_technology = {
 set_country_flag = monroe_doctrine
 add_ideas = { 
 	developing_country	
+	peace_training
 }
 
 set_convoys = 45

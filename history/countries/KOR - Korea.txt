@@ -2,6 +2,10 @@
 set_research_slots = 5
 oob = "KOR_1936"
 
+add_ideas = {
+	peace_training
+}
+
 # Starting tech
 set_technology = {
 ################# infantry ###############

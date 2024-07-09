@@ -6,6 +6,9 @@ oob = "BRA_1936"
 set_stability = 0.4
 starting_train_buffer = 2
 set_research_slots = 4
+add_ideas = {
+	peace_training
+}
 # Starting tech
 set_technology = {
 	no_ai_eq = 1	

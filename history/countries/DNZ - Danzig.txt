@@ -84,6 +84,7 @@ add_ideas = {
 	disarmed_nation
 	neutrality_idea	
 	no_spies_idea
+	peace_training
 }
 
 #### modifier doesnt exist 

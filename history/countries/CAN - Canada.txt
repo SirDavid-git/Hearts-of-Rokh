@@ -301,7 +301,7 @@ add_ideas = {
 	CAN_reciprocal_trade_1
 	CAN_conscription_question_1
 	ENG_commonwealth_trading_idea
-	
+	peace_training
 }
 
 set_politics = {

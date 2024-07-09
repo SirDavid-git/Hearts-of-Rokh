@@ -424,6 +424,7 @@ add_ideas = {
 	ENG_the_empire_strong
 	GER_aatlantic_wall_4
 	ENG_subs_1
+	peace_training
 }
 
 

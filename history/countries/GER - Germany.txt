@@ -410,6 +410,7 @@ add_ideas = {
 	GER_gestapo_idea2
 	GER_atlanticc_wall_4
 	GER_subs_1
+	peace_training
 }
 add_ideas = GER_mefo_bills_1
 

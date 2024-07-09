@@ -10,6 +10,7 @@ add_ideas = {
 	free_trade
 	no_spies_idea
 	#INS_dutch_east_indies_surrender
+	peace_training
 }
 set_technology = {
 	no_ai_eq = 1	

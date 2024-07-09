@@ -405,6 +405,7 @@ give_guarantee = PAR
 		volunteer_only
 		great_depression_3
 		new_deal
+		peace_training
 	}
 	remove_ideas = {
 		great_depression
@@ -535,6 +536,7 @@ add_ideas = {
 	disarmed_nation
 	free_trade
 	home_of_the_free
+	peace_training
 	
 	USA_reciprocal_trade_1
 	USA_subs_1

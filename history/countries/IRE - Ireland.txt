@@ -3,7 +3,9 @@ set_naval_oob = "IRE_1936_naval"
 oob = "IRE_1936"
 starting_train_buffer = 2
 set_research_slots = 4
-
+add_ideas = {
+	peace_training
+}
 set_technology = {
 	basic_train = 1
 	

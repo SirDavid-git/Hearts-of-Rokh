@@ -171,6 +171,7 @@ if = { #DLC
 		BUL_georgi_ivanov_kyoseivanov_bftb
 		volunteer_only
 		BUL_volunteers_in_spain_nationalist
+		peace_training
 	}
 
 	#Army limitations due to Treaty of Neuilly sur Seine

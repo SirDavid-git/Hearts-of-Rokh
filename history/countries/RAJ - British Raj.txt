@@ -227,6 +227,7 @@ add_ideas = {
 	CAN_volunteers
 	RAJ_commonwealth_trading_idea
 	USA_no_refs
+	peace_training
 }
 set_rule = { can_send_volunteers = yes }
 

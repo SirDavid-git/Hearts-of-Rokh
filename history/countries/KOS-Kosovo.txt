@@ -11,6 +11,7 @@ if = {
 add_ideas = {
 	limited_conscription
 	no_spies_idea
+	peace_training
 }
 
 set_technology = {

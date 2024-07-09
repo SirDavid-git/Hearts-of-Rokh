@@ -4,6 +4,7 @@ oob = "PHI_1936"
 
 add_ideas = {
 	no_spies_idea
+	peace_training
 }
 
 # Starting tech

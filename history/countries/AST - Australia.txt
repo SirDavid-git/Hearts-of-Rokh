@@ -290,6 +290,7 @@ add_ideas = {
 	AST_fortress_ast
 	GER_aatlantic_wall_4
 	ENG_commonwealth_trading_idea
+	peace_training
 }
 
 if = {

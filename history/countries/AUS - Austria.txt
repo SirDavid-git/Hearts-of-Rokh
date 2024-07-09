@@ -35,6 +35,7 @@ set_technology = {
 }
 add_ideas = {
 	no_spies_idea
+	peace_training
 }
 set_politics = {
 	ruling_party = neutrality

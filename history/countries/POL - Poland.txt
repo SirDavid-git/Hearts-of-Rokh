@@ -344,6 +344,7 @@ add_ideas = {
 	GER_aatlantic_wall_4
 	POL_home_of_revolution_no_naval_invasions
 	POL_jozef_beck
+	peace_training
 }
 
 set_politics = {

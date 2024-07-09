@@ -1,0 +1,30 @@
+ideas = {
+  country = {
+    peace_training = { # LW tyvm
+
+      allowed = {
+        always = no
+      }
+
+      cancel = {
+        has_war = yes
+      }
+
+      removal_cost = -1
+
+      picture = generic_infantry_bonus
+
+      modifier = {
+        army_fuel_consumption_factor = -100
+        air_fuel_consumption_factor = -100
+        navy_fuel_consumption_factor = -100
+        training_time_factor = -0.69
+        air_training_xp_gain_factor = 5
+        experience_gain_navy_unit_factor = 10
+        experience_gain_army_unit_factor = 2.5
+        attrition = -1
+      }
+    }
+  }
+
+}

@@ -7,6 +7,10 @@ set_technology = {
 	
 }
 
+add_ideas =  {
+	peace_training
+}
+
 1939.1.1 = {
 
 	add_to_war = {
