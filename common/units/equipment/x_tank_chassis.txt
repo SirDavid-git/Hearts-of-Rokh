@@ -61,6 +61,14 @@ duplicate_archetypes = {
 			supply_consumption = { set =  0.13}
 		}
 	}
+	light_tank_close_support_chassis = {
+		archetype = light_tank_chassis
+		type = { armor cat_close_support cat_light_armor }
+		for_each = {
+			variant_name = { find_and_replace = { "chassis" "equipment" } }
+			supply_consumption = { set =  0.13}
+		}
+	}
 
 	# medium_tank
 
@@ -111,6 +119,15 @@ duplicate_archetypes = {
 	medium_tank_rocket_chassis = {
 		archetype = medium_tank_chassis
 		type = { armor rocket cat_medium_armor }
+		for_each = {
+			variant_name = { find_and_replace = { "chassis" "equipment" } }
+			supply_consumption = { set = 0.17 }
+		}
+	}
+	
+	medium_tank_close_support_chassis = {
+		archetype = medium_tank_chassis
+		type = { armor cat_close_support cat_medium_armor }
 		for_each = {
 			variant_name = { find_and_replace = { "chassis" "equipment" } }
 			supply_consumption = { set = 0.17 }
@@ -170,9 +187,19 @@ duplicate_archetypes = {
 			variant_name = { find_and_replace = { "chassis" "equipment" } }
 			supply_consumption = { set =  0.21}
 		}
+	}
 
-	# superheavy tank
+		heavy_tank_close_support_chassis = {
+			archetype = heavy_tank_chassis
+			type = { armor close_support cat_heavy_armor }
+			for_each = {
+				variant_name = { find_and_replace = { "chassis" "equipment" } }
+				supply_consumption = { set =  0.21}
+			}
     }
+		
+			# superheavy tank
+			
 	super_heavy_tank_aa_chassis = {
 		archetype = super_heavy_tank_chassis
 		type = { armor anti_air cat_heavy_armor }
@@ -223,6 +250,17 @@ duplicate_archetypes = {
 			supply_consumption = { set =  0.22 }
 		}
 	}
+	super_heavy_tank_close_support_chassis = {
+		archetype = super_heavy_tank_chassis
+		type = { armor cat_close_support cat_heavy_armor } 
+		for_each = { 
+			variant_name = { find_and_replace = { "chassis" "equipment" } }
+			supply_consumption = { set =  0.22 }
+		}
+	}
+	
+	# modern tank
+	
 	modern_tank_aa_chassis = {
 		archetype = modern_tank_chassis
 		type = { armor anti_air cat_medium_armor }

@@ -848,14 +848,14 @@ equipments = {
 			chromium = 1
 		}
 	
-	default_modules = {
-			main_armament_slot = empty
-			turret_type_slot = tank_light_one_man_tank_turret
-			suspension_type_slot = tank_bogie_suspension
-			armor_type_slot = tank_riveted_armor
-			engine_type_slot = tank_gasoline_engine
-			armor_sloping_slot = unsloped_armor
-		}
+		default_modules = {
+				main_armament_slot = empty
+				turret_type_slot = tank_light_one_man_tank_turret
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+				armor_sloping_slot = unsloped_armor
+			}
 	}
 	light_tank_chassis_1942 = {
 		abbreviation = "lt42"
@@ -955,14 +955,14 @@ equipments = {
 			chromium = 1
 		}
 		
-	default_modules = {
-			main_armament_slot = empty
-			turret_type_slot = tank_light_one_man_tank_turret
-			suspension_type_slot = tank_bogie_suspension
-			armor_type_slot = tank_riveted_armor
-			engine_type_slot = tank_gasoline_engine
-			armor_sloping_slot = unsloped_armor
-		}
+		default_modules = {
+				main_armament_slot = empty
+				turret_type_slot = tank_light_one_man_tank_turret
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+				armor_sloping_slot = unsloped_armor
+			}
 	}
 	light_tank_chassis_1943 = {
 		abbreviation = "lt43"
@@ -1065,14 +1065,14 @@ equipments = {
 			chromium = 1
 		}
 		
-	default_modules = {
-			main_armament_slot = empty
-			turret_type_slot = tank_light_one_man_tank_turret
-			suspension_type_slot = tank_bogie_suspension
-			armor_type_slot = tank_riveted_armor
-			engine_type_slot = tank_gasoline_engine
-			armor_sloping_slot = unsloped_armor
-		}
+		default_modules = {
+				main_armament_slot = empty
+				turret_type_slot = tank_light_one_man_tank_turret
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+				armor_sloping_slot = unsloped_armor
+			}
 	}
 
 
@@ -1557,8 +1557,6 @@ equipments = {
 					tank_medium_improved_three_man_tank_turret_type
 					tank_medium_casemate_turret_early_type
 					tank_medium_opentop_turret_early_type
-					tank_medium_special_casemate_turret_type
-					tank_medium_special_opentop_turret_type
 					
 				}
 			}

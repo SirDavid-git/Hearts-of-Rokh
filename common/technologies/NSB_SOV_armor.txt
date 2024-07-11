@@ -1102,7 +1102,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 	    enable_equipment_modules = {
-			tank_heavy_advanced_three_man_tank_turret
+			tank_heavy_three_man_tank_turret
 		}
 		
 
@@ -1129,7 +1129,7 @@ technologies = {
 				parent_version = 0
 				modules = {
 				main_armament_slot = tank_heavy_cannon
-				turret_type_slot = tank_heavy_advanced_three_man_tank_turret
+				turret_type_slot = tank_heavy_three_man_tank_turret
 				suspension_type_slot = tank_torsion_bar_suspension
 				armor_type_slot = tank_welded_armor
 				armor_sloping_slot = rounded_armor
