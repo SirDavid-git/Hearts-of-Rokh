@@ -20,9 +20,40 @@ technologies = {
 			motorized
 			truck_infantry
 			truck_garrison
-			medium_assault_gun_company
-			heavy_assaut_gun_company
+
+			light_armor
 			light_armor_recon
+			light_assault_gun_company
+			light_assault_gun_brigade
+			light_sp_anti_air_company
+			light_sp_anti_air_brigade
+			light_tank_destroyer_brigade
+			light_sp_artillery_brigade
+			medium_armor
+			medium_assault_gun_company
+			medium_assault_gun_brigade
+			medium_sp_anti_air_company
+			medium_sp_anti_air_brigade
+			medium_tank_destroyer_brigade
+			medium_sp_artillery_brigade
+			heavy_armor
+			heavy_assaut_gun_company
+			heavy_assaut_gun_brigade
+			heavy_sp_anti_air_company
+			heavy_sp_anti_air_brigade
+			heavy_tank_destroyer_brigade
+			heavy_sp_artillery_brigade
+			super_heavy_armor
+			super_heavy_assault_gun_company
+			super_heavy_assault_gun_brigade
+			super_heavy_sp_anti_air_company
+			super_heavy_sp_anti_air_brigade
+			super_heavy_tank_destroyer_brigade
+			super_heavy_sp_artillery_brigade
+			light_flame_tank
+			medium_flame_tank
+			heavy_flame_tank
+			super_heavy_flame_tank
 		}
 		enable_equipments = {
 			motorized_equipment_1
@@ -160,12 +191,12 @@ technologies = {
 
 		enable_subunits = {
 			recon_ac
-			
-			
 			armored_car
 		}
 		
-		enable_equipments = { armored_cars_equipment_1 }
+		enable_equipments = { 
+			armored_cars_equipment_1 
+		}
 		path = {
 			leads_to_tech = tech_armored_cars2
 			research_cost_coeff = 1
@@ -190,7 +221,9 @@ technologies = {
 	
 	tech_armored_cars2 = {
 		
-		enable_equipments = { armored_cars_equipment_2 }
+		enable_equipments = { 
+			armored_cars_equipment_2 
+		}
 		path = {
 			leads_to_tech = tech_armored_cars3
 			research_cost_coeff = 1
@@ -229,8 +262,9 @@ technologies = {
 	
 	tech_armored_cars3 = {
 		
-		
-		enable_equipments = { armored_cars_equipment_3 }
+		enable_equipments = { 
+			armored_cars_equipment_3 
+		}
 		
 		path = {
 			leads_to_tech = tech_armored_cars4
@@ -269,9 +303,10 @@ technologies = {
 	}
 	tech_armored_cars4 = {
 		
-		
-		
-		enable_equipments = { armored_cars_equipment_4 }
+		enable_equipments = { 
+			armored_cars_equipment_4 
+		}
+
 		path = {
 			leads_to_tech = tech_armored_cars5
 			research_cost_coeff = 1
@@ -309,8 +344,9 @@ technologies = {
 	}
 	tech_armored_cars5 = {
 
-		
-		enable_equipments = { armored_cars_equipment_5 }
+		enable_equipments = { 
+			armored_cars_equipment_5 
+		}
 	
 		research_cost = 1.4
 		start_year = 1944
@@ -378,6 +414,13 @@ technologies = {
 		}
 		enable_subunits = {
 			light_armor
+			light_armor_recon
+			light_assault_gun_company
+			light_assault_gun_brigade
+			light_sp_anti_air_company
+			light_sp_anti_air_brigade
+			light_tank_destroyer_brigade
+			light_sp_artillery_brigade
 		}
 
 		path = {
@@ -507,6 +550,12 @@ technologies = {
 		}
 		enable_subunits = {
 			medium_armor
+			medium_assault_gun_company
+			medium_assault_gun_brigade
+			medium_sp_anti_air_company
+			medium_sp_anti_air_brigade
+			medium_tank_destroyer_brigade
+			medium_sp_artillery_brigade
 		}
 
 		path = {
@@ -724,4 +773,24 @@ technologies = {
 			cat_medium_armor
 		}
 	}
+###	Heavies
+
+heavy_armor
+heavy_assaut_gun_company
+heavy_assaut_gun_brigade
+heavy_sp_anti_air_company
+heavy_sp_anti_air_brigade
+heavy_tank_destroyer_brigade
+heavy_sp_artillery_brigade
+super_heavy_armor
+super_heavy_assault_gun_company
+super_heavy_assault_gun_brigade
+super_heavy_sp_anti_air_company
+super_heavy_sp_anti_air_brigade
+super_heavy_tank_destroyer_brigade
+super_heavy_sp_artillery_brigade
+
+
+
+
 }
