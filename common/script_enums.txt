@@ -402,6 +402,19 @@ script_enum_equipment_bonus_type = {
 	light_tank_rocket_chassis_1941
 	light_tank_rocket_chassis_2 
 	light_tank_rocket_chassis_3 
+	light_tank_close_support_chassis_1934
+	light_tank_close_support_chassis_1936
+	light_tank_close_support_chassis_1937
+	light_tank_close_support_chassis_1942
+	light_tank_close_support_chassis_1943
+	light_tank_close_support_chassis_0
+	light_tank_close_support_chassis_1938
+	light_tank_close_support_chassis_1939
+	light_tank_close_support_chassis_1940
+	light_tank_close_support_chassis_1
+	light_tank_close_support_chassis_1941
+	light_tank_close_support_chassis_2 
+	light_tank_close_support_chassis_3 
 	medium_tank_aa_chassis_1934
 	medium_tank_aa_chassis_1936
 	medium_tank_aa_chassis_1937
@@ -447,6 +460,22 @@ script_enum_equipment_bonus_type = {
 	medium_tank_destroyer_chassis_1 
 	medium_tank_destroyer_chassis_2 
 	medium_tank_destroyer_chassis_3
+	medium_tank_close_support_chassis_1934
+	medium_tank_close_support_chassis_1936
+	medium_tank_close_support_chassis_1937
+	medium_tank_close_support_chassis_1938
+	medium_tank_close_support_chassis_1939
+	medium_tank_close_support_chassis_1940
+	medium_tank_close_support_chassis_1941
+	medium_tank_close_support_chassis_1942
+	medium_tank_close_support_chassis_1943
+	medium_tank_close_support_chassis_1944
+	medium_tank_close_support_chassis_1945
+	medium_tank_close_support_chassis_1946
+	medium_tank_close_support_chassis_0
+	medium_tank_close_support_chassis_1 
+	medium_tank_close_support_chassis_2 
+	medium_tank_close_support_chassis_3
 	medium_tank_amphibious_chassis_1934
 	medium_tank_amphibious_chassis_1936
 	medium_tank_amphibious_chassis_1937
@@ -495,7 +524,6 @@ script_enum_equipment_bonus_type = {
 	heavy_tank_aa_chassis_1934
 	heavy_tank_aa_chassis_1936
 	heavy_tank_aa_chassis_1937
-	
 	heavy_tank_aa_chassis_1939
 	heavy_tank_aa_chassis_1940
 	heavy_tank_aa_chassis_1941
@@ -510,7 +538,6 @@ script_enum_equipment_bonus_type = {
 	heavy_tank_artillery_chassis_1934
 	heavy_tank_artillery_chassis_1936
 	heavy_tank_artillery_chassis_1937
-	
 	heavy_tank_artillery_chassis_1939
 	heavy_tank_artillery_chassis_1940
 	heavy_tank_artillery_chassis_1941
@@ -525,7 +552,6 @@ script_enum_equipment_bonus_type = {
 	heavy_tank_destroyer_chassis_1934
 	heavy_tank_destroyer_chassis_1936
 	heavy_tank_destroyer_chassis_1937
-	
 	heavy_tank_destroyer_chassis_1939
 	heavy_tank_destroyer_chassis_1940
 	heavy_tank_destroyer_chassis_1941
@@ -537,10 +563,23 @@ script_enum_equipment_bonus_type = {
 	heavy_tank_destroyer_chassis_1
 	heavy_tank_destroyer_chassis_2 
 	heavy_tank_destroyer_chassis_3
+	heavy_tank_close_support_chassis_1934
+	heavy_tank_close_support_chassis_1936
+	heavy_tank_close_support_chassis_1937
+	heavy_tank_close_support_chassis_1939
+	heavy_tank_close_support_chassis_1940
+	heavy_tank_close_support_chassis_1941
+	heavy_tank_close_support_chassis_1942
+	heavy_tank_close_support_chassis_1943
+	heavy_tank_close_support_chassis_1944
+	heavy_tank_close_support_chassis_1945
+	heavy_tank_close_support_chassis_0
+	heavy_tank_close_support_chassis_1
+	heavy_tank_close_support_chassis_2 
+	heavy_tank_close_support_chassis_3
 	heavy_tank_amphibious_chassis_1934
 	heavy_tank_amphibious_chassis_1936
 	heavy_tank_amphibious_chassis_1937
-	
 	heavy_tank_amphibious_chassis_1939
 	heavy_tank_amphibious_chassis_1940
 	heavy_tank_amphibious_chassis_1941
@@ -555,7 +594,6 @@ script_enum_equipment_bonus_type = {
 	heavy_tank_flame_chassis_1934
 	heavy_tank_flame_chassis_1936
 	heavy_tank_flame_chassis_1937
-	
 	heavy_tank_flame_chassis_1939
 	heavy_tank_flame_chassis_1940
 	heavy_tank_flame_chassis_1941
@@ -570,7 +608,6 @@ script_enum_equipment_bonus_type = {
 	heavy_tank_rocket_chassis_1934
 	heavy_tank_rocket_chassis_1936
 	heavy_tank_rocket_chassis_1937
-	
 	heavy_tank_rocket_chassis_1939
 	heavy_tank_rocket_chassis_1940
 	heavy_tank_rocket_chassis_1941
@@ -583,87 +620,53 @@ script_enum_equipment_bonus_type = {
 	heavy_tank_rocket_chassis_2 
 	heavy_tank_rocket_chassis_3
 	super_heavy_tank_aa_chassis_1934
-	
 	super_heavy_tank_aa_chassis_1940
 	super_heavy_tank_aa_chassis_1941
 	super_heavy_tank_aa_chassis_1942
-
 	super_heavy_tank_aa_chassis_1944
 	super_heavy_tank_aa_chassis_1
 	super_heavy_tank_destroyer_chassis_1934
-
 	super_heavy_tank_destroyer_chassis_1940
 	super_heavy_tank_destroyer_chassis_1941
 	super_heavy_tank_destroyer_chassis_1942
 	super_heavy_tank_destroyer_chassis_1944
 	super_heavy_tank_destroyer_chassis_1
-
 	super_heavy_tank_amphibious_chassis_1934
-	
 	super_heavy_tank_amphibious_chassis_1940
 	super_heavy_tank_amphibious_chassis_1941
 	super_heavy_tank_amphibious_chassis_1942
-
 	super_heavy_tank_amphibious_chassis_1944
-
-	
 	super_heavy_tank_amphibious_chassis_1
-
 	super_heavy_tank_artillery_chassis_1934
-	
 	super_heavy_tank_artillery_chassis_1940
 	super_heavy_tank_artillery_chassis_1941
 	super_heavy_tank_artillery_chassis_1942
-
 	super_heavy_tank_artillery_chassis_1944
-
-
 	super_heavy_tank_artillery_chassis_1
-
-
 	super_heavy_tank_flame_chassis_1934
-	
 	super_heavy_tank_flame_chassis_1940
 	super_heavy_tank_flame_chassis_1941
 	super_heavy_tank_flame_chassis_1942
-
 	super_heavy_tank_flame_chassis_1944
-
-
 	super_heavy_tank_flame_chassis_1
-
 	super_heavy_tank_rocket_chassis_1934
-	
 	super_heavy_tank_rocket_chassis_1940
 	super_heavy_tank_rocket_chassis_1941
 	super_heavy_tank_rocket_chassis_1942
-
 	super_heavy_tank_rocket_chassis_1944
-
-
 	super_heavy_tank_rocket_chassis_1
-
+	super_heavy_tank_close_support_chassis_1934
+	super_heavy_tank_close_support_chassis_1940
+	super_heavy_tank_close_support_chassis_1941
+	super_heavy_tank_close_support_chassis_1942
+	super_heavy_tank_close_support_chassis_1944
+	super_heavy_tank_close_support_chassis_1
 	modern_tank_aa_chassis_1
 	modern_tank_artillery_chassis_1
 	modern_tank_destroyer_chassis_1
 	
 	
 	
-	
-	
-	
-	
-		
-	
-
-
-	
-
-
-
-
-
-
 	transport_plane_equipment_1 
 	interceptor
 	strategic_bomber
@@ -890,6 +893,11 @@ script_enum_equipment_bonus_type = {
 	light_tank_destroyer_chassis
 	medium_tank_destroyer_chassis
 	heavy_tank_destroyer_chassis
+	
+	light_tank_close_support_chassis
+	medium_tank_close_support_chassis
+	heavy_tank_close_support_chassis
+	super_heavy_tank_close_support_chassis
 
 	## Sea
 	ship_hull_light

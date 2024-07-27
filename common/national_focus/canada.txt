@@ -3142,11 +3142,11 @@ focus = {
 			if = {
 				limit = {
 					NOT = {
-						has_tech = turret_basket
+						has_tech = better_construction
 					}
 				}
 				set_technology = {
-					turret_basket = 1
+					better_construction = 1
 				}
 			}
 		    create_equipment_variant = {
@@ -3474,11 +3474,11 @@ focus = {
 			if = {
 				limit = {
 					NOT = {
-						has_tech = turret_basket
+						has_tech = better_construction
 					}
 				}
 				set_technology = {
-					turret_basket = 1
+					better_construction = 1
 				}
 			}
 			if = {

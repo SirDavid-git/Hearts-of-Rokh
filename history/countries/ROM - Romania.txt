@@ -73,7 +73,7 @@ set_technology = { #player
 	fuel_silos = 1 
 	field_equipment = 1 
 	fuel_refining = 1
-	tech_radio_1 = 1 
+	# tech_radio_1 = 1 
 	infantry_weapons1 = 1
 	tech_mountaineers = 1
 	marines = 1
@@ -115,16 +115,20 @@ set_technology = { #player
 			 has_dlc = "No Step Back" 
 		}
 		set_technology = {
-		    rom_motorised_infantry = 1
-			rom_tech_armored_cars = 1
-			rom_1934_light_tank_chassis = 1
-			unlock_modules = 1
+#		  rom_motorised_infantry = 1
+#			rom_tech_armored_cars = 1
+#			rom_1934_light_tank_chassis = 1
+			
+			motorised_infantry = 1
+			tech_armored_cars = 1
+			gen_1934_light_tank_chassis = 1
+			
+			yearly_modules = 1
 			automatic_gun = 1
 			small_gun = 1
 			armour_sloping = 1
 			engine_tech_1 = 1
 			automatic_gun2 = 1
-			turret_basket = 1
 		}
 	}
 

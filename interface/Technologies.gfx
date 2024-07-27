@@ -105,10 +105,10 @@ spriteTypes = {
 
 	
 	# infantry tech	#
-	SpriteType = {
-		name = "GFX_tech_radio_1_medium"
-		texturefile = "gfx/interface/technologies/land/radio_equipment.tga"
-	}
+#	SpriteType = {
+#		name = "GFX_tech_radio_1_medium"
+#		texturefile = "gfx/interface/technologies/land/radio_equipment.tga"
+#	}
 
 	SpriteType = {
 		name = "GFX_tech_radio_2_medium"
@@ -15934,7 +15934,7 @@ texturefile = "gfx/interface/technologies/prc_adv_heavy_tank.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_turret_basket_medium"
+		name = "GFX_better_construction_medium"
 		textureFile = "gfx/interface/technologies/credit_to_eduoard_saladier/basket.dds"
 		legacy_lazy_load = no
 	}

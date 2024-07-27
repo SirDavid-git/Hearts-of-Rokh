@@ -710,7 +710,7 @@ guiTypes = {
 				name = "techtree_stripes"
 				position = { x= 0 y= -47 }
 				size = { 
-					width = 2000 height = 1400 
+					width = 2000 height = 2000 
 					min = { width = 100%% height = 100%% }
 				}
 				clipping = no
@@ -729,17 +729,17 @@ guiTypes = {
 
 				containerWindowType = {
 					name = "armour_year_right"
-					position = { x=0 y=40 }
+					position = { x=0 y=0 }
 					#size = { width = 80 height = 100%% }
 					orientation = upper_left
 						
 					instantTextBoxType = {
 						name = "armour_year1"
-						position = { x = 250 y = 0 }
+						position = { x = 2400 y = 260 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1934"
+						text = "1930"
 						maxWidth = 80
 						maxHeight = 32
 						format = center
@@ -748,7 +748,7 @@ guiTypes = {
 					
 					instantTextBoxType = {
 						name = "armour_year3"
-						position = { x = 540 y = 0 }
+						position = { x = 2400 y = 400 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -760,7 +760,7 @@ guiTypes = {
 					}
 					instantTextBoxType = {
 						name = "armour_year4"
-						position = { x = 680 y = 0  }
+						position = { x = 2400 y = 540  }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -772,7 +772,7 @@ guiTypes = {
 					}
 					instantTextBoxType = {
 						name = "armour_year5"
-						position = { x = 820 y = 0 }
+						position = { x = 2400 y = 680 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -784,7 +784,7 @@ guiTypes = {
 					}
 					instantTextBoxType = {
 						name = "armour_year6"
-						position = { x = 960 y = 0 }
+						position = { x = 2400 y = 820 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -796,7 +796,7 @@ guiTypes = {
 					}
 					instantTextBoxType = {
 						name = "armour_year7"
-						position = { x = 1100 y = 0 }
+						position = { x = 2400 y = 960 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -808,7 +808,7 @@ guiTypes = {
 					}
 					instantTextBoxType = {
 						name = "armour_year8"
-						position = { x = 1240 y = 0 }
+						position = { x = 2400 y = 1100 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -820,7 +820,7 @@ guiTypes = {
 					}
 					instantTextBoxType = {
 						name = "armour_year9"
-						position = { x = 1380 y = 0 }
+						position = { x = 2400 y = 1240 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -832,7 +832,7 @@ guiTypes = {
 					}
 					instantTextBoxType = {
 						name = "armour_year10"
-						position = { x = 1520 y = 0 }
+						position = { x = 2400 y = 1380 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -844,7 +844,7 @@ guiTypes = {
 					}
 					instantTextBoxType = {
 						name = "armour_year11"
-						position = { x = 1660 y = 0 }
+						position = { x = 2400 y = 1520 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -856,7 +856,7 @@ guiTypes = {
 					}
 					instantTextBoxType = {
 						name = "armour_year12"
-						position = { x = 1800 y = 0 }
+						position = { x = 2400 y = 1660 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -870,17 +870,17 @@ guiTypes = {
 							
 				containerWindowType = {
 					name = "armour_year_down"
-					position = { x=0 y=1310 }
+					position = { x=0 y=0 }
 					#size = { width = 80 height = 100%% }
 					orientation = upper_left
 						
 					instantTextBoxType = {
 						name = "armour_year1_down"
-						position = { x = 250 y = 0 }
+						position = { x = 50 y = 260 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1934"
+						text = "1930"
 						maxWidth = 80
 						maxHeight = 32
 						format = center
@@ -889,7 +889,7 @@ guiTypes = {
 					
 					instantTextBoxType = {
 						name = "armour_year3_down"
-						position = { x = 540 y = 0 }
+						position = { x = 50 y = 400 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -901,7 +901,7 @@ guiTypes = {
 					}
 					instantTextBoxType = {
 						name = "armour_year4_down"
-						position = { x = 680 y = 0  }
+						position = { x = 50 y = 540  }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -913,7 +913,7 @@ guiTypes = {
 					}
 					instantTextBoxType = {
 						name = "armour_year5_down"
-						position = { x = 820 y = 0 }
+						position = { x = 50 y = 680 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -925,7 +925,7 @@ guiTypes = {
 					}
 					instantTextBoxType = {
 						name = "armour_year6_down"
-						position = { x = 960 y = 0 }
+						position = { x = 50 y = 820 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -937,7 +937,7 @@ guiTypes = {
 					}
 					instantTextBoxType = {
 						name = "armour_year7_down"
-						position = { x = 1100 y = 0 }
+						position = { x = 50 y = 960 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -949,7 +949,7 @@ guiTypes = {
 					}
 					instantTextBoxType = {
 						name = "armour_year8_down"
-						position = { x = 1240 y = 0 }
+						position = { x = 50 y = 1100 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -961,7 +961,7 @@ guiTypes = {
 					}
 					instantTextBoxType = {
 						name = "armour_year9_down"
-						position = { x = 1380 y = 0 }
+						position = { x = 50 y = 1240 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -973,7 +973,7 @@ guiTypes = {
 					}
 					instantTextBoxType = {
 						name = "armour_year10_down"
-						position = { x = 1520 y = 0 }
+						position = { x = 50 y = 1380 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -985,7 +985,7 @@ guiTypes = {
 					}
 					instantTextBoxType = {
 						name = "armour_year11_down"
-						position = { x = 1660 y = 0 }
+						position = { x = 50 y = 1520 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -997,7 +997,7 @@ guiTypes = {
 					}
 					instantTextBoxType = {
 						name = "armour_year12_down"
-						position = { x = 1800 y = 0 }
+						position = { x = 50 y = 1660 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -1012,14 +1012,14 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "nsb_armour_subtitles"
-				position = { x = 0 y = 125 }
+				position = { x = 0 y = 100 }
 				#size = { width = 600 height = 80% }				
 				orientation = upper_left
 				origo = center_up
 				
 				instantTextBoxType = {
 					name = "armour_subtitle_motor"
-					position = { x = 250 y = 0 }
+					position = { x = 210 y = 0 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
@@ -1031,7 +1031,7 @@ guiTypes = {
 				}
 				instantTextBoxType = {
 					name = "armour_subtitle_heavy"
-					position = { x = 0 y = 555 }
+					position = { x = 0 y = 0 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
@@ -1089,67 +1089,55 @@ guiTypes = {
 			}
 			gridboxtype = { 
 				name = "tech_armored_cars_tree"
-				position = { x = 200 y = 440 }
+				position = { x = 2300 y = 200 }
 				#size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
+				format = "UP"
 			}
 
 			gridboxtype = { 
 				name = "motorised_infantry_tree"
-				position = { x = 220 y = 440 }
+				position = { x = 300 y = 200 }
 				#size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
+				format = "UP"
 			}
 			gridboxtype = { 
 				name = "gen_1934_light_tank_chassis_tree"
-				position = { x = 200 y = 440 }
+				position = { x = 600 y = 200 }
 				#size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-			gridboxtype = { 
-				name = "gen_1938_light_tank_chassis_tree"
-				position = { x = 200 y = 440 }
-				#size = { width = 80% height = 80% }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-			gridboxtype = { 
-				name = "gen_1941_light_tank_chassis_tree"
-				position = { x = 200 y = 440 }
-				#size = { width = 80% height = 80% }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
+				format = "UP"
 			}
 			gridboxtype = { 
 				name = "gen_1936_medium_tank_chassis_tree"
-				position = { x = 200 y = 440 }
+				position = { x = 600 y = 200 }
 				#size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
+				format = "UP"
 			}
 			gridboxtype = { 
-				name = "gen_1940_medium_tank_chassis_tree"
-				position = { x = 200 y = 440 }
+				name = "gen_1934_heavy_tank_chassis_tree"
+				position = { x = 600 y = 200 }
 				#size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
+				format = "UP"
 			}
+
 			gridboxtype = { 
-				name = "gen_1942_medium_tank_chassis_tree"
-				position = { x = 200 y = 440 }
+				name = "gen_amphibious_tank_chassis_tree"
+				position = { x = 1200 y = 200 }
 				#size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
+				format = "UP"
 			}
+			
 			gridboxtype = { 
-				name = "gen_1944_medium_tank_chassis_tree"
-				position = { x = 200 y = 440 }
+				name = "gen_amphibious_mechanized_infantry1_tree"
+				position = { x = 1200 y = 200 }
 				#size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
+				format = "UP"
 			}
 
 		}
@@ -7660,7 +7648,7 @@ guiTypes = {
 						text = "1934"
 						maxWidth = 170
 						maxHeight = 32
-						format = up
+						format = center
 						Orientation = "UPPER_LEFT"
 					}
 					instantTextBoxType = {
@@ -7672,7 +7660,7 @@ guiTypes = {
 						text = "1936"
 						maxWidth = 170
 						maxHeight = 32
-						format = up
+						format = center
 						Orientation = "UPPER_LEFT"
 					}
 					instantTextBoxType = {
@@ -7684,7 +7672,7 @@ guiTypes = {
 						text = "1937"
 						maxWidth = 170
 						maxHeight = 32
-						format = up
+						format = center
 						Orientation = "UPPER_LEFT"
 					}
 					instantTextBoxType = {
@@ -7696,7 +7684,7 @@ guiTypes = {
 						text = "1938"
 						maxWidth = 170
 						maxHeight = 32
-						format = up
+						format = center
 						Orientation = "UPPER_LEFT"
 					}
 					instantTextBoxType = {
@@ -7708,7 +7696,7 @@ guiTypes = {
 						text = "1939"
 						maxWidth = 170
 						maxHeight = 32
-						format = up
+						format = center
 						Orientation = "UPPER_LEFT"
 					}
 					instantTextBoxType = {
@@ -7720,7 +7708,7 @@ guiTypes = {
 						text = "1940"
 						maxWidth = 170
 						maxHeight = 32
-						format = up
+						format = center
 						Orientation = "UPPER_LEFT"
 					}
 					instantTextBoxType = {
@@ -7732,7 +7720,7 @@ guiTypes = {
 						text = "1941"
 						maxWidth = 170
 						maxHeight = 32
-						format = up
+						format = center
 						Orientation = "UPPER_LEFT"
 					}
 					instantTextBoxType = {
@@ -7744,7 +7732,7 @@ guiTypes = {
 						text = "1942"
 						maxWidth = 170
 						maxHeight = 32
-						format = up
+						format = center
 						Orientation = "UPPER_LEFT"
 					}
 					instantTextBoxType = {
@@ -7756,7 +7744,7 @@ guiTypes = {
 						text = "1943"
 						maxWidth = 170
 						maxHeight = 32
-						format = up
+						format = center
 						Orientation = "UPPER_LEFT"
 					}
 					instantTextBoxType = {
@@ -7768,7 +7756,7 @@ guiTypes = {
 						text = "1944"
 						maxWidth = 170
 						maxHeight = 32
-						format = up
+						format = center
 						Orientation = "UPPER_LEFT"
 					}
 					instantTextBoxType = {
@@ -7780,7 +7768,7 @@ guiTypes = {
 						text = "1945"
 						maxWidth = 170
 						maxHeight = 32
-						format = up
+						format = center
 						Orientation = "UPPER_LEFT"
 					}
 				}
@@ -7799,7 +7787,7 @@ guiTypes = {
 						text = "1934"
 						maxWidth = 170
 						maxHeight = 32
-						format = up
+						format = center
 						Orientation = "UPPER_LEFT"
 					}
 					instantTextBoxType = {
@@ -7811,7 +7799,7 @@ guiTypes = {
 						text = "1936"
 						maxWidth = 170
 						maxHeight = 32
-						format = up
+						format = center
 						Orientation = "UPPER_LEFT"
 					}
 					instantTextBoxType = {
@@ -7823,7 +7811,7 @@ guiTypes = {
 						text = "1937"
 						maxWidth = 170
 						maxHeight = 32
-						format = up
+						format = center
 						Orientation = "UPPER_LEFT"
 					}
 					instantTextBoxType = {
@@ -7835,7 +7823,7 @@ guiTypes = {
 						text = "1938"
 						maxWidth = 170
 						maxHeight = 32
-						format = up
+						format = center
 						Orientation = "UPPER_LEFT"
 					}
 					instantTextBoxType = {
@@ -7847,7 +7835,7 @@ guiTypes = {
 						text = "1939"
 						maxWidth = 170
 						maxHeight = 32
-						format = up
+						format = center
 						Orientation = "UPPER_LEFT"
 					}
 					instantTextBoxType = {
@@ -7859,7 +7847,7 @@ guiTypes = {
 						text = "1940"
 						maxWidth = 170
 						maxHeight = 32
-						format = up
+						format = center
 						Orientation = "UPPER_LEFT"
 					}
 					instantTextBoxType = {
@@ -7871,7 +7859,7 @@ guiTypes = {
 						text = "1941"
 						maxWidth = 170
 						maxHeight = 32
-						format = up
+						format = center
 						Orientation = "UPPER_LEFT"
 					}
 					instantTextBoxType = {
@@ -7883,7 +7871,7 @@ guiTypes = {
 						text = "1942"
 						maxWidth = 170
 						maxHeight = 32
-						format = up
+						format = center
 						Orientation = "UPPER_LEFT"
 					}
 					instantTextBoxType = {
@@ -7895,7 +7883,7 @@ guiTypes = {
 						text = "1943"
 						maxWidth = 170
 						maxHeight = 32
-						format = up
+						format = center
 						Orientation = "UPPER_LEFT"
 					}
 					instantTextBoxType = {
@@ -7907,7 +7895,7 @@ guiTypes = {
 						text = "1944"
 						maxWidth = 170
 						maxHeight = 32
-						format = up
+						format = center
 						Orientation = "UPPER_LEFT"
 					}
 					instantTextBoxType = {
@@ -7919,7 +7907,7 @@ guiTypes = {
 						text = "1945"
 						maxWidth = 170
 						maxHeight = 32
-						format = up
+						format = center
 						Orientation = "UPPER_LEFT"
 					}
 					
@@ -7940,13 +7928,13 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
-			gridboxtype = {
-				name = "medium_gun_tree"
-				position = { x = 400 y = 150 }
-				size = { width = 400 height = 1000 }
-				slotsize = { width = 70 height = 70 }
-				format = "UP"
-			}
+		#	gridboxtype = {
+		#		name = "medium_gun_tree"
+		#		position = { x = 400 y = 150 }
+		#		size = { width = 400 height = 1000 }
+		#		slotsize = { width = 70 height = 70 }
+		#		format = "UP"
+		#	}
 			
 			gridboxtype = {
 				name = "heavy_gun_tree"
@@ -7956,21 +7944,21 @@ guiTypes = {
 				format = "UP"
 			}
 			
-			gridboxtype = {
-				name = "very_heavy_gun_tree"
-				position = { x = 400 y = 150 }
-				size = { width = 400 height = 1000 }
-				slotsize = { width = 70 height = 70 }
-				format = "UP"
-			}
-			
-			gridboxtype = {
-				name = "super_heavy_gun_tree"
-				position = { x = 400 y = 150 }
-				size = { width = 400 height = 1000 }
-				slotsize = { width = 70 height = 70 }
-				format = "UP"
-			}
+		#	gridboxtype = {
+		#		name = "very_heavy_gun_tree"
+		#		position = { x = 400 y = 150 }
+		#		size = { width = 400 height = 1000 }
+		#		slotsize = { width = 70 height = 70 }
+		#		format = "UP"
+		#	}
+		#	
+		#	gridboxtype = {
+		#		name = "super_heavy_gun_tree"
+		#		position = { x = 400 y = 150 }
+		#		size = { width = 400 height = 1000 }
+		#		slotsize = { width = 70 height = 70 }
+		#		format = "UP"
+		#	}
 			
 			gridboxtype = {
 				name = "support_gun_tree"
@@ -7987,13 +7975,13 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
-			gridboxtype = {
-				name = "rocket_tree"
-				position = { x = 400 y = 150 }
-				size = { width = 400 height = 1000 }
-				slotsize = { width = 70 height = 70 }
-				format = "UP"
-			}
+	#		gridboxtype = {
+	#			name = "rocket_tree"
+	#			position = { x = 400 y = 150 }
+	#			size = { width = 400 height = 1000 }
+	#			slotsize = { width = 70 height = 70 }
+	#			format = "UP"
+	#		}
 			gridboxtype = {
 				name = "armour_sloping_tree"
 				position = { x = 400 y = 150 }
@@ -8022,20 +8010,27 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
+	#		gridboxtype = {
+	#			name = "autoloader_tree"
+	#			position = { x = 400 y = 150 }
+	#			size = { width = 400 height = 1000 }
+	#			slotsize = { width = 70 height = 70 }
+	#			format = "UP"
+	#		}	
+	#		gridboxtype = {
+	#			name = "_tree"
+	#			position = { x = 400 y = 150 }
+	#			size = { width = 400 height = 1000 }
+	#			slotsize = { width = 70 height = 70 }
+	#			format = "UP"
+	#		}			
 			gridboxtype = {
-				name = "autoloader_tree"
-				position = { x = 400 y = 150 }
+				name = "yearly_modules_tree"
+				position = { x = 1000 y = 150 }
 				size = { width = 400 height = 1000 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
-			}	
-			gridboxtype = {
-				name = "turret_basket_tree"
-				position = { x = 400 y = 150 }
-				size = { width = 400 height = 1000 }
-				slotsize = { width = 70 height = 70 }
-				format = "UP"
-			}			
+			}
 		}
 		# Armour-folder
 		containerWindowType = {
@@ -11938,7 +11933,7 @@ guiTypes = {
 				text = "1930"
 				maxWidth = 170
 				maxHeight = 32
-				format = up
+				format = center
 				Orientation = "UPPER_LEFT"
 			}
 			instantTextBoxType = {
@@ -11950,7 +11945,7 @@ guiTypes = {
 				text = "1935"
 				maxWidth = 170
 				maxHeight = 32
-				format = up
+				format = center
 				Orientation = "UPPER_LEFT"
 			}
 			instantTextBoxType = {
@@ -11962,7 +11957,7 @@ guiTypes = {
 				text = "1936"
 				maxWidth = 170
 				maxHeight = 32
-				format = up
+				format = center
 				Orientation = "UPPER_LEFT"
 			}
 			instantTextBoxType = {
@@ -11974,7 +11969,7 @@ guiTypes = {
 				text = "1937"
 				maxWidth = 170
 				maxHeight = 32
-				format = up
+				format = center
 				Orientation = "UPPER_LEFT"
 			}
 			instantTextBoxType = {
@@ -11986,7 +11981,7 @@ guiTypes = {
 				text = "1938"
 				maxWidth = 170
 				maxHeight = 32
-				format = up
+				format = center
 				Orientation = "UPPER_LEFT"
 			}
 			instantTextBoxType = {
@@ -11998,7 +11993,7 @@ guiTypes = {
 				text = "1939"
 				maxWidth = 170
 				maxHeight = 32
-				format = up
+				format = center
 				Orientation = "UPPER_LEFT"
 			}
 			instantTextBoxType = {
@@ -12010,7 +12005,7 @@ guiTypes = {
 				text = "1940"
 				maxWidth = 170
 				maxHeight = 32
-				format = up
+				format = center
 				Orientation = "UPPER_LEFT"
 			}
 			instantTextBoxType = {
@@ -12022,7 +12017,7 @@ guiTypes = {
 				text = "1941"
 				maxWidth = 170
 				maxHeight = 32
-				format = up
+				format = center
 				Orientation = "UPPER_LEFT"
 			}
 			instantTextBoxType = {
@@ -12034,7 +12029,7 @@ guiTypes = {
 				text = "1942"
 				maxWidth = 170
 				maxHeight = 32
-				format = up
+				format = center
 				Orientation = "UPPER_LEFT"
 			}
 			instantTextBoxType = {
@@ -12046,7 +12041,7 @@ guiTypes = {
 				text = "1943"
 				maxWidth = 170
 				maxHeight = 32
-				format = up
+				format = center
 				Orientation = "UPPER_LEFT"
 			}
 			instantTextBoxType = {
@@ -12058,7 +12053,7 @@ guiTypes = {
 				text = "1944"
 				maxWidth = 170
 				maxHeight = 32
-				format = up
+				format = center
 				Orientation = "UPPER_LEFT"
 			}
 		}
@@ -12077,7 +12072,7 @@ guiTypes = {
 				text = "1930"
 				maxWidth = 170
 				maxHeight = 32
-				format = up
+				format = center
 				Orientation = "UPPER_LEFT"
 			}
 			instantTextBoxType = {
@@ -12089,7 +12084,7 @@ guiTypes = {
 				text = "1935"
 				maxWidth = 170
 				maxHeight = 32
-				format = up
+				format = center
 				Orientation = "UPPER_LEFT"
 			}
 			instantTextBoxType = {
@@ -12101,7 +12096,7 @@ guiTypes = {
 				text = "1936"
 				maxWidth = 170
 				maxHeight = 32
-				format = up
+				format = center
 				Orientation = "UPPER_LEFT"
 			}
 			instantTextBoxType = {
@@ -12113,7 +12108,7 @@ guiTypes = {
 				text = "1937"
 				maxWidth = 170
 				maxHeight = 32
-				format = up
+				format = center
 				Orientation = "UPPER_LEFT"
 			}
 			instantTextBoxType = {
@@ -12125,7 +12120,7 @@ guiTypes = {
 				text = "1938"
 				maxWidth = 170
 				maxHeight = 32
-				format = up
+				format = center
 				Orientation = "UPPER_LEFT"
 			}
 			instantTextBoxType = {
@@ -12137,7 +12132,7 @@ guiTypes = {
 				text = "1939"
 				maxWidth = 170
 				maxHeight = 32
-				format = up
+				format = center
 				Orientation = "UPPER_LEFT"
 			}
 			instantTextBoxType = {
@@ -12149,7 +12144,7 @@ guiTypes = {
 				text = "1940"
 				maxWidth = 170
 				maxHeight = 32
-				format = up
+				format = center
 				Orientation = "UPPER_LEFT"
 			}
 			instantTextBoxType = {
@@ -12161,7 +12156,7 @@ guiTypes = {
 				text = "1941"
 				maxWidth = 170
 				maxHeight = 32
-				format = up
+				format = center
 				Orientation = "UPPER_LEFT"
 			}
 			instantTextBoxType = {
@@ -12173,7 +12168,7 @@ guiTypes = {
 				text = "1942"
 				maxWidth = 170
 				maxHeight = 32
-				format = up
+				format = center
 				Orientation = "UPPER_LEFT"
 			}
 			instantTextBoxType = {
@@ -12185,7 +12180,7 @@ guiTypes = {
 				text = "1943"
 				maxWidth = 170
 				maxHeight = 32
-				format = up
+				format = center
 				Orientation = "UPPER_LEFT"
 			}
 			instantTextBoxType = {
@@ -12197,7 +12192,7 @@ guiTypes = {
 				text = "1944"
 				maxWidth = 170
 				maxHeight = 32
-				format = up
+				format = center
 				Orientation = "UPPER_LEFT"
 			}
 		}

@@ -161,7 +161,7 @@ set_technology = {
 	fuel_refining = 1
 	fuel_silos = 1
 	field_equipment = 1 
-	tech_radio_1 = 1 
+	# tech_radio_1 = 1 
 	infantry_weapons1 = 1
 	support_weapons = 1
 	marines = 1	
@@ -259,12 +259,18 @@ if = {
 		 has_dlc = "No Step Back" 
 	}
 	set_technology = {
-		pol_nsb_motorised_infantry = 1
-		pol_tech_armored_cars = 1
-		pol_nsb_tech_armored_cars2 = 1
-		pol_1934_light_tank_chassis = 1
-		pol_1936_light_tank_chassis = 1
-		unlock_modules = 1
+#		pol_nsb_motorised_infantry = 1
+#		pol_tech_armored_cars = 1
+#		pol_nsb_tech_armored_cars2 = 1
+#		pol_1934_light_tank_chassis = 1
+#		pol_1936_light_tank_chassis = 1
+		
+		motorised_infantry = 1
+		tech_armored_cars = 1
+		gen_1934_light_tank_chassis = 1
+		gen_1936_light_tank_chassis = 1
+		
+		yearly_modules = 1
 		automatic_gun = 1
 		small_gun = 1
 		small_gun2 = 1
@@ -327,7 +333,7 @@ if = {
 			armor_type_slot = tank_riveted_armor
 			armor_sloping_slot = unsloped_armor
 			engine_type_slot = tank_gasoline_engine
-			special_type_slot_1 = improved_sights
+			special_type_slot_1 = additional_machine_guns
 		    radio_slot = empty
 		}
 		upgrades = {

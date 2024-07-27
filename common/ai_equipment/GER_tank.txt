@@ -64,7 +64,7 @@ GER_medium_tanks = {
 			match_value = 3500
 			type = medium_tank_chassis_1942
 			modules = {
-				main_armament_slot = tank_high_velocity_cannon_2
+				main_armament_slot = tank_medium_high_velocity_cannon_2
 				turret_type_slot = tank_medium_three_man_tank_turret
 				suspension_type_slot = tank_bogie_suspension
 				armor_type_slot = tank_welded_armor
@@ -81,7 +81,7 @@ GER_medium_tanks = {
 		}
 
 		allowed_modules = {
-			tank_high_velocity_cannon_2
+			tank_medium_high_velocity_cannon_2
 			tank_medium_three_man_tank_turret
 			unsloped_armor
 			tank_bogie_suspension
@@ -108,7 +108,7 @@ GER_medium_tanks = {
 			match_value = 4000
 			type = medium_tank_chassis_1943
 			modules = {
-				main_armament_slot = tank_high_velocity_cannon_3
+				main_armament_slot = tank_medium_high_velocity_cannon_3
 				turret_type_slot = tank_medium_three_man_tank_turret
 				suspension_type_slot = tank_interleaved_suspension
 				armor_type_slot = tank_welded_armor
@@ -126,7 +126,7 @@ GER_medium_tanks = {
 		}
 
 		allowed_modules = {
-			tank_high_velocity_cannon_3
+			tank_medium_high_velocity_cannon_3
 			tank_medium_three_man_tank_turret
 			tank_interleaved_suspension
 			tank_welded_armor

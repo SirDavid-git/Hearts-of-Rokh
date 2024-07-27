@@ -14,50 +14,529 @@ technologies = {
 	@1945 = 20
 	@1946 = 22
 
-	unlock_modules = {
+	
+	yearly_modules = { ###1934, Interwar Tech
+	
 		enable_equipment_modules = {
 			secondary_turret_small_cannon_big
-			secondary_cannon_support_cannon_big
-			tank_welded_armor
-			secondary_cannon_support_cannon
 			secondary_turret_small_cannon
+			secondary_turret_small_cannon_small
+			secondary_cannon_support_cannon_big
+			secondary_cannon_support_cannon
+			secondary_cannon_support_cannon_small
+			secondary_turret_hmg_big
 			secondary_turret_hmg
 			secondary_turret_hmg_small
-			secondary_cannon_support_cannon_small
-			secondary_turret_small_cannon_small
 			additional_machine_guns
-			squeezebore_adaptor
-			wet_ammo_storage
-			extra_ammo_storage
-			smoke_launchers
-			external_fuel_tank
-			tank_torsion_bar_suspension
-			tank_christie_suspension
-			tank_interleaved_suspension
-			tank_diesel_engine
-			tank_petrol_electric_engine
-			tank_light_three_man_tank_turret
-			tank_medium_opentop_turret_early 
-			tank_medium_opentop_turret_late
-			tank_medium_casemate_turret_early
-			tank_medium_casemate_turret_late
-			tank_light_opentop_turret_late
-			tank_light_casemate_turret_late
-			tank_heavy_casemate_turret_late
-			tank_heavy_opentop_turret_late
-			compact_design
-			improved_hatches
-			improved_sights
-			frontal_engine
+		}
+		path = {
+			leads_to_tech = yearly_modules_2
+			research_cost_coeff = 4
+		}
 
+		research_cost = 4
 
+		start_year = 1934
+		
+		folder = {
+			name = upgrade_folder
+			position = { x = 8 y = @1934 }
+		}
+		
+		ai_will_do = {
+			factor = 6
+			
+		}
+						
+		categories = {
+			tank_upgrade
+						
+		}
+
+	}
+	
+	yearly_modules_2 = { ###1938
+	
+		enable_equipment_modules = {
+		}
+		path = {
+			leads_to_tech = yearly_modules_3
+			research_cost_coeff = 4
+		}
+		path = {
+			leads_to_tech = improved_survivability
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = better_construction
+			research_cost_coeff = 1
+		}
+
+		research_cost = 4
+
+		start_year = 1938
+		
+		folder = {
+			name = upgrade_folder
+			position = { x = 8 y = @1939 }
+		}
+		
+		ai_will_do = {
+			factor = 6
+			
+		}
+						
+		categories = {
+			tank_upgrade
+						
+		}
+
+	}
+	
+	improved_survivability = { ###1938
+	
+		enable_equipment_modules = {
+		external_fuel_tank
+		wet_ammo_storage
+		}
+
+		research_cost = 0.5
+
+		start_year = 1938
+		
+		folder = {
+			name = upgrade_folder
+			position = { x = 10 y = @1939 }
+		}
+		
+		ai_will_do = {
+			factor = 6
+			
+		}
+						
+		categories = {
+			tank_upgrade
+						
+		}
+
+	}
+	
+	better_construction = { ###1938
+	
+		enable_equipment_modules = {
+		extra_ammo_storage
+		basket
+		compact_design
+		}
+
+		research_cost = 0.5
+
+		start_year = 1938
+		
+		folder = {
+			name = upgrade_folder
+			position = { x = 6 y = @1939 }
+		}
+		
+		ai_will_do = {
+			factor = 6
+			
+		}
+						
+		categories = {
+			tank_upgrade	
 		}
 	}
+	
+	yearly_modules_3 = { ###1940
+	
+		enable_equipment_modules = {
+		}
+		path = {
+			leads_to_tech = yearly_modules_4
+			research_cost_coeff = 4
+		}
+		path = {
+			leads_to_tech = rocket
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = defensive_improvements
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = squeezebore
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = early_cupola
+			research_cost_coeff = 1
+		}
+
+		research_cost = 4
+
+		start_year = 1940
+		
+		folder = {
+			name = upgrade_folder
+			position = { x = 8 y = @1940 }
+		}
+		
+		ai_will_do = {
+			factor = 6
+			
+		}
+						
+		categories = {
+			tank_upgrade						
+		}
+
+	}
+	defensive_improvements = { ###1940
+	
+		enable_equipment_modules = {
+			wet_ammo_storage
+			smoke_launchers
+		}
+
+		research_cost = 0.5
+
+		start_year = 1940
+		
+		folder = {
+			name = upgrade_folder
+			position = { x = 6 y = @1941 }
+		}
+		
+		ai_will_do = {
+			factor = 6
+			
+		}
+						
+		categories = {
+			tank_upgrade	
+		}
+	}
+	squeezebore = { ###1940
+	
+		enable_equipment_modules = {
+			squeezebore_adaptor
+		}
+
+		research_cost = 0.5
+
+		start_year = 1940
+		
+		folder = {
+			name = upgrade_folder
+			position = { x = 10 y = @1941 }
+		}
+		
+		ai_will_do = {
+			factor = 6
+			
+		}
+						
+		categories = {
+			tank_upgrade	
+		}
+	}
+	
+	early_cupola = {
+	
+		enable_equipment_modules = {
+		early_cupola
+		}
+
+		research_cost = 0.5
+
+		start_year = 1940
+		
+		folder = {
+			name = upgrade_folder
+			position = { x = 4 y = @1941 }
+		}
+		
+		ai_will_do = {
+			factor = 6
+			
+		}
+						
+		categories = {
+			armor
+			tank_upgrade
+						
+		}
+
+	}
+	
+	rocket = {
+	
+		enable_equipment_modules = {
+		tank_rocket_launcher
+		}
+		
+		dependencies = {
+			rocket_artillery = 1
+		}
+		
+		research_cost = 1
+
+		start_year = 1940
+		
+		folder = {
+			name = upgrade_folder
+			position = { x = 12 y = @1941 }
+		}
+		
+		ai_will_do = {
+			factor = 6
+			
+		}
+						
+		categories = {
+			rocketry 
+			tank_upgrade
+            
+		}
+
+	}							
+	
+	yearly_modules_4 = { ###1942
+	
+		enable_equipment_modules = {
+			
+		}
+		path = {
+			leads_to_tech = yearly_modules_5
+			research_cost_coeff = 4
+		}
+		path = {
+			leads_to_tech = cupola
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = autoloader
+			research_cost_coeff = 1
+		}
+
+		research_cost = 4
+
+		start_year = 1942
+		
+		folder = {
+			name = upgrade_folder
+			position = { x = 8 y = @1942 }
+		}
+		
+		ai_will_do = {
+			factor = 6
+			
+		}
+						
+		categories = {
+			artillery
+			tank_upgrade
+						
+		}
+
+	}
+	
+	cupola = { ##1942
+	
+		enable_equipment_modules = {
+		cupola
+		}
+		dependencies = {
+			early_cupola = 1
+		}
+
+		research_cost = 0.5
+
+		start_year = 1942
+		
+		folder = {
+			name = upgrade_folder
+			position = { x = 6 y = @1943 }
+		}
+		
+		ai_will_do = {
+			factor = 6
+			
+		}
+						
+		categories = {
+			armor
+			tank_upgrade
+						
+		}
+
+	}
+	autoloader = {
+	
+		enable_equipment_modules = {
+		auto_loader
+		}
+
+		research_cost = 0.5
+
+		start_year = 1942
+		
+		folder = {
+			name = upgrade_folder
+			position = { x = 10 y = @1943 }
+		}
+		
+		ai_will_do = {
+			factor = 6
+			
+		}
+						
+		categories = {
+			artillery
+			tank_upgrade
+						
+		}
+
+	}
+	
+	yearly_modules_5 = { ###1944
+	
+		enable_equipment_modules = {
+		}
+		path = {
+			leads_to_tech = rocket2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = autoloader2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = night_vision_tank
+			research_cost_coeff = 1
+		}
+		research_cost = 4
+
+		start_year = 1944
+		
+		folder = {
+			name = upgrade_folder
+			position = { x = 8 y = @1944 }
+		}
+		
+		ai_will_do = {
+			factor = 6
+			
+		}
+						
+		categories = {
+			artillery
+			tank_upgrade
+						
+		}
+
+	}
+	
+	
+	
+	rocket2 = {
+	
+		enable_equipment_modules = {
+		tank_rocket_launcher_2
+		}
+		
+		dependencies = {
+			rocket_artillery4 = 1
+		}
+
+		research_cost = 1
+
+		start_year = 1944
+		
+		folder = {
+			name = upgrade_folder
+			position = { x = 6 y = @1945 }
+		}
+		
+		ai_will_do = {
+			factor = 6
+			
+		}
+						
+		categories = {
+			artillery
+			tank_upgrade
+						
+		}
+
+	}
+								
+	autoloader2 = {
+	
+		enable_equipment_modules = {
+		auto_loader2
+		}
+		dependencies = {
+			autoloader = 1
+		}
+
+		research_cost = 1
+
+		start_year = 1944
+		
+		folder = {
+			name = upgrade_folder
+			position = { x = 10 y = @1945 }
+		}
+		
+		ai_will_do = {
+			factor = 6
+			
+		}
+						
+		categories = {
+			artillery
+						tank_upgrade
+						
+		}
+
+	}
+	
+	night_vision_tank = {
+	
+		category_all_armor = {
+			soft_attack = 0.075
+			hard_attack = 0.075
+		}
+
+		research_cost = 1
+
+		start_year = 1945
+		
+		folder = {
+			name = upgrade_folder
+			position = { x = 8 y = @1946 }
+		}
+		
+		ai_will_do = {
+			factor = 6
+			
+		}
+						
+		categories = {
+			artillery
+			tank_upgrade
+						
+		}
+
+	}
+	
 	# Automatic Guns								
 	automatic_gun = {
 	
 		enable_equipment_modules = {
-		tank_heavy_machine_gun
+			tank_heavy_machine_gun
 		}
 		path = {
 			leads_to_tech = automatic_gun2
@@ -80,7 +559,7 @@ technologies = {
 						
 		categories = {
 			artillery
-            tank_upgrade
+      tank_upgrade
             
 		}
 
@@ -88,8 +567,8 @@ technologies = {
 	automatic_gun2 = {
 	
 		enable_equipment_modules = {
-		tank_auto_cannon
-		tank_anti_air_cannon
+			tank_auto_cannon
+			tank_anti_air_cannon
 		}
 		path = {
 			leads_to_tech = automatic_gun3
@@ -112,7 +591,7 @@ technologies = {
 						
 		categories = {
 			artillery
-            tank_upgrade
+      tank_upgrade
             
 		}
 
@@ -120,8 +599,8 @@ technologies = {
 	automatic_gun3 = {
 	
 		enable_equipment_modules = {
-		tank_auto_cannon_2
-		tank_anti_air_cannon_2
+			tank_auto_cannon_2
+			tank_anti_air_cannon_2
 		}
 		path = {
 			leads_to_tech = automatic_gun4
@@ -226,11 +705,11 @@ technologies = {
 
 		research_cost = 1
 
-		start_year = 1936
+		start_year = 1938
 		
 		folder = {
 			name = upgrade_folder
-			position = { x = -1 y = @1936 }
+			position = { x = -1 y = @1938 }
 		}
 		
 		ai_will_do = {
@@ -287,11 +766,11 @@ technologies = {
 
 		research_cost = 1
 
-		start_year = 1938
+		start_year = 1940
 		
 		folder = {
 			name = upgrade_folder
-			position = { x = 1 y = @1938 }
+			position = { x = 1 y = @1940 }
 		}
 		
 		ai_will_do = {
@@ -319,11 +798,11 @@ technologies = {
 
 		research_cost = 1
 
-		start_year = 1940
+		start_year = 1942
 		
 		folder = {
 			name = upgrade_folder
-			position = { x = 1 y = @1940 }
+			position = { x = 1 y = @1942 }
 		}
 		
 		ai_will_do = {
@@ -347,11 +826,11 @@ technologies = {
 
 		research_cost = 1.2
 
-		start_year = 1942
+		start_year = 1944
 		
 		folder = {
 			name = upgrade_folder
-			position = { x = 1 y = @1942 }
+			position = { x = 1 y = @1944 }
 		}
 		
 		ai_will_do = {
@@ -616,7 +1095,7 @@ technologies = {
 	howizer = {
 	
 		enable_equipment_modules = {
-			tank_medium_howitzer
+			tank_medium_howitzer #actually light howitzer lol
 		}
 		path = {
 	    leads_to_tech = howizer2
@@ -624,11 +1103,11 @@ technologies = {
 		}
 		research_cost = 1
 
-		start_year = 1936
+		start_year = 1938
 		
 		folder = {
 			name = upgrade_folder
-			position = { x = 10 y = @1936 }
+			position = { x = 10 y = @1938 }
 		}
 		
 		ai_will_do = {
@@ -646,8 +1125,8 @@ technologies = {
 	howizer2 = {
 	
 		enable_equipment_modules = {
-		tank_medium_howitzer_2
-		tank_heavy_howitzer
+		tank_medium_howitzer_2 #actually light howitzer lol
+		tank_heavy_howitzer #really heavy howitzer
 		}
 		path = {
 	    leads_to_tech = siege_gun
@@ -702,73 +1181,12 @@ technologies = {
 
 	}
 	
-	# Rocket Arta							
-	rocket = {
-	
-		enable_equipment_modules = {
-		tank_rocket_launcher
-		}
-		path = {
-	    leads_to_tech = rocket2
-	   	research_cost_coeff = 1
-		}
-		path = {
-	    leads_to_tech = rocketmortar
-	   	research_cost_coeff = 1
-		}
-		research_cost = 1
-
-		start_year = 1940
-		
-		folder = {
-			name = upgrade_folder
-			position = { x = 14 y = @1940 }
-		}
-		
-		ai_will_do = {
-			factor = 6
-			
-		}
-						
-		categories = {
-			artillery
-            tank_upgrade
-            
-		}
-
-	}							
-	rocket2 = {
-	
-		enable_equipment_modules = {
-		tank_rocket_launcher_2
-		}
-
-		research_cost = 1
-
-		start_year = 1944
-		
-		folder = {
-			name = upgrade_folder
-			position = { x = 14 y = @1944 }
-		}
-		
-		ai_will_do = {
-			factor = 6
-			
-		}
-						
-		categories = {
-			artillery
-            tank_upgrade
-            
-		}
-
-	}
 	# Armour sloping						
 	armour_sloping = {
 	
 		enable_equipment_modules = {
 		unsloped_armor
+		frontal_engine
 		}
 		path = {
 	    leads_to_tech = armour_sloping2
@@ -886,7 +1304,9 @@ technologies = {
 	# Armour thikness
 	armor_tech_1 = {
 		enable_equipment_modules = {
+			tank_riveted_armor
 			tank_cast_armor
+			tank_welded_armor
 		}
 
 		path = {
@@ -1053,6 +1473,15 @@ technologies = {
 		}
 		on_research_complete = {
 			custom_effect_tooltip = engine_tech_1_tt
+		}
+		enable_equipment_modules = {
+			tank_diesel_engine
+			tank_petrol_electric_engine
+			tank_gasoline_engine
+			tank_torsion_bar_suspension
+			tank_christie_suspension
+			tank_bogie_suspension
+			tank_interleaved_suspension
 		}
 		show_effect_as_desc = yes
 		research_cost = 1
@@ -2157,187 +2586,7 @@ technologies = {
 			
 		}
 	}
-	# Gun modules						
-	autoloader = {
 	
-		enable_equipment_modules = {
-		auto_loader
-		}
-		path = {
-	    leads_to_tech = autoloader2
-	   	research_cost_coeff = 1
-		}
-
-		research_cost = 1
-
-		start_year = 1939
-		
-		folder = {
-			name = upgrade_folder
-			position = { x = 15 y = @1939 }
-		}
-		
-		ai_will_do = {
-			factor = 6
-			
-		}
-						
-		categories = {
-			artillery
-            tank_upgrade
-            
-		}
-
-	}							
-	autoloader2 = {
-	
-		enable_equipment_modules = {
-		auto_loader2
-		}
-
-		research_cost = 1
-
-		start_year = 1944
-		
-		folder = {
-			name = upgrade_folder
-			position = { x = 15 y = @1945 }
-		}
-		
-		ai_will_do = {
-			factor = 6
-			
-		}
-						
-		categories = {
-			artillery
-            tank_upgrade
-            
-		}
-
-	}
-	# interior layout				
-	turret_basket = {
-	
-		enable_equipment_modules = {
-			basket
-		}
-		path = {
-	    leads_to_tech = early_cupola
-	   	research_cost_coeff = 1
-		}
-
-		research_cost = 1
-
-		start_year = 1938
-		
-		folder = {
-			name = upgrade_folder
-			position = { x = 13 y = @1938 }
-		}
-		
-		ai_will_do = {
-			factor = 6
-			
-		}
-						
-		categories = {
-			artillery
-            tank_upgrade
-            
-		}
-
-	}	
-	early_cupola = {
-	
-		enable_equipment_modules = {
-		early_cupola
-		}
-		path = {
-	    leads_to_tech = cupola
-	   	research_cost_coeff = 1
-		}
-
-		research_cost = 1
-
-		start_year = 1939
-		
-		folder = {
-			name = upgrade_folder
-			position = { x = 13 y = @1941 }
-		}
-		
-		ai_will_do = {
-			factor = 6
-			
-		}
-						
-		categories = {
-			armor
-            tank_upgrade
-            
-		}
-
-	}	
-	cupola = {
-	
-		enable_equipment_modules = {
-		cupola
-		}
-		path = {
-	    leads_to_tech = night_vision_tank
-	   	research_cost_coeff = 1
-		}
-
-		research_cost = 1
-
-		start_year = 1941
-		
-		folder = {
-			name = upgrade_folder
-			position = { x = 13 y = @1943 }
-		}
-		
-		ai_will_do = {
-			factor = 6
-			
-		}
-						
-		categories = {
-			armor
-            tank_upgrade
-            
-		}
-
-	}
-	night_vision_tank = {
-	
-		category_all_armor = {
-			soft_attack = 0.05
-			hard_attack = 0.05
-		}
-
-		research_cost = 1
-
-		start_year = 1944
-		
-		folder = {
-			name = upgrade_folder
-			position = { x = 13 y = @1945 }
-		}
-		
-		ai_will_do = {
-			factor = 6
-			
-		}
-						
-		categories = {
-			artillery
-            tank_upgrade
-            
-		}
-
-	}
 	boiling_vessel = {
 	
 		enable_equipment_modules = {

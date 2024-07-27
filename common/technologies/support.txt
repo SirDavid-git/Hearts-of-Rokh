@@ -2,6 +2,7 @@ technologies = {
 	
 	@1918 = -2
 	@1936 = 0
+	@1937 = 1
 	@1938 = 2
 	@1939 = 3
 	@1940 = 4
@@ -81,7 +82,7 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = support_folder
-			position = { x = 17 y = @1937 }
+			position = { x = 17 y = @1938 }
 		}
 		
 		categories = {

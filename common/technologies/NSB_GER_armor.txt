@@ -549,7 +549,7 @@ technologies = {
 				type = light_tank_chassis_1943
 				parent_version = 0
 				modules = {
-				main_armament_slot = tank_high_velocity_cannon
+				main_armament_slot = tank_medium_high_velocity_cannon
 				turret_type_slot = tank_light_two_man_tank_turret
 				suspension_type_slot = tank_interleaved_suspension
 				armor_type_slot = tank_welded_armor
@@ -784,7 +784,7 @@ technologies = {
 				type = medium_tank_chassis_1942
 				parent_version = 0
 				modules = {
-				main_armament_slot = tank_high_velocity_cannon_2
+				main_armament_slot = tank_medium_high_velocity_cannon_2
 				turret_type_slot = tank_medium_three_man_tank_turret
 				suspension_type_slot = tank_bogie_suspension
 				armor_type_slot = tank_welded_armor
@@ -853,7 +853,7 @@ technologies = {
 				type = medium_tank_chassis_1943
 				parent_version = 0
 				modules = {
-				main_armament_slot = tank_high_velocity_cannon_3
+				main_armament_slot = tank_medium_high_velocity_cannon_3
 				turret_type_slot = tank_medium_three_man_tank_turret
 				suspension_type_slot = tank_interleaved_suspension
 				armor_type_slot = tank_welded_armor
@@ -862,7 +862,7 @@ technologies = {
 				radio_slot = tank_radio_1
 				special_type_slot_1 = cupola
 				special_type_slot_2 = smoke_launchers
-				special_type_slot_3 = improved_sights
+				special_type_slot_3 = rangefinder
 				special_type_slot_4 = austerity_powertrain
 				}
 				upgrades = {
@@ -873,7 +873,7 @@ technologies = {
 				
 			}
 			set_technology = {
-				medium_gun4 = 1
+				medium_gun3 = 1
 				armour_sloping3 = 1
 				austerity_transmission = 1
 			}
@@ -929,7 +929,7 @@ technologies = {
 				type = medium_tank_chassis_1945
 				parent_version = 0
 				modules = {
-				main_armament_slot = tank_high_velocity_cannon_3
+				main_armament_slot = tank_medium_high_velocity_cannon_3
 				turret_type_slot = tank_medium_three_man_tank_turret
 				suspension_type_slot = tank_interleaved_suspension
 				armor_type_slot = tank_welded_armor
@@ -939,7 +939,7 @@ technologies = {
 				special_type_slot_1 = basket
 				special_type_slot_2 = cupola
 				special_type_slot_3 = smoke_launchers
-				special_type_slot_4 = improved_sights
+				special_type_slot_4 = stabilizer
 				special_type_slot_5 = rangefinder
 				}
 				upgrades = {
@@ -1111,7 +1111,7 @@ technologies = {
 				special_type_slot_1 = basket
 				special_type_slot_2 = cupola
 				special_type_slot_3 = smoke_launchers
-				special_type_slot_4 = improved_sights
+				special_type_slot_4 = rangefinder
 				}
 				upgrades = {
 					tank_nsb_engine_upgrade = 9
@@ -1168,7 +1168,7 @@ technologies = {
 				radio_slot = tank_radio_1
 				special_type_slot_1 = basket
 				special_type_slot_2 = cupola
-				special_type_slot_3 = improved_sights
+				special_type_slot_3 = rangefinder
 				}
 				upgrades = {
 					tank_nsb_engine_upgrade = 9
@@ -1227,7 +1227,7 @@ technologies = {
 				very_heavy_gun2 = 1
 				armour_sloping3 = 1
 				cupola = 1
-				turret_basket = 1
+				 = 1
 			}
 		}
 	}		

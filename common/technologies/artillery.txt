@@ -291,10 +291,10 @@ technologies = {
 		enable_equipments = {
 			pack_artillery_equipment_3
 		}
-	#	path = {
-	#		leads_to_tech = antitank10
-	#		research_cost_coeff = 1
-	#	}
+		path = {
+			leads_to_tech = antitank10
+			research_cost_coeff = 1
+		}
 		
 		research_cost = 1
 		start_year = 1942
@@ -667,10 +667,10 @@ technologies = {
 			hard_attack = 0.05
 		}
 
-	#	path = {
-	#		leads_to_tech = antitank10
-	#		research_cost_coeff = 1
-	#	}
+		path = {
+			leads_to_tech = antitank10
+			research_cost_coeff = 1
+		}
 		
 		research_cost = 0.8
 		start_year = 1940
@@ -700,10 +700,10 @@ technologies = {
 	    allow = {
 		     NOT = { has_tech = "field_gun5_1" }
 		}
-	#	path = {
-	#		leads_to_tech = antitank10
-	#		research_cost_coeff = 1
-	#	}
+		path = {
+			leads_to_tech = antitank10
+			research_cost_coeff = 1
+		}
 		field_gun_brigade = {			
 	        forest = {
 				movement = 0.1
@@ -2138,7 +2138,7 @@ technologies = {
 		start_year = 1943
 		folder = {
 			name = artillery_folder
-			position = { x = 30 y = @1918 }
+			position = { x = 5 y = @1943 }
 		}
 		
 		

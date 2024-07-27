@@ -596,7 +596,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 	    enable_equipment_modules = {
-			tank_high_velocity_cannon
+			tank_medium_high_velocity_cannon
 		}
 
 		research_cost = 2
@@ -621,7 +621,7 @@ technologies = {
 				type = medium_tank_chassis_1940
 				parent_version = 0
 				modules = {
-				main_armament_slot = tank_high_velocity_cannon
+				main_armament_slot = tank_medium_high_velocity_cannon
 				turret_type_slot = tank_medium_two_man_tank_turret
 				suspension_type_slot = tank_bogie_suspension
 				armor_type_slot = tank_riveted_armor
@@ -655,7 +655,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 	    enable_equipment_modules = {
-			tank_high_velocity_cannon_2
+			tank_medium_high_velocity_cannon_2
 			early_cupola
 		}
 
@@ -681,7 +681,7 @@ technologies = {
 				type = medium_tank_chassis_1942
 				parent_version = 0
 				modules = {
-				main_armament_slot = tank_high_velocity_cannon_2
+				main_armament_slot = tank_medium_high_velocity_cannon_2
 				turret_type_slot = tank_medium_three_man_tank_turret
 				suspension_type_slot = tank_bogie_suspension
 				armor_type_slot = tank_riveted_armor
@@ -884,7 +884,7 @@ technologies = {
 			}
 			set_technology = {
 				heavy_gun = 1
-			 	turret_basket = 1
+			 	 = 1
 				armour_sloping3 = 1
 				cupola = 1
 			}

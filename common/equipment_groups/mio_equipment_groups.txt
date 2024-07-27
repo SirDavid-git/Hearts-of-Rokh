@@ -16,6 +16,7 @@ mio_cat_eq_all_light_tank = { #Includes (standalone) Amphibious Tank Chassis
 		light_tank_aa_chassis
 		light_tank_artillery_chassis
 		light_tank_destroyer_chassis
+    light_tank_close_support_chassis
 		light_tank_flame_chassis
 		light_tank_rocket_chassis
 		light_tank_amphibious_chassis
@@ -31,6 +32,7 @@ mio_cat_eq_all_medium_tank = { #Includes Modern Tank Chassis
 		medium_tank_flame_chassis
 		medium_tank_artillery_chassis
 		medium_tank_amphibious_chassis
+    medium_tank_close_support_chassis
 	}
 }
 mio_cat_eq_all_medium_tank_support = { #Includes Modern Tank Chassis
@@ -68,6 +70,8 @@ mio_cat_eq_all_heavy_tank = { #Includes Super Heavy Tank Chassis
 		super_heavy_tank_flame_chassis
 		heavy_tank_amphibious_chassis
 		super_heavy_tank_amphibious_chassis
+    heavy_tank_close_support_chassis
+    super_heavy_tank_close_support_chassis
 	}
 }
 

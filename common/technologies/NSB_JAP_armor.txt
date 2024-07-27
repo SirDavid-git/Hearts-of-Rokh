@@ -541,7 +541,7 @@ technologies = {
 				type = light_tank_chassis_1943
 				parent_version = 0
 				modules = {
-				main_armament_slot = tank_high_velocity_cannon
+				main_armament_slot = tank_medium_high_velocity_cannon
 				turret_type_slot = tank_light_three_man_tank_turret
 				suspension_type_slot = tank_bogie_suspension
 				armor_type_slot = tank_welded_armor
@@ -702,7 +702,7 @@ technologies = {
 				type = medium_tank_chassis_1940
 				parent_version = 0
 				modules = {
-				main_armament_slot = tank_high_velocity_cannon
+				main_armament_slot = tank_medium_high_velocity_cannon
 				turret_type_slot = tank_medium_two_man_tank_turret
 				suspension_type_slot = tank_bogie_suspension
 				armor_type_slot = tank_welded_armor
@@ -731,7 +731,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 	    enable_equipment_modules = {
-			tank_medium_improved_three_man_tank_turret
+			tank_medium_three_man_tank_turret
 		}
 		
 		research_cost = 2
@@ -757,7 +757,7 @@ technologies = {
 				parent_version = 0
 				modules = {
 				main_armament_slot = tank_medium_cannon_2
-				turret_type_slot = tank_medium_improved_three_man_tank_turret
+				turret_type_slot = tank_medium_three_man_tank_turret
 				suspension_type_slot = tank_bogie_suspension
 				armor_type_slot = tank_welded_armor
 				armor_sloping_slot = unsloped_armor
@@ -813,7 +813,7 @@ technologies = {
 				type = medium_tank_chassis_1942
 				parent_version = 0
 				modules = {
-				main_armament_slot = tank_high_velocity_cannon_2
+				main_armament_slot = tank_medium_high_velocity_cannon_2
 				turret_type_slot = tank_medium_three_man_tank_turret
 				suspension_type_slot = tank_bogie_suspension
 				armor_type_slot = tank_welded_armor
@@ -882,7 +882,7 @@ technologies = {
 				type = medium_tank_chassis_1944
 				parent_version = 0
 				modules = {
-				main_armament_slot = tank_high_velocity_cannon_2
+				main_armament_slot = tank_medium_high_velocity_cannon_2
 				turret_type_slot = tank_medium_three_man_tank_turret
 				suspension_type_slot = tank_bogie_suspension
 				armor_type_slot = tank_welded_armor
@@ -902,7 +902,7 @@ technologies = {
 			}
 			set_technology = {
 				autoloader = 1
-				turret_basket = 1
+				 = 1
 			}
 		}
 	}	
@@ -980,7 +980,7 @@ technologies = {
 				type = super_heavy_tank_chassis_1942
 				parent_version = 0
 				modules = {
-				main_armament_slot = tank_high_velocity_cannon_2
+				main_armament_slot = tank_medium_high_velocity_cannon_2
 				turret_type_slot = tank_heavy_three_man_tank_turret
 				suspension_type_slot = tank_bogie_suspension
 				armor_type_slot = tank_welded_armor

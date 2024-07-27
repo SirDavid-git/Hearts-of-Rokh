@@ -549,7 +549,7 @@ technologies = {
 		}
 		
 		enable_equipment_modules = {
-			tank_high_velocity_cannon_2
+			tank_medium_high_velocity_cannon_2
 			advanced_sloped_armor
 		}
 		
@@ -594,7 +594,7 @@ technologies = {
 				type = light_tank_chassis_1943
 				parent_version = 0
 				modules = {
-				main_armament_slot = tank_high_velocity_cannon_2
+				main_armament_slot = tank_medium_high_velocity_cannon_2
 				turret_type_slot = tank_light_casemate_turret
 				suspension_type_slot = tank_torsion_bar_suspension
 				armor_type_slot = tank_welded_armor
@@ -687,7 +687,7 @@ technologies = {
 			}
 			set_technology = {
 				small_gun2 = 1
-				turret_basket = 1
+				 = 1
 				early_cupola = 1
 			}
 		}
@@ -699,7 +699,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 	    enable_equipment_modules = {
-			tank_medium_improved_three_man_tank_turret
+			tank_medium_three_man_tank_turret
 			tank_medium_cannon_2
 			tank_medium_opentop_turret
 
@@ -728,7 +728,7 @@ technologies = {
 				parent_version = 0
 				modules = {
 				main_armament_slot = tank_medium_cannon_2
-				turret_type_slot = tank_medium_improved_three_man_tank_turret
+				turret_type_slot = tank_medium_three_man_tank_turret
 				suspension_type_slot = tank_bogie_suspension
 				armor_type_slot = tank_riveted_armor
 				armor_sloping_slot = unsloped_armor
@@ -763,7 +763,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 	    enable_equipment_modules = {
-			tank_high_velocity_cannon_2
+			tank_medium_high_velocity_cannon_2
 			sloped_armor
 			cupola
 		}
@@ -790,7 +790,7 @@ technologies = {
 				type = medium_tank_chassis_1942
 				parent_version = 0
 				modules = {
-				main_armament_slot = tank_high_velocity_cannon_2
+				main_armament_slot = tank_medium_high_velocity_cannon_2
 				turret_type_slot = tank_medium_three_man_tank_turret
 				suspension_type_slot = tank_bogie_suspension
 				armor_type_slot = tank_welded_armor
@@ -826,7 +826,7 @@ technologies = {
 		
 		
 	    enable_equipment_modules = {
-			tank_high_velocity_cannon_3
+			tank_medium_high_velocity_cannon_3
 			cupola
 			sloped_armor
 		}
@@ -867,7 +867,7 @@ technologies = {
 				type = medium_tank_chassis_1944
 				parent_version = 0
 				modules = {
-				main_armament_slot = tank_high_velocity_cannon_3
+				main_armament_slot = tank_medium_high_velocity_cannon_3
 				turret_type_slot = tank_medium_three_man_tank_turret
 				suspension_type_slot = tank_bogie_suspension
 				armor_type_slot = tank_welded_armor
@@ -885,7 +885,7 @@ technologies = {
 				
 			}
 			set_technology = {
-				medium_gun4 = 1
+				medium_gun3 = 1
 			}
 		}
 	}	
@@ -1024,7 +1024,7 @@ technologies = {
 			}
 			set_technology = {
 				heavy_gun = 1
-				turret_basket = 1
+				 = 1
 				cupola = 1
 			}
 		}

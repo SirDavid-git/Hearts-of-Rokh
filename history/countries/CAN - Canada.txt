@@ -127,7 +127,7 @@ set_technology = { #player
 	support_weapons = 1
 	fuel_silos = 1 
 	field_equipment = 1 
-	tech_radio_1 = 1 
+	# tech_radio_1 = 1 
 	motorised_infantry = 1
 	radio = 1
 	special_equipment = 1
@@ -181,12 +181,18 @@ set_technology = { #player
 			 has_dlc = "No Step Back" 
 		}
 		set_technology = {
-		    can_nsb_motorised_infantry = 1
-			can_tech_armored_cars = 1
-            can_tech_armored_cars = 1
-			can_1934_light_tank_chassis = 1
-			can_1934_heavy_tank_chassis = 1
-			unlock_modules = 1
+	#	  can_nsb_motorised_infantry = 1
+	#		can_tech_armored_cars = 1
+	#		can_1934_light_tank_chassis = 1
+	#		can_1934_heavy_tank_chassis = 1
+	
+			motorised_infantry = 1
+			tech_armored_cars = 1
+			gen_1934_light_tank_chassis = 1
+			gen_1936_medium_tank_chassis = 1
+			gen_1934_heavy_tank_chassis = 1
+	
+			yearly_modules = 1
 			automatic_gun = 1
 			small_gun = 1
 			small_gun2 = 1

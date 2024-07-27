@@ -7,7 +7,7 @@ duplicate_archetypes = {
 
 	light_tank_aa_chassis = {
 		archetype = light_tank_chassis
-		type = { armor anti_air cat_light_armor }
+		type = { armor anti_air   }
 
 		for_each = {
 			# For each duplicated equipment type (excluding the archetype), set variant_name by taking what would be
@@ -20,7 +20,7 @@ duplicate_archetypes = {
 
 	light_tank_artillery_chassis = {
 		archetype = light_tank_chassis
-		type = { armor artillery cat_light_armor }
+		type = { armor artillery   }
 		for_each = {
 			variant_name = { find_and_replace = { "chassis" "equipment" } }
             supply_consumption = { set =  0.13}
@@ -29,7 +29,7 @@ duplicate_archetypes = {
 
 	light_tank_destroyer_chassis = {
 		archetype = light_tank_chassis
-		type = { armor anti_tank cat_light_armor }
+		type = { armor anti_tank   }
 		for_each = {
 			variant_name = { find_and_replace = { "chassis" "equipment" } }
 			supply_consumption = { set =  0.13}
@@ -38,7 +38,7 @@ duplicate_archetypes = {
 
 	light_tank_amphibious_chassis = {
 		archetype = light_tank_chassis
-		type = { armor amphibious cat_light_armor }
+		type = { armor amphibious   }
 		for_each = {
 			variant_name = { find_and_replace = { "chassis" "equipment" } }
 			supply_consumption = { set =  0.13}
@@ -47,7 +47,7 @@ duplicate_archetypes = {
 
 	light_tank_flame_chassis = {
 		archetype = light_tank_chassis
-		type = { armor flame cat_light_armor }
+		type = { armor flame   }
 		for_each = {
 			variant_name = { find_and_replace = { "chassis" "equipment" } }
 			supply_consumption = { set = 0.02 }
@@ -55,7 +55,7 @@ duplicate_archetypes = {
 	}
 	light_tank_rocket_chassis = {
 		archetype = light_tank_chassis
-		type = { armor rocket cat_light_armor }
+		type = { armor rocket   }
 		for_each = {
 			variant_name = { find_and_replace = { "chassis" "equipment" } }
 			supply_consumption = { set =  0.13}
@@ -63,7 +63,7 @@ duplicate_archetypes = {
 	}
 	light_tank_close_support_chassis = {
 		archetype = light_tank_chassis
-		type = { armor cat_close_support cat_light_armor }
+		type = { armor  } # cat_close_support
 		for_each = {
 			variant_name = { find_and_replace = { "chassis" "equipment" } }
 			supply_consumption = { set =  0.13}
@@ -74,7 +74,7 @@ duplicate_archetypes = {
 
 	medium_tank_aa_chassis = {
 		archetype = medium_tank_chassis
-		type = { armor anti_air cat_medium_armor }
+		type = { armor anti_air   }
 		for_each = {
 			variant_name = { find_and_replace = { "chassis" "equipment" } }
 			supply_consumption = { set = 0.17 }
@@ -83,7 +83,7 @@ duplicate_archetypes = {
 
 	medium_tank_artillery_chassis = {
 		archetype = medium_tank_chassis
-		type = { armor artillery cat_medium_armor }
+		type = { armor artillery   }
 		for_each = {
 			variant_name = { find_and_replace = { "chassis" "equipment" } }
             supply_consumption = { set = 0.17 }
@@ -92,7 +92,7 @@ duplicate_archetypes = {
 
 	medium_tank_destroyer_chassis = {
 		archetype = medium_tank_chassis
-		type = { armor anti_tank cat_medium_armor }
+		type = { armor anti_tank   }
 		for_each = {
 			variant_name = { find_and_replace = { "chassis" "equipment" } }
 			supply_consumption = { set = 0.17 }
@@ -101,7 +101,7 @@ duplicate_archetypes = {
 
 	medium_tank_amphibious_chassis = {
 		archetype = medium_tank_chassis
-		type = { armor amphibious cat_medium_armor }
+		type = { armor amphibious   }
 		for_each = {
 			variant_name = { find_and_replace = { "chassis" "equipment" } }
 			supply_consumption = { set = 0.17}
@@ -110,7 +110,7 @@ duplicate_archetypes = {
 
 	medium_tank_flame_chassis = {
 		archetype = medium_tank_chassis
-		type = { armor flame cat_medium_armor }
+		type = { armor flame   }
 		for_each = {
 			variant_name = { find_and_replace = { "chassis" "equipment" } }
 			supply_consumption = { set = 0.03 }
@@ -118,7 +118,7 @@ duplicate_archetypes = {
 	}
 	medium_tank_rocket_chassis = {
 		archetype = medium_tank_chassis
-		type = { armor rocket cat_medium_armor }
+		type = { armor rocket   }
 		for_each = {
 			variant_name = { find_and_replace = { "chassis" "equipment" } }
 			supply_consumption = { set = 0.17 }
@@ -127,7 +127,7 @@ duplicate_archetypes = {
 	
 	medium_tank_close_support_chassis = {
 		archetype = medium_tank_chassis
-		type = { armor cat_close_support cat_medium_armor }
+		type = { armor } # cat_close_support
 		for_each = {
 			variant_name = { find_and_replace = { "chassis" "equipment" } }
 			supply_consumption = { set = 0.17 }
@@ -138,7 +138,7 @@ duplicate_archetypes = {
 
 	heavy_tank_aa_chassis = {
 		archetype = heavy_tank_chassis
-		type = { armor anti_air cat_heavy_armor }
+		type = { armor anti_air   }
 		for_each = {
 			variant_name = { find_and_replace = { "chassis" "equipment" } }
 			supply_consumption = { set =  0.21 }
@@ -147,7 +147,7 @@ duplicate_archetypes = {
 
 	heavy_tank_artillery_chassis = {
 		archetype = heavy_tank_chassis
-		type = { armor artillery cat_heavy_armor }
+		type = { armor artillery   }
 		for_each = {
 			variant_name = { find_and_replace = { "chassis" "equipment" } }
 			supply_consumption = { set =  0.21 }
@@ -156,7 +156,7 @@ duplicate_archetypes = {
 
 	heavy_tank_destroyer_chassis = {
 		archetype = heavy_tank_chassis
-		type = { armor anti_tank cat_heavy_armor }
+		type = { armor anti_tank   }
 		for_each = {
 			variant_name = { find_and_replace = { "chassis" "equipment" } }
 			supply_consumption = { set =  0.21 }
@@ -165,7 +165,7 @@ duplicate_archetypes = {
 
 	heavy_tank_amphibious_chassis = {
 		archetype = heavy_tank_chassis
-		type = { armor amphibious cat_heavy_armor }
+		type = { armor amphibious   }
 		for_each = {
 			variant_name = { find_and_replace = { "chassis" "equipment" } }
 			supply_consumption = { set =  0.21 }
@@ -174,7 +174,7 @@ duplicate_archetypes = {
 
 	heavy_tank_flame_chassis = {
 		archetype = heavy_tank_chassis
-		type = { armor flame cat_heavy_armor }
+		type = { armor flame   }
 		for_each = {
 			variant_name = { find_and_replace = { "chassis" "equipment" } }
 			supply_consumption = { set = 0.03 }
@@ -182,7 +182,7 @@ duplicate_archetypes = {
 	}
 	heavy_tank_rocket_chassis = {
 		archetype = heavy_tank_chassis
-		type = { armor rocket cat_heavy_armor }
+		type = { armor rocket   }
 		for_each = {
 			variant_name = { find_and_replace = { "chassis" "equipment" } }
 			supply_consumption = { set =  0.21}
@@ -191,7 +191,7 @@ duplicate_archetypes = {
 
 		heavy_tank_close_support_chassis = {
 			archetype = heavy_tank_chassis
-			type = { armor close_support cat_heavy_armor }
+			type = { armor } # cat_close_support
 			for_each = {
 				variant_name = { find_and_replace = { "chassis" "equipment" } }
 				supply_consumption = { set =  0.21}
@@ -202,7 +202,7 @@ duplicate_archetypes = {
 			
 	super_heavy_tank_aa_chassis = {
 		archetype = super_heavy_tank_chassis
-		type = { armor anti_air cat_heavy_armor }
+		type = { armor anti_air   }
 		for_each = {
 			variant_name = { find_and_replace = { "chassis" "equipment" } }
 			supply_consumption = { set = 0.22}
@@ -211,7 +211,7 @@ duplicate_archetypes = {
 
 	super_heavy_tank_artillery_chassis = {
 		archetype = super_heavy_tank_chassis
-		type = { armor artillery cat_heavy_armor }
+		type = { armor artillery   }
 		for_each = {
 			variant_name = { find_and_replace = { "chassis" "equipment" } }
 			supply_consumption = { set =  0.22 }
@@ -220,7 +220,7 @@ duplicate_archetypes = {
 
 	super_heavy_tank_destroyer_chassis = {
 		archetype = super_heavy_tank_chassis
-		type = { armor anti_tank cat_heavy_armor }
+		type = { armor anti_tank   }
 		for_each = {
 			variant_name = { find_and_replace = { "chassis" "equipment" } }
             supply_consumption = { set =  0.22 }
@@ -228,7 +228,7 @@ duplicate_archetypes = {
 	}
 	super_heavy_tank_amphibious_chassis = {
 		archetype = super_heavy_tank_chassis
-		type = { armor amphibious cat_heavy_armor }
+		type = { armor amphibious   }
 		for_each = {
 			variant_name = { find_and_replace = { "chassis" "equipment" } }
 			supply_consumption = { set =  0.22 }
@@ -236,7 +236,7 @@ duplicate_archetypes = {
 	}
 	super_heavy_tank_flame_chassis = {
 		archetype = super_heavy_tank_chassis
-		type = { armor flame cat_heavy_armor }
+		type = { armor flame   }
 		for_each = {
 			variant_name = { find_and_replace = { "chassis" "equipment" } }
 			supply_consumption = { set = 0.03 }
@@ -244,7 +244,7 @@ duplicate_archetypes = {
 	}
 	super_heavy_tank_rocket_chassis = {
 		archetype = super_heavy_tank_chassis
-		type = { armor rocket cat_heavy_armor } 
+		type = { armor rocket   } 
 		for_each = { 
 			variant_name = { find_and_replace = { "chassis" "equipment" } }
 			supply_consumption = { set =  0.22 }
@@ -252,7 +252,7 @@ duplicate_archetypes = {
 	}
 	super_heavy_tank_close_support_chassis = {
 		archetype = super_heavy_tank_chassis
-		type = { armor cat_close_support cat_heavy_armor } 
+		type = { armor } # cat_close_support
 		for_each = { 
 			variant_name = { find_and_replace = { "chassis" "equipment" } }
 			supply_consumption = { set =  0.22 }
@@ -263,7 +263,7 @@ duplicate_archetypes = {
 	
 	modern_tank_aa_chassis = {
 		archetype = modern_tank_chassis
-		type = { armor anti_air cat_medium_armor }
+		type = { armor anti_air   }
 		for_each = {
 			variant_name = { find_and_replace = { "chassis" "equipment" } }
 		}
@@ -271,7 +271,7 @@ duplicate_archetypes = {
 
 	modern_tank_artillery_chassis = {
 		archetype = modern_tank_chassis
-		type = { armor artillery cat_medium_armor }
+		type = { armor artillery   }
 		for_each = {
 			variant_name = { find_and_replace = { "chassis" "equipment" } }
 		}
@@ -279,7 +279,7 @@ duplicate_archetypes = {
 
 	modern_tank_destroyer_chassis = {
 		archetype = modern_tank_chassis
-		type = { armor anti_tank cat_medium_armor }
+		type = { armor anti_tank   }
 		for_each = {
 			variant_name = { find_and_replace = { "chassis" "equipment" } }
 		}
