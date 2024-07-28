@@ -55,9 +55,11 @@ l_english:
   small_gun3_desc:0 "A small cannon specifically designed for high anti-armor capability. Using long barrel to achieve the velocity needed for increased piercing abilities, it has superb anti-armor characteristics, but its performance against soft targets suffers. §HSmall§! weapon, allows §HTank Destroyer§! role."
   support_gun:0 "Close Support Gun"
   support_gun_desc:0 "A small weapon designed to fire medium caliber high-explosive shells against enemy field fortifications to help the infantry on the attack. While capable of engaging tanks, its short barrel and thus limited muzzle velocity make it unoptimal when dealing with enemy tanks. §HSmall§! weapon."
-  medium_gun2:0 "Medium Cannon"
+  medium_gun:0 "Medium Cannon"
+  medium_gun_desc:0 "A general-purpose weapon well suited to a wide variety of tasks. It excells at neither anti-infantry nor anti-tank work, but it provides a vehicle with a lot of flexibility. A §HMedium§! weapon, allows §HTank Destroyer§! role."
+  medium_gun2:0 "Improved Medium Cannon"
   medium_gun2_desc:0 "A general-purpose weapon well suited to a wide variety of tasks. It excells at neither anti-infantry nor anti-tank work, but it provides a vehicle with a lot of flexibility. A §HMedium§! weapon, allows §HTank Destroyer§! role."
-  medium_gun3:0  "Medium High-Velocity Cannon"
+  medium_gun3:0  "Advanced Medium Cannon"
   medium_gun3_desc:0 "A medium cannon specifically designed for high anti-armor capability. Using long barrel to achieve the velocity needed for increased piercing abilities, it has superb anti-armor characteristics, but its performance against soft targets suffers. §HMedium§! weapon, allows §HTank Destroyer§! role."
   medium_gun4:0  "Improved Medium High-Velocity Cannon"
   medium_gun4_desc:0 "An improved variant of the medium high-velocity cannon with an even longer barrel and bigger propellant charge for increased velocity and piercing. A §HMedium§! weapon, allows §HTank Destroyer§! role."
@@ -104,12 +106,7 @@ l_english:
   autoloader:0 "Semi-Automatic Loading"
   autoloader2:0 "Automatic Loading"
   auto_loader2:0 "Improved Auto Loader"
-  better_construction:0 "Improved Ergonomics"
-  boiling_vessel:0 "Boiling Vessel"
-  boiling_vessel_desc:0 "A boiling vessel permits the crew to heat water and cook food by drawing power from the vehicle electrical supply. It is often referred to by crewmembers (not entirely in jest) as "the most important piece of equipment in a British armoured vehicle"."
-
-
-  night_vision_tank:0 "Night Vision"
+  
   fording_equipment:0 "Fording Equipment"
   medium_tank_aa_chassis:0 "Medium Tank Anti Air"
   medium_tank_artillery_chassis:0 "Medium Tank Artillery"

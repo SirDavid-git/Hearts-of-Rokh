@@ -195,7 +195,7 @@ technologies = {
 	defensive_improvements = { ###1940
 	
 		enable_equipment_modules = {
-			wet_ammo_storage
+			frontal_engine
 			smoke_launchers
 		}
 

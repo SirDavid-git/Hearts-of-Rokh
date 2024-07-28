@@ -253,7 +253,7 @@ equipment_modules = {
 	}
 	tank_light_armored_open_turret = {
 		abbreviation = "lfs"
-		category = tank_light_opentop_turret_late_type
+		category = tank_light_opentop_turret_type
 		sfx = sfx_ui_sd_module_turret
 		forbid_equipment_type_exact_match = armor
 		forbid_equipment_type = { rocket flame } # cat_close_support
@@ -888,7 +888,7 @@ equipment_modules = {
 			convert_cost_ic = 1
 		}
 		can_convert_from = {
-			module_category = tank_small_tank_destroyer_armament
+			module_category = tank_light_tank_destroyer_armament
 			convert_cost_ic = 1
 		}
 		build_cost_resources = {
@@ -937,7 +937,7 @@ equipment_modules = {
 		}
 		xp_cost = 0
 		can_convert_from = {
-			module_category = tank_aa_main_armament
+			module_category = tank_anti_air_armament
 			convert_cost_ic = 2
 		}
 		can_convert_from = {
@@ -962,7 +962,7 @@ equipment_modules = {
 		}
 		xp_cost = 0
 		can_convert_from = {
-			module_category = tank_aa_main_armament
+			module_category = tank_anti_air_armament
 			convert_cost_ic = 2
 		}
 		can_convert_from = {
