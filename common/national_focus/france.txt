@@ -2543,9 +2543,9 @@ focus_tree = {
 				if = {
 					limit = {
 						FRA = {
-							has_tech = fra_1940_medium_tank_chassis
+							has_tech = gen_1940_medium_tank_chassis
 							NOT = {
-								has_tech = fra_1940_heavy_tank_chassis
+								has_tech = gen_1940_heavy_tank_chassis
 							}
 						}
 					}
@@ -2558,9 +2558,9 @@ focus_tree = {
 				if = {
 					limit = {
 						FRA = {
-							has_tech = fra_1940_heavy_tank_chassis
+							has_tech = gen_1940_heavy_tank_chassis
 							NOT = {
-								has_tech = fra_1940_medium_tank_chassis
+								has_tech = gen_1940_medium_tank_chassis
 							}
 						}		
 					}
@@ -2574,8 +2574,8 @@ focus_tree = {
 					limit = {
 						FRA = {
 							AND = {
-								has_tech = fra_1940_heavy_tank_chassis
-								has_tech = fra_1940_medium_tank_chassis
+								has_tech = gen_1940_heavy_tank_chassis
+								has_tech = gen_1940_medium_tank_chassis
 							}
 						}
 					}
@@ -2588,7 +2588,7 @@ focus_tree = {
 				if = {
 					limit = {
 						FRA = {
-							has_tech = fra_1940_light_tank_chassis
+							has_tech = gen_1939_light_tank_chassis
 						}		
 					}
 					add_equipment_to_stockpile = {
@@ -2669,9 +2669,9 @@ focus_tree = {
 				if = {
 					limit = {
 						FRA = {
-							has_tech = fra_1940_medium_tank_chassis
+							has_tech = gen_1940_medium_tank_chassis
 							NOT = {
-								has_tech = fra_1940_heavy_tank_chassis
+								has_tech = gen_1940_heavy_tank_chassis
 							}
 						}
 					}
@@ -2684,9 +2684,9 @@ focus_tree = {
 				if = {
 					limit = {
 						FRA = {
-							has_tech = fra_1940_heavy_tank_chassis
+							has_tech = gen_1940_heavy_tank_chassis
 							NOT = {
-								has_tech = fra_1940_medium_tank_chassis
+								has_tech = gen_1940_medium_tank_chassis
 							}
 						}		
 					}
@@ -2700,8 +2700,8 @@ focus_tree = {
 					limit = {
 						FRA = {
 							AND = {
-								has_tech = fra_1940_heavy_tank_chassis
-								has_tech = fra_1940_medium_tank_chassis
+								has_tech = gen_1940_heavy_tank_chassis
+								has_tech = gen_1940_medium_tank_chassis
 							}
 						}
 					}
@@ -2714,7 +2714,7 @@ focus_tree = {
 				if = {
 					limit = {
 						FRA = {
-							has_tech = fra_1940_light_tank_chassis
+							has_tech = gen_1939_light_tank_chassis
 						}		
 					}
 					add_equipment_to_stockpile = {
@@ -2783,9 +2783,9 @@ focus_tree = {
 				if = {
 					limit = {
 						FRA = {
-							has_tech = fra_1940_medium_tank_chassis
+							has_tech = gen_1940_medium_tank_chassis
 							NOT = {
-								has_tech = fra_1940_heavy_tank_chassis
+								has_tech = gen_1940_heavy_tank_chassis
 							}
 						}
 					}
@@ -2798,9 +2798,9 @@ focus_tree = {
 				if = {
 					limit = {
 						FRA = {
-							has_tech = fra_1940_heavy_tank_chassis
+							has_tech = gen_1940_heavy_tank_chassis
 							NOT = {
-								has_tech = fra_1940_medium_tank_chassis
+								has_tech = gen_1940_medium_tank_chassis
 							}
 						}		
 					}
@@ -2814,8 +2814,8 @@ focus_tree = {
 					limit = {
 						FRA = {
 							AND = {
-								has_tech = fra_1940_heavy_tank_chassis
-								has_tech = fra_1940_medium_tank_chassis
+								has_tech = gen_1940_heavy_tank_chassis
+								has_tech = gen_1940_medium_tank_chassis
 							}
 						}
 					}
@@ -2828,7 +2828,7 @@ focus_tree = {
 				if = {
 					limit = {
 						FRA = {
-							has_tech = fra_1940_light_tank_chassis
+							has_tech = gen_1939_light_tank_chassis
 						}		
 					}
 					add_equipment_to_stockpile = {
@@ -2897,9 +2897,9 @@ focus_tree = {
 				if = {
 					limit = {
 						FRA = {
-							has_tech = fra_1940_medium_tank_chassis
+							has_tech = gen_1940_medium_tank_chassis
 							NOT = {
-								has_tech = fra_1940_heavy_tank_chassis
+								has_tech = gen_1940_heavy_tank_chassis
 							}
 						}
 					}
@@ -2912,9 +2912,9 @@ focus_tree = {
 				if = {
 					limit = {
 						FRA = {
-							has_tech = fra_1940_heavy_tank_chassis
+							has_tech = gen_1940_heavy_tank_chassis
 							NOT = {
-								has_tech = fra_1940_medium_tank_chassis
+								has_tech = gen_1940_medium_tank_chassis
 							}
 						}		
 					}
@@ -2928,8 +2928,8 @@ focus_tree = {
 					limit = {
 						FRA = {
 							AND = {
-								has_tech = fra_1940_heavy_tank_chassis
-								has_tech = fra_1940_medium_tank_chassis
+								has_tech = gen_1940_heavy_tank_chassis
+								has_tech = gen_1940_medium_tank_chassis
 							}
 						}
 					}
@@ -2942,7 +2942,7 @@ focus_tree = {
 				if = {
 					limit = {
 						FRA = {
-							has_tech = fra_1940_light_tank_chassis
+							has_tech = gen_1939_light_tank_chassis
 						}		
 					}
 					add_equipment_to_stockpile = {
@@ -3011,9 +3011,9 @@ focus_tree = {
 				if = {
 					limit = {
 						FRA = {
-							has_tech = fra_1940_medium_tank_chassis
+							has_tech = gen_1940_medium_tank_chassis
 							NOT = {
-								has_tech = fra_1940_heavy_tank_chassis
+								has_tech = gen_1940_heavy_tank_chassis
 							}
 						}
 					}
@@ -3026,9 +3026,9 @@ focus_tree = {
 				if = {
 					limit = {
 						FRA = {
-							has_tech = fra_1940_heavy_tank_chassis
+							has_tech = gen_1940_heavy_tank_chassis
 							NOT = {
-								has_tech = fra_1940_medium_tank_chassis
+								has_tech = gen_1940_medium_tank_chassis
 							}
 						}		
 					}
@@ -3042,8 +3042,8 @@ focus_tree = {
 					limit = {
 						FRA = {
 							AND = {
-								has_tech = fra_1940_heavy_tank_chassis
-								has_tech = fra_1940_medium_tank_chassis
+								has_tech = gen_1940_heavy_tank_chassis
+								has_tech = gen_1940_medium_tank_chassis
 							}
 						}
 					}
@@ -3056,7 +3056,7 @@ focus_tree = {
 				if = {
 					limit = {
 						FRA = {
-							has_tech = fra_1940_light_tank_chassis
+							has_tech = gen_1939_light_tank_chassis
 						}		
 					}
 					add_equipment_to_stockpile = {
@@ -3125,9 +3125,9 @@ focus_tree = {
 				if = {
 					limit = {
 						FRA = {
-							has_tech = fra_1940_medium_tank_chassis
+							has_tech = gen_1940_medium_tank_chassis
 							NOT = {
-								has_tech = fra_1940_heavy_tank_chassis
+								has_tech = gen_1940_heavy_tank_chassis
 							}
 						}
 					}
@@ -3140,9 +3140,9 @@ focus_tree = {
 				if = {
 					limit = {
 						FRA = {
-							has_tech = fra_1940_heavy_tank_chassis
+							has_tech = gen_1940_heavy_tank_chassis
 							NOT = {
-								has_tech = fra_1940_medium_tank_chassis
+								has_tech = gen_1940_medium_tank_chassis
 							}
 						}		
 					}
@@ -3156,8 +3156,8 @@ focus_tree = {
 					limit = {
 						FRA = {
 							AND = {
-								has_tech = fra_1940_heavy_tank_chassis
-								has_tech = fra_1940_medium_tank_chassis
+								has_tech = gen_1940_heavy_tank_chassis
+								has_tech = gen_1940_medium_tank_chassis
 							}
 						}
 					}
@@ -3170,7 +3170,7 @@ focus_tree = {
 				if = {
 					limit = {
 						FRA = {
-							has_tech = fra_1940_light_tank_chassis
+							has_tech = gen_1939_light_tank_chassis
 						}		
 					}
 					add_equipment_to_stockpile = {
@@ -3239,9 +3239,9 @@ focus_tree = {
 				if = {
 					limit = {
 						FRA = {
-							has_tech = fra_1940_medium_tank_chassis
+							has_tech = gen_1940_medium_tank_chassis
 							NOT = {
-								has_tech = fra_1940_heavy_tank_chassis
+								has_tech = gen_1940_heavy_tank_chassis
 							}
 						}
 					}
@@ -3254,9 +3254,9 @@ focus_tree = {
 				if = {
 					limit = {
 						FRA = {
-							has_tech = fra_1940_heavy_tank_chassis
+							has_tech = gen_1940_heavy_tank_chassis
 							NOT = {
-								has_tech = fra_1940_medium_tank_chassis
+								has_tech = gen_1940_medium_tank_chassis
 							}
 						}		
 					}
@@ -3270,8 +3270,8 @@ focus_tree = {
 					limit = {
 						FRA = {
 							AND = {
-								has_tech = fra_1940_heavy_tank_chassis
-								has_tech = fra_1940_medium_tank_chassis
+								has_tech = gen_1940_heavy_tank_chassis
+								has_tech = gen_1940_medium_tank_chassis
 							}
 						}
 					}
@@ -3284,7 +3284,7 @@ focus_tree = {
 				if = {
 					limit = {
 						FRA = {
-							has_tech = fra_1940_light_tank_chassis
+							has_tech = gen_1939_light_tank_chassis
 						}		
 					}
 					add_equipment_to_stockpile = {
@@ -5828,7 +5828,7 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			add_tech_bonus = {
-				technology = fra_1942_super_heavy_tank_chassis
+				technology = gen_1940_super_heavy_tank_chassis
 				uses = 1
 				bonus = 1
 				name = FRA_mobile_fortresses 

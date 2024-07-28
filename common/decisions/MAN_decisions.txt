@@ -2910,7 +2910,7 @@ MAN_research_unit_short_funded ={
 				 has_country_flag = MAN_731_flag			
 				 }
 				 JAP = {
-					has_tech = jap_1940_light_tank_chassis
+					has_tech = gen_1939_light_tank_chassis
 				}
 			 } 
 			visible = {
@@ -2933,7 +2933,7 @@ MAN_research_unit_short_funded ={
 			   }
 			remove_effect = {
 
-				set_technology = { jap_1940_light_tank_chassis = 1 }
+				set_technology = { gen_1939_light_tank_chassis = 1 }
 				custom_effect_tooltip = MANspace
 				custom_effect_tooltip = cute_saruei
 				custom_effect_tooltip = MANspace

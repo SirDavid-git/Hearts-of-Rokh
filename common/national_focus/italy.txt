@@ -988,7 +988,7 @@ focus_tree = {
 			hidden_effect = {
 				if = {
 					limit = {
-						has_tech = ita_1940_heavy_tank_chassis
+						has_tech = gen_1940_heavy_tank_chassis
 					}	
 					if = {
 						limit = {
@@ -1092,7 +1092,7 @@ focus_tree = {
 				}
 				else_if = {
 					limit = {
-						has_tech = ita_1940_medium_tank_chassis
+						has_tech = gen_1940_medium_tank_chassis
 					}
 					if = {
 						limit = {
@@ -1481,11 +1481,11 @@ focus_tree = {
 					if = {
 						limit = {
 							NOT = {
-								has_tech = ger_1940_medium_tank_chassis
+								has_tech = gen_1940_medium_tank_chassis
 							}
 						}
 						set_technology = {
-							ger_1940_medium_tank_chassis = 1
+							gen_1940_medium_tank_chassis = 1
 						}
 					}
 					create_equipment_variant = {
@@ -1513,16 +1513,16 @@ focus_tree = {
 					if = {
 						limit = {
 							NOT = {
-								has_tech = ger_1939_medium_tank_chassis
+								has_tech = gen_1940_medium_tank_chassis
 							}
 						}
 						set_technology = {
-							ger_1939_medium_tank_chassis = 1
+							gen_1940_medium_tank_chassis = 1
 						}
 					}
 					create_equipment_variant = {
 						name = "Panzer IV Ausf.F2"
-						type = medium_tank_chassis_1946
+						type = medium_tank_chassis_1940
 						parent_version = 0
 						modules = {
 						main_armament_slot = tank_medium_cannon_2
@@ -1545,7 +1545,7 @@ focus_tree = {
 					}
 				}
 				add_equipment_to_stockpile = { type = medium_tank_chassis_1940 amount = 300 producer = GER variant_name = "Panzer III Ausf.J" }
-				add_equipment_to_stockpile = { type = medium_tank_chassis_1946 amount = 150 producer = GER variant_name = "Panzer IV Ausf.F2" }
+				add_equipment_to_stockpile = { type = medium_tank_chassis_1940 amount = 150 producer = GER variant_name = "Panzer IV Ausf.F2" }
 				if = {
 					limit = {
 						ITA = {
@@ -6614,8 +6614,8 @@ focus_tree = {
 			add_tech_bonus = {				
 				bonus = 1
 				uses = 1
-				technology = ita_mechanised_infantry1
-				technology = ita_nsb_mechanised_infantry2
+				technology = mechanised_infantry
+				technology = mechanised_infantry2
 				name = ITA_mech
 			}
 		}
@@ -6688,7 +6688,7 @@ focus_tree = {
 				hidden_effect = {
 					if = {
 						limit = {
-							has_tech = ita_1940_heavy_tank_chassis
+							has_tech = gen_1940_heavy_tank_chassis
 						}	
 						if = {
 							limit = {
@@ -6791,7 +6791,7 @@ focus_tree = {
 					}
 					else_if = {
 						limit = {
-							has_tech = ita_1940_medium_tank_chassis
+							has_tech = gen_1940_medium_tank_chassis
 						}
 						if = {
 							limit = {

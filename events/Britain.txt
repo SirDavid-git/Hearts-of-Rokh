@@ -937,7 +937,7 @@ country_event = {
 		name = britain.50.b	
 		trigger = {
             ENG = {
-				has_tech = eng_1936_medium_tank_chassis
+				has_tech = gen_1936_medium_tank_chassis
 			}
         }
 		hidden_effect = {

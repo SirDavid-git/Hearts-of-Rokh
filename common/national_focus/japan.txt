@@ -2501,7 +2501,7 @@ focus_tree = {
 				add_mio_funds = 1000
 			}
 		
-		set_technology = { jap_mechanised_infantry1 = 1 }
+		set_technology = { mechanised_infantry = 1 }
 
 			add_tech_bonus = {
 				name = JAP_expand_the_jnlf
@@ -2625,13 +2625,13 @@ focus_tree = {
 		available = {
 			OR = {
 				date > 1941.06.06
-				GER = { has_tech = ger_1942_heavy_tank_chassis }
-	 			SLO = { has_tech = slo_1942_heavy_tank_chassis }
-	 			BUL = { has_tech = bul_1942_heavy_tank_chassis }
-	 			HUN = { has_tech = hun_1942_heavy_tank_chassis }
-				ROM = { has_tech = rom_1942_heavy_tank_chassis }
-				SPR = { has_tech = ger_1942_heavy_tank_chassis }
-				EFR = { has_tech = ger_1942_heavy_tank_chassis }
+				GER = { has_tech = gen_1942_heavy_tank_chassis }
+	 			SLO = { has_tech = gen_1942_heavy_tank_chassis }
+	 			BUL = { has_tech = gen_1942_heavy_tank_chassis }
+	 			HUN = { has_tech = gen_1942_heavy_tank_chassis }
+				ROM = { has_tech = gen_1942_heavy_tank_chassis }
+				SPR = { has_tech = gen_1942_heavy_tank_chassis }
+				EFR = { has_tech = gen_1942_heavy_tank_chassis }
 	 		}
 	 	}		
 		completion_reward = {
@@ -6220,14 +6220,14 @@ focus_tree = {
 		completion_reward = {
 			##JAP_lose_overextension = yes 
 			add_tech_bonus = {
-				technology = jap_1942_super_heavy_tank_chassis
+				technology = gen_1940_super_heavy_tank_chassis
 				uses = 1
 				bonus = 3
 				name = JAP_ultimate_tank 
 			}
 			MAN = {
 				add_tech_bonus = {
-					technology = jap_1942_super_heavy_tank_chassis
+					technology = gen_1940_super_heavy_tank_chassis
 					uses = 1
 					bonus = 3
 					name = JAP_ultimate_tank 

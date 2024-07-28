@@ -1126,8 +1126,8 @@ focus_tree = {
 
 		completion_reward = {
 			add_tech_bonus = {
-				technology = hun_mechanised_infantry1
-				technology = hun_nsb_mechanised_infantry2
+				technology = mechanised_infantry
+				technology = mechanised_infantry2
 				uses = 1 
 				bonus = 1
 				name = HUN_a_mechanized_spearhead

@@ -24,7 +24,7 @@ SOV_medium_tanks = {
 
 		target_variant = {
 			match_value = 1000
-			type = medium_tank_chassis_1939
+			type = medium_tank_chassis_1938
 			modules = {
 				main_armament_slot = tank_small_cannon_2
 				turret_type_slot = tank_medium_two_man_tank_turret
@@ -58,7 +58,7 @@ SOV_medium_tanks = {
 
 		target_variant = { #Vehicle of glorious design T-34
 			match_value = 3000
-			type = medium_tank_chassis_1941
+			type = medium_tank_chassis_1940
 			modules = {
 				main_armament_slot = tank_medium_cannon_2
 				turret_type_slot = tank_medium_two_man_tank_turret
@@ -98,7 +98,7 @@ SOV_medium_tanks = {
 
 		target_variant = { #T34/85
 			match_value = 3500
-			type = medium_tank_chassis_1941
+			type = medium_tank_chassis_1942
 			modules = {
 				main_armament_slot = tank_heavy_cannon
 				turret_type_slot = tank_medium_advanced_three_man_tank_turret
@@ -199,7 +199,7 @@ SOV_heavy_tanks = {
 
 		target_variant = {
 			match_value = 4000
-			type = heavy_tank_chassis_1943
+			type = heavy_tank_chassis_1944
 			modules = {
 				main_armament_slot = tank_very_heavy_cannon
 				turret_type_slot = tank_heavy_three_man_tank_turret

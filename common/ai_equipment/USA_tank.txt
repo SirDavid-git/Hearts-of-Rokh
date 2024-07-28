@@ -165,7 +165,7 @@ USA_heavy_tanks = {
 
 		target_variant = {
 			match_value = 2000
-			type = heavy_tank_chassis_1941
+			type = heavy_tank_chassis_1940
 			modules = {
 				main_armament_slot = tank_medium_high_velocity_cannon_2
 				turret_type_slot = tank_heavy_three_man_tank_turret

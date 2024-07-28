@@ -26,7 +26,7 @@
 			producer = USA
 		}
 		add_equipment_to_stockpile = {
-		type = medium_tank_chassis_1941
+		type = medium_tank_chassis_1940
 			amount = 1000
 			producer = USA
 		}

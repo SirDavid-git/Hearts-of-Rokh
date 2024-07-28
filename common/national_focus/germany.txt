@@ -4461,7 +4461,7 @@ focus_tree = {
 		
 		completion_reward = {
 			add_ideas = GER_standard_panzer
-			set_technology = { ger_super_heavy_tank_chassis_1944 = 1 }
+			set_technology = { gen_super_heavy_tank_chassis_1944 = 1 }
 			set_technology = { super_heavy_gun = 1 }
 		} 
 	}	
@@ -5799,8 +5799,8 @@ focus_tree = {
 			add_tech_bonus = {				
 				bonus = 1 
 				uses = 1 
-				technology = ger_mechanised_infantry1
-				technology = ger_nsb_mechanised_infantry2
+				technology = mechanised_infantry
+				technology = mechanised_infantry2
 				name = GER_hanomag
 			}
 		}
@@ -6022,7 +6022,7 @@ focus_tree = {
 		
 		completion_reward = {
 
-			set_technology = { ger_mechanised_infantry1 = 1 }
+			set_technology = { mechanised_infantry = 1 }
 			GER_mefo_bills_level_up = yes
 			add_tech_bonus = {
 				category = cat_heavy_armor
@@ -6156,7 +6156,7 @@ focus_tree = {
 				technology = ger_nsb_tech_armored_cars4
 			}
 			add_tech_bonus = {
-				technology = ger_nsb_mechanised_infantry2
+				technology = mechanised_infantry2
 				uses = 1
 				bonus = 1
 				name = GER_mech
@@ -6448,7 +6448,7 @@ focus_tree = {
 				GER_mefo_bills_level_up = yes
 				GER_mefo_bills_level_up = yes
 				set_technology = {
-					ger_1940_heavy_tank_chassis = 1
+					gen_1940_heavy_tank_chassis = 1
 					support_gun2 = 1
 					armor_tech_1 = 1
 				}
@@ -6747,13 +6747,13 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = GER_unlocks_Henschel_stuff_tt
 			add_tech_bonus = {
-				technology = ger_1944_heavy_tank_chassis
+				technology = gen_1944_heavy_tank_chassis
 				uses = 1
 				bonus = 2
 				name = GER_mobile_fortresses 
 			}
 			add_tech_bonus = {
-				technology = ger_nsb_mechanised_infantry2
+				technology = mechanised_infantry2
 				uses = 1
 				bonus = 0.5
 				name = GER_mobile_fortresses 
@@ -6895,11 +6895,11 @@ focus_tree = {
 				name = GER_the_wild_cats_that_roam_in_russia
 				bonus = 2
 				uses = 1
-				technology = ger_1943_medium_tank_chassis
-				technology = ger_1945_medium_tank_chassis
+				technology = gen_1942_medium_tank_chassis
+				technology = gen_1944_medium_tank_chassis
 			}				
 			add_tech_bonus = {
-				technology = ger_nsb_mechanised_infantry2
+				technology = mechanised_infantry2
 				uses = 1
 				bonus = 0.5
 				name = GER_the_wild_cats_that_roam_in_russia 
@@ -7115,9 +7115,9 @@ focus_tree = {
 				ahead_reduction = 1 
 			}		
 			add_tech_bonus = {
-				technology = ger_mechanised_infantry1
-				technology = ger_nsb_mechanised_infantry2
-				technology = ger_nsb_mechanised_infantry3
+				technology = mechanised_infantry
+				technology = mechanised_infantry2
+				technology = mechanised_infantry3
 				uses = 1 
 				bonus = 0.5
 				ahead_reduction = 1 
@@ -7421,7 +7421,7 @@ focus_tree = {
 
 		available = {
 			
-			has_tech = ger_mechanised_infantry1
+			has_tech = mechanised_infantry
 			has_political_power > 79 
 			has_army_experience > 79
 
@@ -7581,7 +7581,7 @@ focus_tree = {
 
 		available = {
 		
-			has_tech = ger_mechanised_infantry1
+			has_tech = mechanised_infantry
 			has_political_power > 79 
 			has_army_experience > 79
 
@@ -7899,8 +7899,8 @@ focus_tree = {
 
 		available = {
 		
-			has_tech = ger_mechanised_infantry1
-			has_tech = ger_1942_heavy_tank_chassis
+			has_tech = mechanised_infantry
+			has_tech = gen_1942_heavy_tank_chassis
 			has_political_power > 99 
 			has_army_experience > 99
 

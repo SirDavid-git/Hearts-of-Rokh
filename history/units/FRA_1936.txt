@@ -814,7 +814,7 @@ instant_effect = { #player
 	}
 	add_equipment_production = {
 		equipment = {
-			type = heavy_tank_chassis_1936
+			type = heavy_tank_chassis_1934
 			creator = "FRA" 
 			version_name = "B1"
 		}

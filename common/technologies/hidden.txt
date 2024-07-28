@@ -4466,6 +4466,18 @@ technologies = {
 		
 	}
   
+	horses_tech = {
+		research_cost = -1
+		allow = {
+			always = no
+		}
+		enable_equipments = {
+			horse_equipment
+			horse_equipment_0
+		}
+		
+	}
+
 }
 
 

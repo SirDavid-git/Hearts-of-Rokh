@@ -1796,21 +1796,21 @@ foreign_support = {
 			SOV = {
 				if = {
 					limit = {
-						has_tech = sov_1942_light_tank_chassis
+						has_tech = gen_1941_light_tank_chassis
 					}
 					
 					if = {
 						limit = {
 							CHI = {
 								NOT = {
-									has_tech = usa_1939_light_tank_chassis
+									has_tech = gen_1939_light_tank_chassis
 								}
 								
 							}
 						}
 						CHI = {
 							set_technology = {
-								usa_1939_light_tank_chassis = 1
+								gen_1939_light_tank_chassis = 1
 							}
 						}
 						
@@ -1818,21 +1818,21 @@ foreign_support = {
 				}
 				else_if = {
 					limit = {
-						has_tech = sov_1939_light_tank_chassis
+						has_tech = gen_1939_light_tank_chassis
 					}
 					
 					if = {
 						limit = {
 							CHI = {
 								NOT = {
-									has_tech = usa_1939_light_tank_chassis
+									has_tech = gen_1939_light_tank_chassis
 								}
 								
 							}
 						}
 						CHI = {
 							set_technology = {
-								usa_1939_light_tank_chassis = 1
+								gen_1939_light_tank_chassis = 1
 							}
 						}
 						
@@ -1840,7 +1840,7 @@ foreign_support = {
 				}
 				else_if = {
 					limit = {
-						has_tech = sov_1936_light_tank_chassis
+						has_tech = gen_1936_light_tank_chassis
 					}
 					
 				
@@ -3601,21 +3601,21 @@ foreign_support = {
 			USA = {
 				if = {
 					limit = {
-						has_tech = usa_1943_light_tank_chassis
+						has_tech = gen_1943_light_tank_chassis
 					}
 					 
 					if = {
 						limit = {
 							CHI = {
 								NOT = {
-									has_tech = usa_1943_light_tank_chassis
+									has_tech = gen_1943_light_tank_chassis
 								}
 								
 							}
 						}
 						CHI = {
 							set_technology = {
-								usa_1943_light_tank_chassis = 1
+								gen_1943_light_tank_chassis = 1
 							}
 						}
 						
@@ -3623,21 +3623,21 @@ foreign_support = {
 				}
 				else_if = {
 					limit = {
-						has_tech = usa_1939_light_tank_chassis
+						has_tech = gen_1939_light_tank_chassis
 					}
 					
 					if = {
 						limit = {
 							CHI = {
 								NOT = {
-									has_tech = usa_1939_light_tank_chassis
+									has_tech = gen_1939_light_tank_chassis
 								}
 								
 							}
 						}
 						CHI = {
 							set_technology = {
-								usa_1939_light_tank_chassis = 1
+								gen_1939_light_tank_chassis = 1
 							}
 						}
 						
@@ -3645,21 +3645,21 @@ foreign_support = {
 				}
 				else_if = {
 					limit = {
-						has_tech = sov_1936_light_tank_chassis
+						has_tech = gen_1936_light_tank_chassis
 					}
 					
 					if = {
 						limit = {
 							CHI = {
 								NOT = {
-									has_tech = sov_1936_light_tank_chassis
+									has_tech = gen_1936_light_tank_chassis
 								}
 								
 							}
 						}
 						CHI = {
 							set_technology = {
-								sov_1936_light_tank_chassis = 1
+								gen_1936_light_tank_chassis = 1
 							}
 						}
 						

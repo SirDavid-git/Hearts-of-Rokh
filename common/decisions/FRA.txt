@@ -965,9 +965,9 @@ FRA_political_weight = {
 			if = {
 				limit = {
 					FRA = {
-						has_tech = fra_1940_medium_tank_chassis
+						has_tech = gen_1940_medium_tank_chassis
 						NOT = {
-							has_tech = fra_1940_heavy_tank_chassis
+							has_tech = gen_1940_heavy_tank_chassis
 						}
 					}
 				}
@@ -980,9 +980,9 @@ FRA_political_weight = {
 			if = {
 				limit = {
 					FRA = {
-						has_tech = fra_1940_heavy_tank_chassis
+						has_tech = gen_1940_heavy_tank_chassis
 						NOT = {
-							has_tech = fra_1940_medium_tank_chassis
+							has_tech = gen_1940_medium_tank_chassis
 						}
 					}		
 				}
@@ -996,8 +996,8 @@ FRA_political_weight = {
 				limit = {
 					FRA = {
 						AND = {
-							has_tech = fra_1940_heavy_tank_chassis
-							has_tech = fra_1940_medium_tank_chassis
+							has_tech = gen_1940_heavy_tank_chassis
+							has_tech = gen_1940_medium_tank_chassis
 						}
 					}
 				}
@@ -1010,11 +1010,11 @@ FRA_political_weight = {
 			if = {
 				limit = {
 					FRA = {
-						has_tech = fra_1940_light_tank_chassis
+						has_tech = gen_1939_light_tank_chassis
 					}		
 				}
 				add_equipment_to_stockpile = {
-					type = light_tank_chassis_1940
+					type = light_tank_chassis_1939
 					amount = 300
 					producer = FRA
 				}	

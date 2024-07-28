@@ -2966,8 +2966,8 @@ focus_tree = {
 			add_tech_bonus = {				
 				bonus = 1.25
 				uses = 1 
-				technology = eng_mechanised_infantry1
-				technology = eng_nsb_mechanised_infantry2
+				technology = mechanised_infantry
+				technology = mechanised_infantry2
 				name = mech_bonus
 			}
 			if = {
@@ -3010,7 +3010,7 @@ focus_tree = {
 		
 		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
 		completion_reward = {
-			set_technology = { eng_1939_heavy_tank_chassis  = 1  }
+			set_technology = { gen_1940_heavy_tank_chassis  = 1  }
 			if = {
 				limit = {
 					NOT = {

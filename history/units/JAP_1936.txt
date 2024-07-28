@@ -765,7 +765,7 @@ instant_effect = { #player
 	} 
 	add_equipment_production = { 
 		equipment = {
-			type = medium_tank_chassis_1934
+			type = medium_tank_chassis_1936
 			creator = "JAP" 
 			version_name = "Type 89 I-Go"
 		}
@@ -902,7 +902,7 @@ instant_effect = { #player
           variant_name = "Type 92 Jyu-Sokosha"
        }
     add_equipment_to_stockpile = {
-       type = medium_tank_chassis_1934
+       type = medium_tank_chassis_1936
           amount = 80
           producer = JAP
           variant_name = "Type 89 I-Go"

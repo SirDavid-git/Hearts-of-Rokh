@@ -3938,7 +3938,7 @@ focus = {
 				name = Mech
 				bonus = 1
 				uses = 1
-				technology = jap_nsb_mechanised_infantry2
+				technology = mechanised_infantry2
 			}
 			custom_effect_tooltip = MANspace
 			swap_ideas = {
@@ -3965,7 +3965,7 @@ focus = {
 				name = Mech
 				bonus = 1
 				uses = 1
-				technology = jap_nsb_mechanised_infantry2
+				technology = mechanised_infantry2
 			}
 			custom_effect_tooltip = MANspace
 			swap_ideas = {
@@ -4503,9 +4503,9 @@ focus = {
 			}
 			add_tech_bonus = {
 				name = Mech
-				bonus = 0.75
+				bonus = 1
 				uses = 1
-				technology = jap_mechanised_infantry1
+				technology = mechanised_infantry
 			}
 		}
 
@@ -4521,7 +4521,7 @@ focus = {
 				name = Mech
 				bonus = 1
 				uses = 1
-				technology = jap_mechanised_infantry1
+				technology = mechanised_infantry
 			}
 		}
 	}
@@ -4543,7 +4543,7 @@ focus = {
 		}
 
 		available = {
-			has_tech = jap_mechanised_infantry1
+			has_tech = mechanised_infantry
 		}
 
 		bypass = {
@@ -4948,7 +4948,7 @@ focus = {
 				tooltip = command_daily_power_tt
 			}
 
-			set_technology = { jap_1940_medium_tank_chassis = 1 }
+			set_technology = { gen_1940_medium_tank_chassis = 1 }
 		}
 		completion_reward = {
 			custom_effect_tooltip = MAN_criminals
@@ -4964,7 +4964,7 @@ focus = {
 				tooltip = command_daily_power_tt
 			}
 
-			set_technology = { jap_1940_medium_tank_chassis = 1 }
+			set_technology = { gen_1940_medium_tank_chassis = 1 }
 		}
 	}
 	focus={
@@ -5187,7 +5187,7 @@ focus = {
 		}
 
 		available = {
-			has_tech = jap_1938_medium_tank_chassis
+			has_tech = gen_1938_medium_tank_chassis
 		}
 
 		bypass = {

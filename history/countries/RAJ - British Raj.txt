@@ -106,10 +106,16 @@ set_technology = { #player
 	interwar_antiair = 1
 	interwar_antitank = 1
 	################# armor ##############
-	eng_motorised_infantry = 1
-	eng_tech_armored_cars = 1
-	eng_basic_tank_engines = 1
-	eng_rivetted_armour = 1
+#	eng_motorised_infantry = 1
+#	eng_tech_armored_cars = 1
+#	eng_basic_tank_engines = 1
+#	eng_rivetted_armour = 1
+
+	motorised_infantry = 1
+	tech_armored_cars = 1
+	engine_tech_1 = 1
+	armor_tech_1 = 1
+
 	################# aircraft #############
 	eng_fighter_1934 = 1
 	

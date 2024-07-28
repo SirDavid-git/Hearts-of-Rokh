@@ -758,7 +758,7 @@
 				producer = SLO 
 			}
 			add_equipment_to_stockpile = {
-				type = light_tank_chassis_1940
+				type = light_tank_chassis_1939
 				amount = 100
 				producer = SLO 
 			}
@@ -1096,10 +1096,10 @@
 		   factor = 100 }
 		available = {
 	  OR = {
-	   GER = { has_tech = ger_1942_heavy_tank_chassis }
-	   SLO = { has_tech = slo_1942_heavy_tank_chassis }
-	   EFR = { has_tech = ger_1942_heavy_tank_chassis }
-	   SPR = { has_tech = ger_1942_heavy_tank_chassis }
+	   GER = { has_tech = gen_1942_heavy_tank_chassis }
+	   SLO = { has_tech = gen_1942_heavy_tank_chassis }
+	   EFR = { has_tech = gen_1942_heavy_tank_chassis }
+	   SPR = { has_tech = gen_1942_heavy_tank_chassis }
 	   date > 1941.6.1
 	 }  
 	}	
@@ -1107,15 +1107,15 @@
 		
 		
 		add_tech_bonus = {
-			technology = slo_1944_heavy_tank_chassis
+			technology = gen_1944_heavy_tank_chassis
 			uses = 1
 			bonus = 1
 			name = GER_mobile_fortresses 
 		}
 
 		set_technology = { 
-		slo_1942_heavy_tank_chassis = 1
-		slo_mechanised_infantry1 = 1
+		gen_1942_heavy_tank_chassis = 1
+		mechanised_infantry = 1
    }
 	custom_effect_tooltip = SLO_tank_tt
 	  hidden_effect = {
@@ -1235,7 +1235,7 @@
 	 }
 	}
 	 set_technology = {		
-	 slo_mechanised_infantry1 = 1
+	 mechanised_infantry = 1
 	   
 		} 
    }
@@ -1343,7 +1343,7 @@
 		add_tech_bonus = {		
 		bonus = 1
 		uses = 1 
-		technology = slo_nsb_mechanised_infantry2 
+		technology = mechanised_infantry2 
 	  } 
 		}   
 	 } 

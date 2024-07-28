@@ -517,7 +517,7 @@ ITA_iri_projects = {
 			if = {
 				limit = {
 					ITA = {
-						has_tech = ita_1940_heavy_tank_chassis
+						has_tech = gen_1940_heavy_tank_chassis
 					}
 				}
 				add_equipment_to_stockpile = { type = heavy_tank_chassis amount = 400 producer = ITA }

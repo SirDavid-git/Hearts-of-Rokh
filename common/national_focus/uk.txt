@@ -2718,11 +2718,11 @@ focus_tree = {
 			if = {
 				limit = {
 					NOT = {
-						has_tech = eng_1940_light_tank_chassis
+						has_tech = gen_1939_light_tank_chassis
 					}
 				}
 				set_technology = {
-					eng_1940_light_tank_chassis = 1
+					gen_1939_light_tank_chassis = 1
 				}
 			}
 			add_tech_bonus = {
@@ -2784,11 +2784,11 @@ focus_tree = {
 
 		completion_reward = {
 			army_experience = 20
-            set_technology = { eng_mechanised_infantry1 = 1 }
+            set_technology = { mechanised_infantry = 1 }
 			add_tech_bonus = {				
 				bonus = 1
 				uses = 1 
-				technology = eng_mechanised_infantry2
+				technology = mechanised_infantry2
 			}
 		}
 	}
@@ -2883,7 +2883,7 @@ focus_tree = {
 			add_tech_bonus = {
 				bonus = 1.5
 				uses = 1
-				technology = eng_1945_medium_tank_chassis
+				technology = gen_1944_medium_tank_chassis
 			}
 		}
 	}
@@ -3386,8 +3386,8 @@ focus_tree = {
 			date > 1941.9.1
 		USA = { 
 			OR = {
-				has_tech = usa_1942_medium_tank_chassis 
-				has_tech = usa_1941_heavy_tank_chassis 
+				has_tech = gen_1942_medium_tank_chassis 
+				has_tech = gen_1942_heavy_tank_chassis 
 			}
 		}
 		OR = {	

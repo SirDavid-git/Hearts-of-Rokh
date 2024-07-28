@@ -4365,13 +4365,13 @@ focus_tree = {
 			hidden_effect = {
 			    if = {
 				    limit = {
-					    has_tech = sov_1939_medium_tank_chassis 
+					    has_tech = gen_1940_medium_tank_chassis 
 				    }
-				    add_equipment_to_stockpile = { type = medium_tank_chassis_1939 amount = 500 producer = SOV }
+				    add_equipment_to_stockpile = { type = medium_tank_chassis_1940 amount = 500 producer = SOV }
 			    }
 			    if = {
 				    limit = {
-					     has_tech = sov_1940_heavy_tank_chassis 
+					     has_tech = gen_1940_heavy_tank_chassis 
 				    }
 				    add_equipment_to_stockpile = { type = heavy_tank_chassis_1940 amount = 400 producer = SOV }
 			    }
@@ -4402,13 +4402,13 @@ focus_tree = {
 		}
 		available = {
 			has_tech = advanced_machine_tools
-			has_tech = sov_1940_heavy_tank_chassis
+			has_tech = gen_1940_heavy_tank_chassis
 		}
 		relative_position_id = SOV_armored_cavalry
 		completion_reward = {
 			hidden_effect = {
 				set_technology = {
-					sov_1941_super_heavy_tank_chassis = 1
+					gen_1940_super_heavy_tank_chassis = 1
 				}
 			}
 			custom_effect_tooltip = SOV_KV5_tt
@@ -6577,12 +6577,12 @@ focus_tree = {
 				limit = {
 					SOV = {
 						NOT = {
-							has_tech = sov_mechanised_infantry1
+							has_tech = mechanised_infantry
 						}
 					}
 				}
 				set_technology = {
-					sov_mechanised_infantry1 = 1
+					mechanised_infantry = 1
 				}
 			}
 			if = {
@@ -8188,10 +8188,10 @@ focus_tree = {
 				if = {
 					limit = {
 						NOT = {
-							has_tech = sov_mechanised_infantry
+							has_tech = mechanised_infantry
 						}
 					}
-					set_technology = { sov_mechanised_infantry = 1}
+					set_technology = { mechanised_infantry = 1}
 				}
 			}
 			custom_effect_tooltip = SOV_katyusha_template_tt
@@ -8466,12 +8466,12 @@ focus_tree = {
 					limit = {
 						SOV = {
 							NOT = {
-								has_tech = sov_mechanised_infantry1
+								has_tech = mechanised_infantry
 							}
 						}
 					}
 					set_technology = {
-						sov_mechanised_infantry1 = 1
+						mechanised_infantry = 1
 					}
 				}
 			}

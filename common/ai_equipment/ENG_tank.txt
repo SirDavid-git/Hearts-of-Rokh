@@ -62,7 +62,7 @@ ENG_medium_tanks = {
 
 		target_variant = {
 			match_value = 2500
-			type = medium_tank_chassis_1939
+			type = medium_tank_chassis_1938
 			modules = {
 				main_armament_slot = tank_small_cannon_2
 				turret_type_slot = tank_medium_two_man_tank_turret
@@ -195,7 +195,7 @@ ENG_heavy_tanks = {
 
 		target_variant = { 
 			match_value = 1000
-			type = heavy_tank_chassis_1939
+			type = heavy_tank_chassis_1940
 			modules = {
 				main_armament_slot = tank_small_cannon_2
 				turret_type_slot = tank_heavy_two_man_tank_turret

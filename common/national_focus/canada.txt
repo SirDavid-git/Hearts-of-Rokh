@@ -2770,8 +2770,8 @@ focus = {
 			add_tech_bonus = {				
 				bonus = 1
 				uses = 2
-				technology = can_mechanised_infantry1
-				technology = can_nsb_mechanised_infantry2
+				technology = mechanised_infantry
+				technology = mechanised_infantry2
 				name = CAN_mech
 			}
 			

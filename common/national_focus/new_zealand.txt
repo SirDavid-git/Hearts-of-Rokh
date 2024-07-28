@@ -2123,9 +2123,9 @@ focus = {
 		}
 		available = { 
 			OR ={
-				has_tech = eng_1936_medium_tank_chassis
-				has_tech = eng_1937_light_tank_chassis
-				has_tech = eng_1939_heavy_tank_chassis
+				has_tech = gen_1936_medium_tank_chassis
+				has_tech = gen_1936_light_tank_chassis
+				has_tech = gen_1934_heavy_tank_chassis
 			}
 		}
 		prerequisite = { focus = NZL_allied_mentorship  }
@@ -2136,7 +2136,7 @@ focus = {
 			hidden_effect = {
 		if = {
 			limit = {
-					has_tech = eng_1939_heavy_tank_chassis
+					has_tech = gen_1940_heavy_tank_chassis
 				}	
 				division_template = {
 					name = "Armoured Division"
@@ -2184,8 +2184,8 @@ focus = {
 			else_if = {
 				limit = {
 					OR={
-						has_tech = eng_1939_medium_tank_chassis
-						has_tech = eng_1936_medium_tank_chassis
+						has_tech = gen_1938_medium_tank_chassis
+						has_tech = gen_1936_medium_tank_chassis
 					}
 					}	
 				division_template = {
@@ -2238,7 +2238,7 @@ focus = {
 		else_if = {
 			limit = {
 				OR={
-					has_tech = eng_1937_light_tank_chassis
+					has_tech = gen_1936_light_tank_chassis
 				}
 				}
 				division_template = {
