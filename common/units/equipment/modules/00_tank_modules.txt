@@ -1009,9 +1009,7 @@ equipment_modules = {
 			reliability = -0.05
 
 		}	
-		multiply_stats = {
-			breakthrough = -0.8
-		}
+	
 		xp_cost = 0
 		can_convert_from = {
 			module_category = tank_anti_air_armament
@@ -1036,9 +1034,6 @@ equipment_modules = {
 			air_attack = 32
 			build_cost_ic = 3
 			reliability = -0.05
-		}
-		multiply_stats = {
-			breakthrough = -0.8
 		}
 		xp_cost = 0
 		can_convert_from = {
@@ -1065,9 +1060,6 @@ equipment_modules = {
 			build_cost_ic = 4
 			reliability = -0.05
 		}
-		multiply_stats = {
-			breakthrough = -0.8
-		}
 		xp_cost = 0
 		can_convert_from = {
 			module_category = tank_heavy_anti_air_armament
@@ -1090,9 +1082,6 @@ equipment_modules = {
 			build_cost_ic = 5
 			reliability = -0.05
 
-		}	
-		multiply_stats = {
-			breakthrough = -0.8
 		}
 		xp_cost = 0
 		can_convert_from = {
@@ -1118,9 +1107,6 @@ equipment_modules = {
 			air_attack = 32
 			build_cost_ic = 6
 			reliability = -0.05
-		}
-		multiply_stats = {
-			breakthrough = -0.8
 		}
 		xp_cost = 0
 		can_convert_from = {
