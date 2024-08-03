@@ -16018,7 +16018,7 @@ texturefile = "gfx/interface/technologies/prc_adv_heavy_tank.dds"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_amphibious_drive.dds"
 		legacy_lazy_load = no
 	}
-
+	
 ####nsb: generic stuff
 
 	SpriteType = {
@@ -16031,7 +16031,11 @@ texturefile = "gfx/interface/technologies/prc_adv_heavy_tank.dds"
 	}
 	SpriteType = {
 		name = "GFX_gen_1939_light_tank_chassis_medium"
-		texturefile = "gfx/interface/technologies/land/ger/ger39light.tga"
+		texturefile = "gfx/interface/technologies/land/usa/us39light.tga"
+	}
+	SpriteType = {
+		name = "GFX_gen_1941_light_tank_chassis_medium"
+		texturefile = "gfx/interface/technologies/land/ita/da47.tga"
 	}
 	SpriteType = {
 		name = "GFX_gen_1943_light_tank_chassis_medium"
@@ -16043,7 +16047,7 @@ texturefile = "gfx/interface/technologies/prc_adv_heavy_tank.dds"
 	}
 	SpriteType = {
 		name = "GFX_gen_1938_medium_tank_chassis_medium"
-		texturefile = "gfx/interface/technologies/land/ger/eng39med.tga"
+		texturefile = "gfx/interface/technologies/land/eng/eng39med.tga"
 	}
 	SpriteType = {
 		name = "GFX_gen_1940_medium_tank_chassis_medium"
@@ -16075,9 +16079,37 @@ texturefile = "gfx/interface/technologies/prc_adv_heavy_tank.dds"
 	}
 	SpriteType = {
 		name = "GFX_gen_1945_heavy_tank_chassis_medium"
-		texturefile = "gfx/interface/technologies/land/ger/sov45heavy.tga"
+		texturefile = "gfx/interface/technologies/land/sov/mem.tga"
 	}
-
+	SpriteType = {
+		name = "GFX_gen_1940_super_heavy_tank_chassis_medium"
+		texturefile = "gfx/interface/technologies/land/eng/togg.tga"
+	}
+	SpriteType = {
+		name = "GFX_gen_1944_super_heavy_tank_chassis_medium"
+		texturefile = "gfx/interface/technologies/land/ger/maushull.tga"
+	}
+	SpriteType = {
+		name = "GFX_gen_amphibious_tank_chassis_medium"
+		texturefile = "gfx/interface/technologies/land/ger/waffel.tga"
+	}
+	SpriteType = {
+		name = "GFX_gen_amphibious_mechanized_infantry1_medium"
+		texturefile = "gfx/interface/technologies/land/ger/minukugel.tga"
+	}
+	SpriteType = {
+		name = "GFX_gen_amphibious_mechanized_infantry_2_medium"
+		texturefile = "gfx/interface/technologies/land/eng/acv.dds"
+	}
+	SpriteType = {
+		name = "GFX_gen_amphibious_drive_medium"
+		texturefile = "gfx/interface/technologies/land/ger/drive.dds"
+	}
+	SpriteType = {
+		name = "GFX_gen_fording_equipment_medium"
+		texturefile = "gfx/interface/technologies/land/ger/snorkel.dds"
+	}
+ 
 ####nsb: ger
 
 	SpriteType = {

@@ -556,6 +556,10 @@ technologies = {
 					yearly_modules_3 = 1
 				}
 			}
+			path = {
+				leads_to_tech = gen_1943_light_tank_chassis
+				research_cost_coeff = 1
+			}	
 
 		
 

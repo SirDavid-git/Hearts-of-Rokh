@@ -8819,10 +8819,16 @@ focus_tree = {
 
 		available = {
 			has_tech = jet_engines
-			has_tech = modern_tools
 			OR = {
-				has_tech = ger_fighter_1942
-				has_tech = ger_fighter_1943
+				has_tech = flexible_line
+				has_tech = streamlined_line
+			}
+			OR = {
+				has_tech = ger_fighter_1944
+				AND = {
+					has_tech = ger_fighter_1943
+					date > 1944.1.1
+				}
 			}
 		}
 		completion_reward = {
@@ -9076,6 +9082,7 @@ focus_tree = {
 	focus = {
 		id = GER_u_boat_effort
 		prerequisite = { focus = GER_prepare_the_kriegsmarine }
+		# mutually_exclusive = { focus = GER_naval_expansion }
 		icon = GFX_GER_donitz
 		x = 1
 		y = 2
@@ -9365,6 +9372,7 @@ focus_tree = {
 	focus = {
 		id = GER_naval_expansion
 		prerequisite = { focus = GER_prepare_the_kriegsmarine }
+		# mutually_exclusive = { focus = GER_u_boat_effort }
 		icon = GFX_goal_ger_raeder_plan
 		x = -1
 		y = 2

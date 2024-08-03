@@ -4574,28 +4574,31 @@ on_actions = {
 				if = {
 					limit = {
 						ENG = {
-							divisions_in_state = { size < 2   state = FROM.FROM }
+							divisions_in_state = { size < 1   state = FROM.FROM }
 						}
 						RAJ = {
-							divisions_in_state = { size < 2   state = FROM.FROM }
+							divisions_in_state = { size < 1   state = FROM.FROM }
 						}
 						AST = {
-							divisions_in_state = { size < 2   state = FROM.FROM }
+							divisions_in_state = { size < 1   state = FROM.FROM }
 						}
 						NZL = {
-							divisions_in_state = { size < 2   state = FROM.FROM }
+							divisions_in_state = { size < 1   state = FROM.FROM }
 						}
 						USA = {
-							divisions_in_state = { size < 2   state = FROM.FROM }
+							divisions_in_state = { size < 1   state = FROM.FROM }
 						}
 						SAF = {
-							divisions_in_state = { size < 2   state = FROM.FROM }
+							divisions_in_state = { size < 1   state = FROM.FROM }
 						}
 						FRA = {
-							divisions_in_state = { size < 2   state = FROM.FROM }
+							divisions_in_state = { size < 1   state = FROM.FROM }
 						}
 						CAN = {
-							divisions_in_state = { size < 2   state = FROM.FROM }
+							divisions_in_state = { size < 1   state = FROM.FROM }
+						}
+						POL = {
+							divisions_in_state = { size < 1   state = FROM.FROM }
 						}
 					}
 					FROM.FROM = {
@@ -4656,13 +4659,13 @@ on_actions = {
 				if = {
 					limit = {
 						JAP = {
-							divisions_in_state = { size < 2   state = FROM.FROM }
+							divisions_in_state = { size < 1   state = FROM.FROM }
 						}
 						MAN = {
-							divisions_in_state = { size < 2   state = FROM.FROM }
+							divisions_in_state = { size < 1   state = FROM.FROM }
 						}
 						SIA = {
-							divisions_in_state = { size < 2   state = FROM.FROM }
+							divisions_in_state = { size < 1   state = FROM.FROM }
 						}
 					}
 					FROM.FROM = {
@@ -5205,6 +5208,14 @@ on_actions = {
 			 	FRA = {
 			 		add_ideas = FRA_rep_refugees
 			 	}	
+			}
+		}
+		effect = {
+			if = { 
+				limit = {
+					state = 110
+				}
+				set_state_flag = NOR_hydroplant_broken
 			}
 		}
 	}
